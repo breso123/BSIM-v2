@@ -1,0 +1,23 @@
+.finChartSvgCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.svgCircle {
+  transform: rotate(-90deg);
+}
+
+.reusableCircle {
+  transition: all 0.5s;
+}
+
+.finChartSvgCont p {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-style: oblique;
+}

@@ -1,0 +1,4709 @@
+{
+  "users": [
+    {
+      "firstname": "Ivan",
+      "lastname": "Bresan",
+      "email": "bresan.ivan@hotmail.com",
+      "password": "breso123",
+      "isSubscribed": false,
+      "isAuthenticated": false,
+      "ideas": [
+        "1699383264621",
+        "1699383589315"
+      ],
+      "id": "123456789"
+    },
+    {
+      "firstname": "Ante",
+      "lastname": "Mandic",
+      "email": "mandicante@gmail.com",
+      "password": "breso123",
+      "confirmpassword": "breso123",
+      "isSubscribed": false,
+      "isAuthenticated": true,
+      "ideas": [
+        "1699383480816"
+      ],
+      "id": "3iSL6gT"
+    },
+    {
+      "firstname": "Luka",
+      "lastname": "Brekalo",
+      "email": "brekalo@gmail.com",
+      "password": "brekalo123",
+      "confirmpassword": "brekalo123",
+      "isSubscribed": false,
+      "isAuthenticated": true,
+      "ideas": [
+        "1699383660164",
+        "1699384839724"
+      ],
+      "id": "B9otL-s"
+    }
+  ],
+  "news": [
+    {
+      "url": "https://s.yimg.com/ny/api/res/1.2/VxWb5pOe1aCOpw4Ymosy8A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNTtoPTQ3MA--/https://media.zenfs.com/en/fortune_175/8f31753c0bd9640ad601edc60f92ea40",
+      "provider": "Fortune",
+      "providerSite": "https://fortune.com/",
+      "date": "2023-10-09T15:59:59.138Z",
+      "title": "Meet a 29-year-old accountant whose ‘resentment’ only climbed after her firm raised her salary from $60k to $90k as she made millions for them. She has her own firm now",
+      "content": "Stephanie Heredia’s promotion came a year too late and more than a few dollars short. Heredia, 29, started an accountant job at a small Tampa, Florida firm, with the promise that her $60,000 base salary would rise to $100,000 after one year."
+    },
+    {
+      "url": "https://s.yimg.com/ny/api/res/1.2/1WXyRxI09Qkc8DQEs_t1pw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNTtoPTM1Mw--/https://media.zenfs.com/en/business_insider_articles_888/babe6c815a43ca1fb820e3f81675ac3e",
+      "provider": "Business Insider",
+      "providerSite": "https://www.businessinsider.com/",
+      "date": "2023-10-08T15:59:59.138Z",
+      "title": "$7.6 trillion of US government debt will mature in the next year, adding pressure on rates",
+      "content": "Nearly a third of all outstanding US government debt is set to mature in the next 12 months, according to an analysis from asset management firm Apollo.A chart from Chief Economist Torsten Sløk shows that the share of US public debt set to mature in a year or less has steadily risen toward pandemic-era levels and is now at 31%. In terms of dollar amount, that's $7.6 trillion, a high not seen since early 2021."
+    },
+    {
+      "url": "https://s.yimg.com/ny/api/res/1.2/3eifgXTYq5CnD3jeJ7ZTIw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNTtoPTM4Nw--/https://media.zenfs.com/en/smartasset_475/c0a43edf22425f0b103ddc4a6e1ceab2",
+      "provider": "SmartAsset",
+      "providerSite": "https://smartasset.com/",
+      "date": "2023-10-04T15:59:59.138Z",
+      "title": "How Much Can I Make in Dividends With $100k?",
+      "content": "Popular conceptions of investing involve trading company stock when its value appreciates. However, dividends allow you to profit from holding company stock without selling it. Dividends offer investors regular cash payouts from companies they’ve invested in, resulting in passive income. "
+    },
+    {
+      "url": "https://s.yimg.com/ny/api/res/1.2/jmj8md7rxgreBB_ZKfQYQQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNTtoPTM1Mw--/https://media.zenfs.com/en/Barrons.com/f339e44b8cdc062a0ade83ac64312d7b",
+      "provider": "Barron's",
+      "providerSite": "https://store.barrons.com/shop/emea/bareur24v1/?gclid=Cj0KCQjw0vWnBhC6ARIsAJpJM6cUQq-POsmr6e54p9WsTC59GctyextVLnSqFsdrzudOLNNqWvFcebYaAg9jEALw_wcB&trackingCode=aaqzbfr8&cid=BAR_SCH_GOO_ACQ_NA&gclsrc=aw.ds&gad=1&ef_id=XrlHbwAAAg9cEC3-:20230910154511:s",
+      "date": "2023-08-22T15:59:59.138Z",
+      "title": "4 Income Investments That Are Better than Bonds",
+      "content": "Preferred stocks—high-yielding hybrids with characteristics of both stocks and bonds—are an attractive alternative to bonds."
+    },
+    {
+      "url": "https://s.yimg.com/ny/api/res/1.2/dw7EKckvwupTjqxlC1CQQg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNQ--/https://s.yimg.com/os/creatr-uploaded-images/2023-08/aef4b640-4e4f-11ee-abf7-530b20bd56cf",
+      "provider": "Yahoo Finance",
+      "providerSite": "https://finance.yahoo.com/",
+      "date": "2023-07-17T15:59:59.138Z",
+      "title": "More Americans are forced to retire early — and are unprepared for the long haul",
+      "content": "Talk about a calamity trifecta.The big three? According to recent surveys, many Americans are forced into retiring earlier than they imagined. To make matters worse, they don’t have an inkling of how much they need to save to live comfortably during their retirement years. Nor do they have a firm grasp on how many years they might need to finance after they leave the workforce — putting them at risk of outliving their money."
+    }
+  ],
+  "ideas": [
+    {
+      "user": "bresan.ivan@hotmail.com",
+      "id": "1699383264621",
+      "ticker": "AAPL",
+      "valuation": "DCF",
+      "title": "i,ftg",
+      "content": "kuzztkizk",
+      "datetime": "02/10/2023",
+      "wacc": 0.08,
+      "tg": 0.02,
+      "historical": [
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2019,
+          "value": 58896000000
+        },
+        {
+          "period": 2021,
+          "value": 92953000000
+        }
+      ],
+      "cash": 34940000000,
+      "debt": 124719000000,
+      "fas": 155576000000,
+      "nci": null,
+      "shares": 16701272000,
+      "cp": 176.7,
+      "optimistic": {
+        "dcfSum": 3620527615935.4043,
+        "cagr": 0.10000000000000009,
+        "ivps": 220.72118913669595,
+        "values": [
+          {
+            "period": 2022,
+            "wacc": 0.08,
+            "value": 102248300000.00002,
+            "discounted": 94674351851.85185
+          },
+          {
+            "period": 2023,
+            "wacc": 0.08,
+            "value": 112473130000.00003,
+            "discounted": 96427580589.84912
+          },
+          {
+            "period": 2024,
+            "wacc": 0.08,
+            "value": 123720443000.00005,
+            "discounted": 98213276526.69817
+          },
+          {
+            "period": 2025,
+            "wacc": 0.08,
+            "value": 136092487300.00006,
+            "discounted": 100032040906.82224
+          },
+          {
+            "period": 2026,
+            "wacc": 0.08,
+            "value": 149701736030.0001,
+            "discounted": 101884486108.80042
+          },
+          {
+            "period": 2027,
+            "wacc": 0.08,
+            "value": 164671909633.00012,
+            "discounted": 103771235851.556
+          },
+          {
+            "period": 2028,
+            "wacc": 0.08,
+            "value": 181139100596.30014,
+            "discounted": 105692925404.3626
+          },
+          {
+            "period": 2029,
+            "wacc": 0.08,
+            "value": 199253010655.93018,
+            "discounted": 107650201800.73967
+          },
+          {
+            "period": 2030,
+            "wacc": 0.08,
+            "value": 219178311721.52322,
+            "discounted": 109643724056.30893
+          },
+          {
+            "period": "TVA",
+            "value": 3726031299265.895,
+            "wacc": 0.08,
+            "discounted": 2702537792838.4155
+          }
+        ]
+      },
+      "realistic": {
+        "dcfSum": 2506626829093.1455,
+        "cagr": 0.050000000000000044,
+        "ivps": 154.02562326349428,
+        "values": [
+          {
+            "period": 2022,
+            "wacc": 0.08,
+            "value": 97600650000,
+            "discounted": 90370972222.22221
+          },
+          {
+            "period": 2023,
+            "wacc": 0.08,
+            "value": 102480682500,
+            "discounted": 87860667438.27159
+          },
+          {
+            "period": 2024,
+            "wacc": 0.08,
+            "value": 107604716625,
+            "discounted": 85420093342.76404
+          },
+          {
+            "period": 2025,
+            "wacc": 0.08,
+            "value": 112984952456.25,
+            "discounted": 83047312972.13171
+          },
+          {
+            "period": 2026,
+            "wacc": 0.08,
+            "value": 118634200079.0625,
+            "discounted": 80740443167.35027
+          },
+          {
+            "period": 2027,
+            "wacc": 0.08,
+            "value": 124565910083.01562,
+            "discounted": 78497653079.3683
+          },
+          {
+            "period": 2028,
+            "wacc": 0.08,
+            "value": 130794205587.16641,
+            "discounted": 76317162716.05252
+          },
+          {
+            "period": 2029,
+            "wacc": 0.08,
+            "value": 137333915866.52473,
+            "discounted": 74197241529.4955
+          },
+          {
+            "period": 2030,
+            "wacc": 0.08,
+            "value": 144200611659.85098,
+            "discounted": 72136207042.56506
+          },
+          {
+            "period": "TVA",
+            "value": 2451410398217.467,
+            "wacc": 0.08,
+            "discounted": 1778039075582.9243
+          }
+        ]
+      },
+      "pessimistic": {
+        "dcfSum": 2160451713266.1008,
+        "cagr": 0.030000000000000027,
+        "ivps": 133.2981531745666,
+        "values": [
+          {
+            "period": 2022,
+            "wacc": 0.08,
+            "value": 95741590000,
+            "discounted": 88649620370.37036
+          },
+          {
+            "period": 2023,
+            "wacc": 0.08,
+            "value": 98613837700,
+            "discounted": 84545471279.1495
+          },
+          {
+            "period": 2024,
+            "wacc": 0.08,
+            "value": 101572252831,
+            "discounted": 80631329090.29999
+          },
+          {
+            "period": 2025,
+            "wacc": 0.08,
+            "value": 104619420415.93001,
+            "discounted": 76898397187.97128
+          },
+          {
+            "period": 2026,
+            "wacc": 0.08,
+            "value": 107758003028.40791,
+            "discounted": 73338286207.04669
+          },
+          {
+            "period": 2027,
+            "wacc": 0.08,
+            "value": 110990743119.26015,
+            "discounted": 69942995178.94267
+          },
+          {
+            "period": 2028,
+            "wacc": 0.08,
+            "value": 114320465412.83795,
+            "discounted": 66704893550.28792
+          },
+          {
+            "period": 2029,
+            "wacc": 0.08,
+            "value": 117750079375.2231,
+            "discounted": 63616704034.07088
+          },
+          {
+            "period": 2030,
+            "wacc": 0.08,
+            "value": 121282581756.4798,
+            "discounted": 60671486254.715744
+          },
+          {
+            "period": "TVA",
+            "value": 2061803889860.1565,
+            "wacc": 0.08,
+            "discounted": 1495452530113.2458
+          }
+        ]
+      }
+    },
+    {
+      "user": "mandicante@gmail.com",
+      "id": "1699383480816",
+      "ticker": "AAPL",
+      "valuation": "DCF",
+      "title": "fgewrfe",
+      "content": "gwtgrgfgrhtre",
+      "datetime": "02/10/2023",
+      "wacc": 0.07,
+      "tg": 0.01,
+      "historical": [
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2019,
+          "value": 58896000000
+        },
+        {
+          "period": 2021,
+          "value": 92953000000
+        }
+      ],
+      "cash": 34940000000,
+      "debt": 124719000000,
+      "fas": 155576000000,
+      "nci": null,
+      "shares": 16701272000,
+      "cp": 176.7,
+      "optimistic": {
+        "dcfSum": 2533989039034.3174,
+        "cagr": 0.050000000000000044,
+        "ivps": 155.663954160756,
+        "values": [
+          {
+            "period": 2022,
+            "wacc": 0.07,
+            "value": 97600650000,
+            "discounted": 91215560747.66354
+          },
+          {
+            "period": 2023,
+            "wacc": 0.07,
+            "value": 102480682500,
+            "discounted": 89510596995.37077
+          },
+          {
+            "period": 2024,
+            "wacc": 0.07,
+            "value": 107604716625,
+            "discounted": 87837501724.42924
+          },
+          {
+            "period": 2025,
+            "wacc": 0.07,
+            "value": 112984952456.25,
+            "discounted": 86195679262.29039
+          },
+          {
+            "period": 2026,
+            "wacc": 0.07,
+            "value": 118634200079.0625,
+            "discounted": 84584545070.47186
+          },
+          {
+            "period": 2027,
+            "wacc": 0.07,
+            "value": 124565910083.01562,
+            "discounted": 83003525536.44435
+          },
+          {
+            "period": 2028,
+            "wacc": 0.07,
+            "value": 130794205587.16641,
+            "discounted": 81452057769.408
+          },
+          {
+            "period": 2029,
+            "wacc": 0.07,
+            "value": 137333915866.52473,
+            "discounted": 79929589399.88635
+          },
+          {
+            "period": 2030,
+            "wacc": 0.07,
+            "value": 144200611659.85098,
+            "discounted": 78435578383.06606
+          },
+          {
+            "period": "TVA",
+            "value": 2427376962940.8247,
+            "wacc": 0.07,
+            "discounted": 1771824404145.2869
+          }
+        ]
+      },
+      "realistic": {
+        "dcfSum": 2353264694539.292,
+        "cagr": 0.040000000000000036,
+        "ivps": 144.84296133487868,
+        "values": [
+          {
+            "period": 2022,
+            "wacc": 0.07,
+            "value": 96671120000,
+            "discounted": 90346841121.49532
+          },
+          {
+            "period": 2023,
+            "wacc": 0.07,
+            "value": 100537964800,
+            "discounted": 87813752118.08891
+          },
+          {
+            "period": 2024,
+            "wacc": 0.07,
+            "value": 104559483392,
+            "discounted": 85351684301.69388
+          },
+          {
+            "period": 2025,
+            "wacc": 0.07,
+            "value": 108741862727.68001,
+            "discounted": 82958646424.07631
+          },
+          {
+            "period": 2026,
+            "wacc": 0.07,
+            "value": 113091537236.78722,
+            "discounted": 80632703066.39192
+          },
+          {
+            "period": 2027,
+            "wacc": 0.07,
+            "value": 117615198726.25871,
+            "discounted": 78371973073.87627
+          },
+          {
+            "period": 2028,
+            "wacc": 0.07,
+            "value": 122319806675.30907,
+            "discounted": 76174628034.42178
+          },
+          {
+            "period": 2029,
+            "wacc": 0.07,
+            "value": 127212598942.32143,
+            "discounted": 74038890799.81181
+          },
+          {
+            "period": 2030,
+            "wacc": 0.07,
+            "value": 132301102900.01428,
+            "discounted": 71963034048.41522
+          },
+          {
+            "period": "TVA",
+            "value": 2227068565483.573,
+            "wacc": 0.07,
+            "discounted": 1625612541551.0203
+          }
+        ]
+      },
+      "pessimistic": {
+        "dcfSum": 2185045834596.4878,
+        "cagr": 0.030000000000000027,
+        "ivps": 134.7707428869183,
+        "values": [
+          {
+            "period": 2022,
+            "wacc": 0.07,
+            "value": 95741590000,
+            "discounted": 89478121495.3271
+          },
+          {
+            "period": 2023,
+            "wacc": 0.07,
+            "value": 98613837700,
+            "discounted": 86133144990.82889
+          },
+          {
+            "period": 2024,
+            "wacc": 0.07,
+            "value": 101572252831,
+            "discounted": 82913214336.96611
+          },
+          {
+            "period": 2025,
+            "wacc": 0.07,
+            "value": 104619420415.93001,
+            "discounted": 79813654922.5001
+          },
+          {
+            "period": 2026,
+            "wacc": 0.07,
+            "value": 107758003028.40791,
+            "discounted": 76829966888.01411
+          },
+          {
+            "period": 2027,
+            "wacc": 0.07,
+            "value": 110990743119.26015,
+            "discounted": 73957818593.13507
+          },
+          {
+            "period": 2028,
+            "wacc": 0.07,
+            "value": 114320465412.83795,
+            "discounted": 71193040327.97115
+          },
+          {
+            "period": 2029,
+            "wacc": 0.07,
+            "value": 117750079375.2231,
+            "discounted": 68531618259.63577
+          },
+          {
+            "period": 2030,
+            "wacc": 0.07,
+            "value": 121282581756.4798,
+            "discounted": 65969688605.06995
+          },
+          {
+            "period": "TVA",
+            "value": 2041590126234.0764,
+            "wacc": 0.07,
+            "discounted": 1490225566177.0396
+          }
+        ]
+      }
+    },
+    {
+      "user": "bresan.ivan@hotmail.com",
+      "id": "1699383589315",
+      "ticker": "AAPL",
+      "valuation": "DCF",
+      "title": "egwtge",
+      "content": "egwrtgewtgwger",
+      "datetime": "02/10/2023",
+      "wacc": 0.09,
+      "tg": 0.01,
+      "historical": [
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2019,
+          "value": 58896000000
+        },
+        {
+          "period": 2021,
+          "value": 92953000000
+        }
+      ],
+      "cash": 34940000000,
+      "debt": 124719000000,
+      "fas": 155576000000,
+      "nci": null,
+      "shares": 16701272000,
+      "cp": 176.7,
+      "optimistic": {
+        "dcfSum": 3306817069492.11,
+        "cagr": 0.1200000000000001,
+        "ivps": 201.93755718080095,
+        "values": [
+          {
+            "period": 2022,
+            "wacc": 0.09,
+            "value": 104107360000.00002,
+            "discounted": 95511339449.54129
+          },
+          {
+            "period": 2023,
+            "wacc": 0.09,
+            "value": 116600243200.00003,
+            "discounted": 98140091911.45528
+          },
+          {
+            "period": 2024,
+            "wacc": 0.09,
+            "value": 130592272384.00005,
+            "discounted": 100841195358.55954
+          },
+          {
+            "period": 2025,
+            "wacc": 0.09,
+            "value": 146263345070.08008,
+            "discounted": 103616641102.37312
+          },
+          {
+            "period": 2026,
+            "wacc": 0.09,
+            "value": 163814946478.48972,
+            "discounted": 106468475261.15404
+          },
+          {
+            "period": 2027,
+            "wacc": 0.09,
+            "value": 183472740055.9085,
+            "discounted": 109398800268.3418
+          },
+          {
+            "period": 2028,
+            "wacc": 0.09,
+            "value": 205489468862.61755,
+            "discounted": 112409776422.51634
+          },
+          {
+            "period": 2029,
+            "wacc": 0.09,
+            "value": 230148205126.13168,
+            "discounted": 115503623480.01678
+          },
+          {
+            "period": 2030,
+            "wacc": 0.09,
+            "value": 257765989741.26752,
+            "discounted": 118682622291.3934
+          },
+          {
+            "period": "TVA",
+            "value": 3254295620483.5024,
+            "wacc": 0.09,
+            "discounted": 2346244503946.7583
+          }
+        ]
+      },
+      "realistic": {
+        "dcfSum": 2870916878575.5557,
+        "cagr": 0.10000000000000009,
+        "ivps": 175.8377373038147,
+        "values": [
+          {
+            "period": 2022,
+            "wacc": 0.09,
+            "value": 102248300000.00002,
+            "discounted": 93805779816.51376
+          },
+          {
+            "period": 2023,
+            "wacc": 0.09,
+            "value": 112473130000.00003,
+            "discounted": 94666383301.06895
+          },
+          {
+            "period": 2024,
+            "wacc": 0.09,
+            "value": 123720443000.00005,
+            "discounted": 95534882230.43654
+          },
+          {
+            "period": 2025,
+            "wacc": 0.09,
+            "value": 136092487300.00006,
+            "discounted": 96411349039.89009
+          },
+          {
+            "period": 2026,
+            "wacc": 0.09,
+            "value": 149701736030.0001,
+            "discounted": 97295856829.24689
+          },
+          {
+            "period": 2027,
+            "wacc": 0.09,
+            "value": 164671909633.00012,
+            "discounted": 98188479368.96477
+          },
+          {
+            "period": 2028,
+            "wacc": 0.09,
+            "value": 181139100596.30014,
+            "discounted": 99089291106.29472
+          },
+          {
+            "period": 2029,
+            "wacc": 0.09,
+            "value": 199253010655.93018,
+            "discounted": 99998367171.49008
+          },
+          {
+            "period": 2030,
+            "wacc": 0.09,
+            "value": 219178311721.52322,
+            "discounted": 100915783384.07256
+          },
+          {
+            "period": "TVA",
+            "value": 2767126185484.231,
+            "wacc": 0.09,
+            "discounted": 1995010706327.5776
+          }
+        ]
+      },
+      "pessimistic": {
+        "dcfSum": 2490442253950.831,
+        "cagr": 0.08000000000000007,
+        "ivps": 153.05656083864935,
+        "values": [
+          {
+            "period": 2022,
+            "wacc": 0.09,
+            "value": 100389240000,
+            "discounted": 92100220183.48624
+          },
+          {
+            "period": 2023,
+            "wacc": 0.09,
+            "value": 108420379200,
+            "discounted": 91255264035.01387
+          },
+          {
+            "period": 2024,
+            "wacc": 0.09,
+            "value": 117094009536.00002,
+            "discounted": 90418059777.8119
+          },
+          {
+            "period": 2025,
+            "wacc": 0.09,
+            "value": 126461530298.88002,
+            "discounted": 89588536293.6118
+          },
+          {
+            "period": 2026,
+            "wacc": 0.09,
+            "value": 136578452722.79044,
+            "discounted": 88766623116.60619
+          },
+          {
+            "period": 2027,
+            "wacc": 0.09,
+            "value": 147504728940.61368,
+            "discounted": 87952250427.46303
+          },
+          {
+            "period": 2028,
+            "wacc": 0.09,
+            "value": 159305107255.8628,
+            "discounted": 87145349047.39456
+          },
+          {
+            "period": 2029,
+            "wacc": 0.09,
+            "value": 172049515836.33182,
+            "discounted": 86345850432.28084
+          },
+          {
+            "period": 2030,
+            "wacc": 0.09,
+            "value": 185813477103.23837,
+            "discounted": 85553686666.84706
+          },
+          {
+            "period": "TVA",
+            "value": 2345895148428.3843,
+            "wacc": 0.09,
+            "discounted": 1691316413970.3157
+          }
+        ]
+      }
+    },
+    {
+      "user": "brekalo@gmail.com",
+      "id": "1699383660164",
+      "ticker": "AAPL",
+      "valuation": "DCF",
+      "title": "ergerwgrew",
+      "content": "egwergergewgrew",
+      "datetime": "02/10/2023",
+      "wacc": 0.07,
+      "tg": 0.03,
+      "historical": [
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2019,
+          "value": 58896000000
+        },
+        {
+          "period": 2021,
+          "value": 92953000000
+        }
+      ],
+      "cash": 34940000000,
+      "debt": 124719000000,
+      "fas": 155576000000,
+      "nci": null,
+      "shares": 16701272000,
+      "cp": 176.7,
+      "optimistic": {
+        "dcfSum": 5082698068839.86,
+        "cagr": 0.10000000000000009,
+        "ivps": 308.2696377162087,
+        "values": [
+          {
+            "period": 2022,
+            "wacc": 0.07,
+            "value": 102248300000.00002,
+            "discounted": 95559158878.50468
+          },
+          {
+            "period": 2023,
+            "wacc": 0.07,
+            "value": 112473130000.00003,
+            "discounted": 98238387632.10764
+          },
+          {
+            "period": 2024,
+            "wacc": 0.07,
+            "value": 123720443000.00005,
+            "discounted": 100992734948.89568
+          },
+          {
+            "period": 2025,
+            "wacc": 0.07,
+            "value": 136092487300.00006,
+            "discounted": 103824306956.80865
+          },
+          {
+            "period": 2026,
+            "wacc": 0.07,
+            "value": 149701736030.0001,
+            "discounted": 106735268834.10237
+          },
+          {
+            "period": 2027,
+            "wacc": 0.07,
+            "value": 164671909633.00012,
+            "discounted": 109727846464.96506
+          },
+          {
+            "period": 2028,
+            "wacc": 0.07,
+            "value": 181139100596.30014,
+            "discounted": 112804328141.55287
+          },
+          {
+            "period": 2029,
+            "wacc": 0.07,
+            "value": 199253010655.93018,
+            "discounted": 115967066313.74594
+          },
+          {
+            "period": 2030,
+            "wacc": 0.07,
+            "value": 219178311721.52322,
+            "discounted": 119218479387.96312
+          },
+          {
+            "period": "TVA",
+            "value": 5643841526829.222,
+            "wacc": 0.07,
+            "discounted": 4119630491281.2144
+          }
+        ]
+      },
+      "realistic": {
+        "dcfSum": 4713359292725.262,
+        "cagr": 0.09000000000000008,
+        "ivps": 286.1552277410524,
+        "values": [
+          {
+            "period": 2022,
+            "wacc": 0.07,
+            "value": 101318770000,
+            "discounted": 94690439252.33644
+          },
+          {
+            "period": 2023,
+            "wacc": 0.07,
+            "value": 110437459300.00002,
+            "discounted": 96460354004.71658
+          },
+          {
+            "period": 2024,
+            "wacc": 0.07,
+            "value": 120376830637.00003,
+            "discounted": 98263351275.83276
+          },
+          {
+            "period": 2025,
+            "wacc": 0.07,
+            "value": 131210745394.33005,
+            "discounted": 100100049430.52126
+          },
+          {
+            "period": 2026,
+            "wacc": 0.07,
+            "value": 143019712479.81976,
+            "discounted": 101971078391.8394
+          },
+          {
+            "period": 2027,
+            "wacc": 0.07,
+            "value": 155891486603.00354,
+            "discounted": 103877079857.10742
+          },
+          {
+            "period": 2028,
+            "wacc": 0.07,
+            "value": 169921720397.27386,
+            "discounted": 105818707517.98793
+          },
+          {
+            "period": 2029,
+            "wacc": 0.07,
+            "value": 185214675233.02853,
+            "discounted": 107796627284.67929
+          },
+          {
+            "period": 2030,
+            "wacc": 0.07,
+            "value": 201883996004.00113,
+            "discounted": 109811517514.29947
+          },
+          {
+            "period": "TVA",
+            "value": 5198512897103.028,
+            "wacc": 0.07,
+            "discounted": 3794570088195.9414
+          }
+        ]
+      },
+      "pessimistic": {
+        "dcfSum": 4369171681026.7266,
+        "cagr": 0.08000000000000007,
+        "ivps": 265.54676081119607,
+        "values": [
+          {
+            "period": 2022,
+            "wacc": 0.07,
+            "value": 100389240000,
+            "discounted": 93821719626.16821
+          },
+          {
+            "period": 2023,
+            "wacc": 0.07,
+            "value": 108420379200,
+            "discounted": 94698558127.34737
+          },
+          {
+            "period": 2024,
+            "wacc": 0.07,
+            "value": 117094009536.00002,
+            "discounted": 95583591380.87396
+          },
+          {
+            "period": 2025,
+            "wacc": 0.07,
+            "value": 126461530298.88002,
+            "discounted": 96476895973.2186
+          },
+          {
+            "period": 2026,
+            "wacc": 0.07,
+            "value": 136578452722.79044,
+            "discounted": 97378549206.61316
+          },
+          {
+            "period": 2027,
+            "wacc": 0.07,
+            "value": 147504728940.61368,
+            "discounted": 98288629105.74039
+          },
+          {
+            "period": 2028,
+            "wacc": 0.07,
+            "value": 159305107255.8628,
+            "discounted": 99207214424.48563
+          },
+          {
+            "period": 2029,
+            "wacc": 0.07,
+            "value": 172049515836.33182,
+            "discounted": 100134384652.75185
+          },
+          {
+            "period": 2030,
+            "wacc": 0.07,
+            "value": 185813477103.23837,
+            "discounted": 101070220023.3383
+          },
+          {
+            "period": "TVA",
+            "value": 4784697035408.388,
+            "wacc": 0.07,
+            "discounted": 3492511918506.1895
+          }
+        ]
+      }
+    },
+    {
+      "user": "brekalo@gmail.com",
+      "id": "1699384839724",
+      "ticker": "AAPL",
+      "valuation": "DCF",
+      "title": "ergerwgrew",
+      "content": "egwergergewgrew",
+      "datetime": "02/10/2023",
+      "wacc": 0.07,
+      "tg": 0.03,
+      "historical": [
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2018,
+          "value": 64121000000
+        },
+        {
+          "period": 2019,
+          "value": 58896000000
+        },
+        {
+          "period": 2021,
+          "value": 92953000000
+        }
+      ],
+      "cash": 34940000000,
+      "debt": 124719000000,
+      "fas": 155576000000,
+      "nci": null,
+      "shares": 16701272000,
+      "cp": 176.7,
+      "optimistic": {
+        "dcfSum": 5082698068839.86,
+        "cagr": 0.10000000000000009,
+        "ivps": 308.2696377162087,
+        "values": [
+          {
+            "period": 2022,
+            "wacc": 0.07,
+            "value": 102248300000.00002,
+            "discounted": 95559158878.50468
+          },
+          {
+            "period": 2023,
+            "wacc": 0.07,
+            "value": 112473130000.00003,
+            "discounted": 98238387632.10764
+          },
+          {
+            "period": 2024,
+            "wacc": 0.07,
+            "value": 123720443000.00005,
+            "discounted": 100992734948.89568
+          },
+          {
+            "period": 2025,
+            "wacc": 0.07,
+            "value": 136092487300.00006,
+            "discounted": 103824306956.80865
+          },
+          {
+            "period": 2026,
+            "wacc": 0.07,
+            "value": 149701736030.0001,
+            "discounted": 106735268834.10237
+          },
+          {
+            "period": 2027,
+            "wacc": 0.07,
+            "value": 164671909633.00012,
+            "discounted": 109727846464.96506
+          },
+          {
+            "period": 2028,
+            "wacc": 0.07,
+            "value": 181139100596.30014,
+            "discounted": 112804328141.55287
+          },
+          {
+            "period": 2029,
+            "wacc": 0.07,
+            "value": 199253010655.93018,
+            "discounted": 115967066313.74594
+          },
+          {
+            "period": 2030,
+            "wacc": 0.07,
+            "value": 219178311721.52322,
+            "discounted": 119218479387.96312
+          },
+          {
+            "period": "TVA",
+            "value": 5643841526829.222,
+            "wacc": 0.07,
+            "discounted": 4119630491281.2144
+          }
+        ]
+      },
+      "realistic": {
+        "dcfSum": 4713359292725.262,
+        "cagr": 0.09000000000000008,
+        "ivps": 286.1552277410524,
+        "values": [
+          {
+            "period": 2022,
+            "wacc": 0.07,
+            "value": 101318770000,
+            "discounted": 94690439252.33644
+          },
+          {
+            "period": 2023,
+            "wacc": 0.07,
+            "value": 110437459300.00002,
+            "discounted": 96460354004.71658
+          },
+          {
+            "period": 2024,
+            "wacc": 0.07,
+            "value": 120376830637.00003,
+            "discounted": 98263351275.83276
+          },
+          {
+            "period": 2025,
+            "wacc": 0.07,
+            "value": 131210745394.33005,
+            "discounted": 100100049430.52126
+          },
+          {
+            "period": 2026,
+            "wacc": 0.07,
+            "value": 143019712479.81976,
+            "discounted": 101971078391.8394
+          },
+          {
+            "period": 2027,
+            "wacc": 0.07,
+            "value": 155891486603.00354,
+            "discounted": 103877079857.10742
+          },
+          {
+            "period": 2028,
+            "wacc": 0.07,
+            "value": 169921720397.27386,
+            "discounted": 105818707517.98793
+          },
+          {
+            "period": 2029,
+            "wacc": 0.07,
+            "value": 185214675233.02853,
+            "discounted": 107796627284.67929
+          },
+          {
+            "period": 2030,
+            "wacc": 0.07,
+            "value": 201883996004.00113,
+            "discounted": 109811517514.29947
+          },
+          {
+            "period": "TVA",
+            "value": 5198512897103.028,
+            "wacc": 0.07,
+            "discounted": 3794570088195.9414
+          }
+        ]
+      },
+      "pessimistic": {
+        "dcfSum": 4369171681026.7266,
+        "cagr": 0.08000000000000007,
+        "ivps": 265.54676081119607,
+        "values": [
+          {
+            "period": 2022,
+            "wacc": 0.07,
+            "value": 100389240000,
+            "discounted": 93821719626.16821
+          },
+          {
+            "period": 2023,
+            "wacc": 0.07,
+            "value": 108420379200,
+            "discounted": 94698558127.34737
+          },
+          {
+            "period": 2024,
+            "wacc": 0.07,
+            "value": 117094009536.00002,
+            "discounted": 95583591380.87396
+          },
+          {
+            "period": 2025,
+            "wacc": 0.07,
+            "value": 126461530298.88002,
+            "discounted": 96476895973.2186
+          },
+          {
+            "period": 2026,
+            "wacc": 0.07,
+            "value": 136578452722.79044,
+            "discounted": 97378549206.61316
+          },
+          {
+            "period": 2027,
+            "wacc": 0.07,
+            "value": 147504728940.61368,
+            "discounted": 98288629105.74039
+          },
+          {
+            "period": 2028,
+            "wacc": 0.07,
+            "value": 159305107255.8628,
+            "discounted": 99207214424.48563
+          },
+          {
+            "period": 2029,
+            "wacc": 0.07,
+            "value": 172049515836.33182,
+            "discounted": 100134384652.75185
+          },
+          {
+            "period": 2030,
+            "wacc": 0.07,
+            "value": 185813477103.23837,
+            "discounted": 101070220023.3383
+          },
+          {
+            "period": "TVA",
+            "value": 4784697035408.388,
+            "wacc": 0.07,
+            "discounted": 3492511918506.1895
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "name": "FREE",
+      "price": 0,
+      "allFeatures": [
+        "Undefined for now",
+        "News",
+        "Ideas",
+        "Crypto",
+        "Forex",
+        "Blue Chip Stocks",
+        "Markets Level C",
+        "Markets level B",
+        "Markets level A",
+        "Ultimate Financial Models"
+      ],
+      "included": [
+        "Undefined for now",
+        "News",
+        "Ideas",
+        "Crypto",
+        "Forex",
+        "Blue Chip Stocks"
+      ]
+    },
+    {
+      "name": "MAINSTREAM",
+      "price": 54.99,
+      "allFeatures": [
+        "Undefined for now",
+        "News",
+        "Ideas",
+        "Crypto",
+        "Forex",
+        "Blue Chip Stocks",
+        "Markets Level C",
+        "Markets level B",
+        "Markets level A",
+        "Ultimate Financial Models"
+      ],
+      "included": [
+        "Undefined for now",
+        "News",
+        "Ideas",
+        "Crypto",
+        "Forex",
+        "Blue Chip Stocks",
+        "Markets Level C",
+        "Markets level B"
+      ]
+    },
+    {
+      "name": "PREMIUM",
+      "price": 124.99,
+      "allFeatures": [
+        "Undefined for now",
+        "News",
+        "Ideas",
+        "Crypto",
+        "Forex",
+        "Blue Chip Stocks",
+        "Markets Level C",
+        "Markets level B",
+        "Markets level A",
+        "Ultimate Financial Models"
+      ],
+      "included": [
+        "Undefined for now",
+        "News",
+        "Ideas",
+        "Crypto",
+        "Forex",
+        "Blue Chip Stocks",
+        "Markets Level C",
+        "Markets level B",
+        "Markets level A"
+      ]
+    }
+  ],
+  "income_statement": [
+    {
+      "fiscal_date": "2021-09-30",
+      "sales": 365817000000,
+      "cost_of_goods": 212981000000,
+      "gross_profit": 152836000000,
+      "operating_expense": {
+        "research_and_development": 21914000000,
+        "selling_general_and_administrative": 21973000000,
+        "other_operating_expenses": null
+      },
+      "operating_income": 108949000000,
+      "non_operating_interest": {
+        "income": 2843000000,
+        "expense": 2645000000
+      },
+      "other_income_expense": 60000000,
+      "pretax_income": 109207000000,
+      "income_tax": 14527000000,
+      "net_income": -94680000000,
+      "eps_basic": 5.67,
+      "eps_diluted": 5.61,
+      "basic_shares_outstanding": 16701272000,
+      "diluted_shares_outstanding": 16701272000,
+      "ebitda": 123136000000,
+      "net_income_continuous_operations": 94680000000,
+      "minority_interests": null,
+      "preferred_stock_dividends": null
+    },
+    {
+      "fiscal_date": "2020-09-30",
+      "sales": 274515000000,
+      "cost_of_goods": 169559000000,
+      "gross_profit": 104956000000,
+      "operating_expense": {
+        "research_and_development": 18752000000,
+        "selling_general_and_administrative": 19916000000,
+        "other_operating_expenses": null
+      },
+      "operating_income": 66288000000,
+      "non_operating_interest": {
+        "income": 3763000000,
+        "expense": 2873000000
+      },
+      "other_income_expense": -87000000,
+      "pretax_income": 67091000000,
+      "income_tax": 9680000000,
+      "net_income": 57411000000,
+      "eps_basic": 3.31,
+      "eps_diluted": 3.28,
+      "basic_shares_outstanding": 17352119000,
+      "diluted_shares_outstanding": 17352119000,
+      "ebitda": 81020000000,
+      "net_income_continuous_operations": 57411000000,
+      "minority_interests": null,
+      "preferred_stock_dividends": null
+    },
+    {
+      "fiscal_date": "2019-09-30",
+      "sales": 260174000000,
+      "cost_of_goods": 161782000000,
+      "gross_profit": 98392000000,
+      "operating_expense": {
+        "research_and_development": 16217000000,
+        "selling_general_and_administrative": 18245000000,
+        "other_operating_expenses": null
+      },
+      "operating_income": 63930000000,
+      "non_operating_interest": {
+        "income": 4961000000,
+        "expense": 3576000000
+      },
+      "other_income_expense": 422000000,
+      "pretax_income": 65737000000,
+      "income_tax": 10481000000,
+      "net_income": 55256000000,
+      "eps_basic": 2.9925,
+      "eps_diluted": 2.9725,
+      "basic_shares_outstanding": 18471336000,
+      "diluted_shares_outstanding": 18471336000,
+      "ebitda": 81860000000,
+      "net_income_continuous_operations": 55256000000,
+      "minority_interests": null,
+      "preferred_stock_dividends": null
+    },
+    {
+      "fiscal_date": "2018-09-30",
+      "sales": 265595000000,
+      "cost_of_goods": 163756000000,
+      "gross_profit": 101839000000,
+      "operating_expense": {
+        "research_and_development": 14236000000,
+        "selling_general_and_administrative": 16705000000,
+        "other_operating_expenses": null
+      },
+      "operating_income": 70898000000,
+      "non_operating_interest": {
+        "income": 5686000000,
+        "expense": 3240000000
+      },
+      "other_income_expense": -441000000,
+      "pretax_income": 72903000000,
+      "income_tax": 13372000000,
+      "net_income": 59531000000,
+      "eps_basic": 3.0025,
+      "eps_diluted": 2.9775,
+      "basic_shares_outstanding": 19821508000,
+      "diluted_shares_outstanding": 19821508000,
+      "ebitda": 87046000000,
+      "net_income_continuous_operations": 59531000000,
+      "minority_interests": null,
+      "preferred_stock_dividends": null
+    },
+    {
+      "fiscal_date": "2018-09-30",
+      "sales": 265595000000,
+      "cost_of_goods": 163756000000,
+      "gross_profit": 101839000000,
+      "operating_expense": {
+        "research_and_development": 14236000000,
+        "selling_general_and_administrative": 16705000000,
+        "other_operating_expenses": null
+      },
+      "operating_income": 70898000000,
+      "non_operating_interest": {
+        "income": 5686000000,
+        "expense": 3240000000
+      },
+      "other_income_expense": -441000000,
+      "pretax_income": 72903000000,
+      "income_tax": 13372000000,
+      "net_income": 59531000000,
+      "eps_basic": 3.0025,
+      "eps_diluted": 2.9775,
+      "basic_shares_outstanding": 19821508000,
+      "diluted_shares_outstanding": 19821508000,
+      "ebitda": 87046000000,
+      "net_income_continuous_operations": 59531000000,
+      "minority_interests": null,
+      "preferred_stock_dividends": null
+    },
+    {
+      "fiscal_date": "2018-09-30",
+      "sales": 265595000000,
+      "cost_of_goods": 163756000000,
+      "gross_profit": 101839000000,
+      "operating_expense": {
+        "research_and_development": 14236000000,
+        "selling_general_and_administrative": 16705000000,
+        "other_operating_expenses": null
+      },
+      "operating_income": 70898000000,
+      "non_operating_interest": {
+        "income": 5686000000,
+        "expense": 3240000000
+      },
+      "other_income_expense": -441000000,
+      "pretax_income": 72903000000,
+      "income_tax": 13372000000,
+      "net_income": 59531000000,
+      "eps_basic": 3.0025,
+      "eps_diluted": 2.9775,
+      "basic_shares_outstanding": 19821508000,
+      "diluted_shares_outstanding": 19821508000,
+      "ebitda": 87046000000,
+      "net_income_continuous_operations": 59531000000,
+      "minority_interests": null,
+      "preferred_stock_dividends": null
+    },
+    {
+      "fiscal_date": "2018-09-30",
+      "sales": 265595000000,
+      "cost_of_goods": 163756000000,
+      "gross_profit": 101839000000,
+      "operating_expense": {
+        "research_and_development": 14236000000,
+        "selling_general_and_administrative": 16705000000,
+        "other_operating_expenses": null
+      },
+      "operating_income": 70898000000,
+      "non_operating_interest": {
+        "income": 5686000000,
+        "expense": 3240000000
+      },
+      "other_income_expense": -441000000,
+      "pretax_income": 72903000000,
+      "income_tax": 13372000000,
+      "net_income": 59531000000,
+      "eps_basic": 3.0025,
+      "eps_diluted": 2.9775,
+      "basic_shares_outstanding": 19821508000,
+      "diluted_shares_outstanding": 19821508000,
+      "ebitda": 87046000000,
+      "net_income_continuous_operations": 59531000000,
+      "minority_interests": null,
+      "preferred_stock_dividends": null
+    },
+    {
+      "fiscal_date": "2018-09-30",
+      "sales": 265595000000,
+      "cost_of_goods": 163756000000,
+      "gross_profit": 101839000000,
+      "operating_expense": {
+        "research_and_development": 14236000000,
+        "selling_general_and_administrative": 16705000000,
+        "other_operating_expenses": null
+      },
+      "operating_income": 70898000000,
+      "non_operating_interest": {
+        "income": 5686000000,
+        "expense": 3240000000
+      },
+      "other_income_expense": -441000000,
+      "pretax_income": 72903000000,
+      "income_tax": 13372000000,
+      "net_income": 59531000000,
+      "eps_basic": 3.0025,
+      "eps_diluted": 2.9775,
+      "basic_shares_outstanding": 19821508000,
+      "diluted_shares_outstanding": 19821508000,
+      "ebitda": 87046000000,
+      "net_income_continuous_operations": 59531000000,
+      "minority_interests": null,
+      "preferred_stock_dividends": null
+    },
+    {
+      "fiscal_date": "2018-09-30",
+      "sales": 265595000000,
+      "cost_of_goods": 163756000000,
+      "gross_profit": 101839000000,
+      "operating_expense": {
+        "research_and_development": 14236000000,
+        "selling_general_and_administrative": 16705000000,
+        "other_operating_expenses": null
+      },
+      "operating_income": 70898000000,
+      "non_operating_interest": {
+        "income": 5686000000,
+        "expense": 3240000000
+      },
+      "other_income_expense": -441000000,
+      "pretax_income": 72903000000,
+      "income_tax": 13372000000,
+      "net_income": 59531000000,
+      "eps_basic": 3.0025,
+      "eps_diluted": 2.9775,
+      "basic_shares_outstanding": 19821508000,
+      "diluted_shares_outstanding": 19821508000,
+      "ebitda": 87046000000,
+      "net_income_continuous_operations": 59531000000,
+      "minority_interests": null,
+      "preferred_stock_dividends": null
+    }
+  ],
+  "balance_sheet": [
+    {
+      "fiscal_date": "2021-09-30",
+      "assets": {
+        "current_assets": {
+          "cash": 17305000000,
+          "cash_equivalents": 17635000000,
+          "cash_and_cash_equivalents": 34940000000,
+          "other_short_term_investments": 27699000000,
+          "accounts_receivable": 26278000000,
+          "other_receivables": 25228000000,
+          "inventory": 6580000000,
+          "prepaid_assets": null,
+          "restricted_cash": null,
+          "assets_held_for_sale": null,
+          "hedging_assets": null,
+          "other_current_assets": 14111000000,
+          "total_current_assets": 134836000000
+        },
+        "non_current_assets": {
+          "properties": 0,
+          "land_and_improvements": 20041000000,
+          "machinery_furniture_equipment": 78659000000,
+          "construction_in_progress": null,
+          "leases": 11023000000,
+          "accumulated_depreciation": -70283000000,
+          "goodwill": null,
+          "investment_properties": null,
+          "financial_assets": null,
+          "intangible_assets": null,
+          "investments_and_advances": 127877000000,
+          "other_non_current_assets": 48849000000,
+          "total_non_current_assets": 216166000000
+        },
+        "total_assets": 351002000000
+      },
+      "liabilities": {
+        "current_liabilities": {
+          "accounts_payable": 54763000000,
+          "accrued_expenses": null,
+          "short_term_debt": 15613000000,
+          "deferred_revenue": 7612000000,
+          "tax_payable": null,
+          "pensions": null,
+          "other_current_liabilities": 47493000000,
+          "total_current_liabilities": 125481000000
+        },
+        "non_current_liabilities": {
+          "long_term_provisions": null,
+          "long_term_debt": 109106000000,
+          "provision_for_risks_and_charges": 24689000000,
+          "deferred_liabilities": null,
+          "derivative_product_liabilities": null,
+          "other_non_current_liabilities": 28636000000,
+          "total_non_current_liabilities": 162431000000
+        },
+        "total_liabilities": 287912000000
+      },
+      "shareholders_equity": {
+        "common_stock": 57365000000,
+        "retained_earnings": 5562000000,
+        "other_shareholders_equity": 163000000,
+        "total_shareholders_equity": 63090000000,
+        "additional_paid_in_capital": null,
+        "treasury_stock": null,
+        "minority_interest": null
+      }
+    },
+    {
+      "fiscal_date": "2020-09-30",
+      "assets": {
+        "current_assets": {
+          "cash": 17773000000,
+          "cash_equivalents": 20243000000,
+          "cash_and_cash_equivalents": 38016000000,
+          "other_short_term_investments": 52927000000,
+          "accounts_receivable": 16120000000,
+          "other_receivables": 21325000000,
+          "inventory": 4061000000,
+          "prepaid_assets": null,
+          "restricted_cash": null,
+          "assets_held_for_sale": null,
+          "hedging_assets": null,
+          "other_current_assets": 11264000000,
+          "total_current_assets": 143713000000
+        },
+        "non_current_assets": {
+          "properties": 0,
+          "land_and_improvements": 17952000000,
+          "machinery_furniture_equipment": 75291000000,
+          "construction_in_progress": null,
+          "leases": 10283000000,
+          "accumulated_depreciation": -66760000000,
+          "goodwill": null,
+          "investment_properties": null,
+          "financial_assets": null,
+          "intangible_assets": null,
+          "investments_and_advances": 100887000000,
+          "other_non_current_assets": 42522000000,
+          "total_non_current_assets": 180175000000
+        },
+        "total_assets": 323888000000
+      },
+      "liabilities": {
+        "current_liabilities": {
+          "accounts_payable": 42296000000,
+          "accrued_expenses": null,
+          "short_term_debt": 13769000000,
+          "deferred_revenue": 6643000000,
+          "tax_payable": null,
+          "pensions": null,
+          "other_current_liabilities": 42684000000,
+          "total_current_liabilities": 105392000000
+        },
+        "non_current_liabilities": {
+          "long_term_provisions": null,
+          "long_term_debt": 98667000000,
+          "provision_for_risks_and_charges": 28170000000,
+          "deferred_liabilities": null,
+          "derivative_product_liabilities": null,
+          "other_non_current_liabilities": 26320000000,
+          "total_non_current_liabilities": 153157000000
+        },
+        "total_liabilities": 258549000000
+      },
+      "shareholders_equity": {
+        "common_stock": 50779000000,
+        "retained_earnings": 14966000000,
+        "other_shareholders_equity": -406000000,
+        "total_shareholders_equity": 65339000000,
+        "additional_paid_in_capital": null,
+        "treasury_stock": null,
+        "minority_interest": null
+      }
+    },
+    {
+      "fiscal_date": "2019-09-30",
+      "assets": {
+        "current_assets": {
+          "cash": 12204000000,
+          "cash_equivalents": 36640000000,
+          "cash_and_cash_equivalents": 48844000000,
+          "other_short_term_investments": 51713000000,
+          "accounts_receivable": 22926000000,
+          "other_receivables": 22878000000,
+          "inventory": 4106000000,
+          "prepaid_assets": null,
+          "restricted_cash": null,
+          "assets_held_for_sale": null,
+          "hedging_assets": null,
+          "other_current_assets": 12352000000,
+          "total_current_assets": 162819000000
+        },
+        "non_current_assets": {
+          "properties": 0,
+          "land_and_improvements": 17085000000,
+          "machinery_furniture_equipment": 69797000000,
+          "construction_in_progress": null,
+          "leases": 9075000000,
+          "accumulated_depreciation": -58579000000,
+          "goodwill": null,
+          "investment_properties": null,
+          "financial_assets": null,
+          "intangible_assets": null,
+          "investments_and_advances": 105341000000,
+          "other_non_current_assets": 32978000000,
+          "total_non_current_assets": 175697000000
+        },
+        "total_assets": 338516000000
+      },
+      "liabilities": {
+        "current_liabilities": {
+          "accounts_payable": 46236000000,
+          "accrued_expenses": null,
+          "short_term_debt": 16240000000,
+          "deferred_revenue": 5522000000,
+          "tax_payable": null,
+          "pensions": null,
+          "other_current_liabilities": 37720000000,
+          "total_current_liabilities": 105718000000
+        },
+        "non_current_liabilities": {
+          "long_term_provisions": null,
+          "long_term_debt": 91807000000,
+          "provision_for_risks_and_charges": 29545000000,
+          "deferred_liabilities": null,
+          "derivative_product_liabilities": null,
+          "other_non_current_liabilities": 20958000000,
+          "total_non_current_liabilities": 142310000000
+        },
+        "total_liabilities": 248028000000
+      },
+      "shareholders_equity": {
+        "common_stock": 45174000000,
+        "retained_earnings": 45898000000,
+        "other_shareholders_equity": -584000000,
+        "total_shareholders_equity": 90488000000,
+        "additional_paid_in_capital": null,
+        "treasury_stock": null,
+        "minority_interest": null
+      }
+    },
+    {
+      "fiscal_date": "2018-09-30",
+      "assets": {
+        "current_assets": {
+          "cash": 11575000000,
+          "cash_equivalents": 14338000000,
+          "cash_and_cash_equivalents": 25913000000,
+          "other_short_term_investments": 40388000000,
+          "accounts_receivable": 23186000000,
+          "other_receivables": 25809000000,
+          "inventory": 3956000000,
+          "prepaid_assets": null,
+          "restricted_cash": null,
+          "assets_held_for_sale": null,
+          "hedging_assets": null,
+          "other_current_assets": 12087000000,
+          "total_current_assets": 131339000000
+        },
+        "non_current_assets": {
+          "properties": 0,
+          "land_and_improvements": 16216000000,
+          "machinery_furniture_equipment": 65982000000,
+          "construction_in_progress": null,
+          "leases": 8205000000,
+          "accumulated_depreciation": -49099000000,
+          "goodwill": null,
+          "investment_properties": null,
+          "financial_assets": null,
+          "intangible_assets": null,
+          "investments_and_advances": 170799000000,
+          "other_non_current_assets": 22283000000,
+          "total_non_current_assets": 234386000000
+        },
+        "total_assets": 365725000000
+      },
+      "liabilities": {
+        "current_liabilities": {
+          "accounts_payable": 55888000000,
+          "accrued_expenses": null,
+          "short_term_debt": 20748000000,
+          "deferred_revenue": 7543000000,
+          "tax_payable": null,
+          "pensions": null,
+          "other_current_liabilities": 32687000000,
+          "total_current_liabilities": 116866000000
+        },
+        "non_current_liabilities": {
+          "long_term_provisions": null,
+          "long_term_debt": 93735000000,
+          "provision_for_risks_and_charges": 33589000000,
+          "deferred_liabilities": 426000000,
+          "derivative_product_liabilities": null,
+          "other_non_current_liabilities": 11165000000,
+          "total_non_current_liabilities": 138489000000
+        },
+        "total_liabilities": 255355000000
+      },
+      "shareholders_equity": {
+        "common_stock": 40201000000,
+        "retained_earnings": 70400000000,
+        "other_shareholders_equity": -3454000000,
+        "total_shareholders_equity": 107147000000,
+        "additional_paid_in_capital": null,
+        "treasury_stock": null,
+        "minority_interest": null
+      }
+    },
+    {
+      "fiscal_date": "2018-09-30",
+      "assets": {
+        "current_assets": {
+          "cash": 11575000000,
+          "cash_equivalents": 14338000000,
+          "cash_and_cash_equivalents": 25913000000,
+          "other_short_term_investments": 40388000000,
+          "accounts_receivable": 23186000000,
+          "other_receivables": 25809000000,
+          "inventory": 3956000000,
+          "prepaid_assets": null,
+          "restricted_cash": null,
+          "assets_held_for_sale": null,
+          "hedging_assets": null,
+          "other_current_assets": 12087000000,
+          "total_current_assets": 131339000000
+        },
+        "non_current_assets": {
+          "properties": 0,
+          "land_and_improvements": 16216000000,
+          "machinery_furniture_equipment": 65982000000,
+          "construction_in_progress": null,
+          "leases": 8205000000,
+          "accumulated_depreciation": -49099000000,
+          "goodwill": null,
+          "investment_properties": null,
+          "financial_assets": null,
+          "intangible_assets": null,
+          "investments_and_advances": 170799000000,
+          "other_non_current_assets": 22283000000,
+          "total_non_current_assets": 234386000000
+        },
+        "total_assets": 365725000000
+      },
+      "liabilities": {
+        "current_liabilities": {
+          "accounts_payable": 55888000000,
+          "accrued_expenses": null,
+          "short_term_debt": 20748000000,
+          "deferred_revenue": 7543000000,
+          "tax_payable": null,
+          "pensions": null,
+          "other_current_liabilities": 32687000000,
+          "total_current_liabilities": 116866000000
+        },
+        "non_current_liabilities": {
+          "long_term_provisions": null,
+          "long_term_debt": 93735000000,
+          "provision_for_risks_and_charges": 33589000000,
+          "deferred_liabilities": 426000000,
+          "derivative_product_liabilities": null,
+          "other_non_current_liabilities": 11165000000,
+          "total_non_current_liabilities": 138489000000
+        },
+        "total_liabilities": 255355000000
+      },
+      "shareholders_equity": {
+        "common_stock": 40201000000,
+        "retained_earnings": 70400000000,
+        "other_shareholders_equity": -3454000000,
+        "total_shareholders_equity": 107147000000,
+        "additional_paid_in_capital": null,
+        "treasury_stock": null,
+        "minority_interest": null
+      }
+    },
+    {
+      "fiscal_date": "2018-09-30",
+      "assets": {
+        "current_assets": {
+          "cash": 11575000000,
+          "cash_equivalents": 14338000000,
+          "cash_and_cash_equivalents": 25913000000,
+          "other_short_term_investments": 40388000000,
+          "accounts_receivable": 23186000000,
+          "other_receivables": 25809000000,
+          "inventory": 3956000000,
+          "prepaid_assets": null,
+          "restricted_cash": null,
+          "assets_held_for_sale": null,
+          "hedging_assets": null,
+          "other_current_assets": 12087000000,
+          "total_current_assets": 131339000000
+        },
+        "non_current_assets": {
+          "properties": 0,
+          "land_and_improvements": 16216000000,
+          "machinery_furniture_equipment": 65982000000,
+          "construction_in_progress": null,
+          "leases": 8205000000,
+          "accumulated_depreciation": -49099000000,
+          "goodwill": null,
+          "investment_properties": null,
+          "financial_assets": null,
+          "intangible_assets": null,
+          "investments_and_advances": 170799000000,
+          "other_non_current_assets": 22283000000,
+          "total_non_current_assets": 234386000000
+        },
+        "total_assets": 365725000000
+      },
+      "liabilities": {
+        "current_liabilities": {
+          "accounts_payable": 55888000000,
+          "accrued_expenses": null,
+          "short_term_debt": 20748000000,
+          "deferred_revenue": 7543000000,
+          "tax_payable": null,
+          "pensions": null,
+          "other_current_liabilities": 32687000000,
+          "total_current_liabilities": 116866000000
+        },
+        "non_current_liabilities": {
+          "long_term_provisions": null,
+          "long_term_debt": 93735000000,
+          "provision_for_risks_and_charges": 33589000000,
+          "deferred_liabilities": 426000000,
+          "derivative_product_liabilities": null,
+          "other_non_current_liabilities": 11165000000,
+          "total_non_current_liabilities": 138489000000
+        },
+        "total_liabilities": 255355000000
+      },
+      "shareholders_equity": {
+        "common_stock": 40201000000,
+        "retained_earnings": 70400000000,
+        "other_shareholders_equity": -3454000000,
+        "total_shareholders_equity": 107147000000,
+        "additional_paid_in_capital": null,
+        "treasury_stock": null,
+        "minority_interest": null
+      }
+    },
+    {
+      "fiscal_date": "2018-09-30",
+      "assets": {
+        "current_assets": {
+          "cash": 11575000000,
+          "cash_equivalents": 14338000000,
+          "cash_and_cash_equivalents": 25913000000,
+          "other_short_term_investments": 40388000000,
+          "accounts_receivable": 23186000000,
+          "other_receivables": 25809000000,
+          "inventory": 3956000000,
+          "prepaid_assets": null,
+          "restricted_cash": null,
+          "assets_held_for_sale": null,
+          "hedging_assets": null,
+          "other_current_assets": 12087000000,
+          "total_current_assets": 131339000000
+        },
+        "non_current_assets": {
+          "properties": 0,
+          "land_and_improvements": 16216000000,
+          "machinery_furniture_equipment": 65982000000,
+          "construction_in_progress": null,
+          "leases": 8205000000,
+          "accumulated_depreciation": -49099000000,
+          "goodwill": null,
+          "investment_properties": null,
+          "financial_assets": null,
+          "intangible_assets": null,
+          "investments_and_advances": 170799000000,
+          "other_non_current_assets": 22283000000,
+          "total_non_current_assets": 234386000000
+        },
+        "total_assets": 365725000000
+      },
+      "liabilities": {
+        "current_liabilities": {
+          "accounts_payable": 55888000000,
+          "accrued_expenses": null,
+          "short_term_debt": 20748000000,
+          "deferred_revenue": 7543000000,
+          "tax_payable": null,
+          "pensions": null,
+          "other_current_liabilities": 32687000000,
+          "total_current_liabilities": 116866000000
+        },
+        "non_current_liabilities": {
+          "long_term_provisions": null,
+          "long_term_debt": 93735000000,
+          "provision_for_risks_and_charges": 33589000000,
+          "deferred_liabilities": 426000000,
+          "derivative_product_liabilities": null,
+          "other_non_current_liabilities": 11165000000,
+          "total_non_current_liabilities": 138489000000
+        },
+        "total_liabilities": 255355000000
+      },
+      "shareholders_equity": {
+        "common_stock": 40201000000,
+        "retained_earnings": 70400000000,
+        "other_shareholders_equity": -3454000000,
+        "total_shareholders_equity": 107147000000,
+        "additional_paid_in_capital": null,
+        "treasury_stock": null,
+        "minority_interest": null
+      }
+    },
+    {
+      "fiscal_date": "2018-09-30",
+      "assets": {
+        "current_assets": {
+          "cash": 11575000000,
+          "cash_equivalents": 14338000000,
+          "cash_and_cash_equivalents": 25913000000,
+          "other_short_term_investments": 40388000000,
+          "accounts_receivable": 23186000000,
+          "other_receivables": 25809000000,
+          "inventory": 3956000000,
+          "prepaid_assets": null,
+          "restricted_cash": null,
+          "assets_held_for_sale": null,
+          "hedging_assets": null,
+          "other_current_assets": 12087000000,
+          "total_current_assets": 131339000000
+        },
+        "non_current_assets": {
+          "properties": 0,
+          "land_and_improvements": 16216000000,
+          "machinery_furniture_equipment": 65982000000,
+          "construction_in_progress": null,
+          "leases": 8205000000,
+          "accumulated_depreciation": -49099000000,
+          "goodwill": null,
+          "investment_properties": null,
+          "financial_assets": null,
+          "intangible_assets": null,
+          "investments_and_advances": 170799000000,
+          "other_non_current_assets": 22283000000,
+          "total_non_current_assets": 234386000000
+        },
+        "total_assets": 365725000000
+      },
+      "liabilities": {
+        "current_liabilities": {
+          "accounts_payable": 55888000000,
+          "accrued_expenses": null,
+          "short_term_debt": 20748000000,
+          "deferred_revenue": 7543000000,
+          "tax_payable": null,
+          "pensions": null,
+          "other_current_liabilities": 32687000000,
+          "total_current_liabilities": 116866000000
+        },
+        "non_current_liabilities": {
+          "long_term_provisions": null,
+          "long_term_debt": 93735000000,
+          "provision_for_risks_and_charges": 33589000000,
+          "deferred_liabilities": 426000000,
+          "derivative_product_liabilities": null,
+          "other_non_current_liabilities": 11165000000,
+          "total_non_current_liabilities": 138489000000
+        },
+        "total_liabilities": 255355000000
+      },
+      "shareholders_equity": {
+        "common_stock": 40201000000,
+        "retained_earnings": 70400000000,
+        "other_shareholders_equity": -3454000000,
+        "total_shareholders_equity": 107147000000,
+        "additional_paid_in_capital": null,
+        "treasury_stock": null,
+        "minority_interest": null
+      }
+    },
+    {
+      "fiscal_date": "2018-09-30",
+      "assets": {
+        "current_assets": {
+          "cash": 11575000000,
+          "cash_equivalents": 14338000000,
+          "cash_and_cash_equivalents": 25913000000,
+          "other_short_term_investments": 40388000000,
+          "accounts_receivable": 23186000000,
+          "other_receivables": 25809000000,
+          "inventory": 3956000000,
+          "prepaid_assets": null,
+          "restricted_cash": null,
+          "assets_held_for_sale": null,
+          "hedging_assets": null,
+          "other_current_assets": 12087000000,
+          "total_current_assets": 131339000000
+        },
+        "non_current_assets": {
+          "properties": 0,
+          "land_and_improvements": 16216000000,
+          "machinery_furniture_equipment": 65982000000,
+          "construction_in_progress": null,
+          "leases": 8205000000,
+          "accumulated_depreciation": -49099000000,
+          "goodwill": null,
+          "investment_properties": null,
+          "financial_assets": null,
+          "intangible_assets": null,
+          "investments_and_advances": 170799000000,
+          "other_non_current_assets": 22283000000,
+          "total_non_current_assets": 234386000000
+        },
+        "total_assets": 365725000000
+      },
+      "liabilities": {
+        "current_liabilities": {
+          "accounts_payable": 55888000000,
+          "accrued_expenses": null,
+          "short_term_debt": 20748000000,
+          "deferred_revenue": 7543000000,
+          "tax_payable": null,
+          "pensions": null,
+          "other_current_liabilities": 32687000000,
+          "total_current_liabilities": 116866000000
+        },
+        "non_current_liabilities": {
+          "long_term_provisions": null,
+          "long_term_debt": 93735000000,
+          "provision_for_risks_and_charges": 33589000000,
+          "deferred_liabilities": 426000000,
+          "derivative_product_liabilities": null,
+          "other_non_current_liabilities": 11165000000,
+          "total_non_current_liabilities": 138489000000
+        },
+        "total_liabilities": 255355000000
+      },
+      "shareholders_equity": {
+        "common_stock": 40201000000,
+        "retained_earnings": 70400000000,
+        "other_shareholders_equity": -3454000000,
+        "total_shareholders_equity": 107147000000,
+        "additional_paid_in_capital": null,
+        "treasury_stock": null,
+        "minority_interest": null
+      }
+    }
+  ],
+  "cash_flow": [
+    {
+      "fiscal_date": "2021-12-31",
+      "quarter": 1,
+      "operating_activities": {
+        "net_income": 94680000000,
+        "depreciation": 11284000000,
+        "deferred_taxes": -4774000000,
+        "stock_based_compensation": 7906000000,
+        "other_non_cash_items": -147000000,
+        "accounts_receivable": -14028000000,
+        "accounts_payable": 12326000000,
+        "other_assets_liabilities": -3209000000,
+        "operating_cash_flow": 104038000000
+      },
+      "investing_activities": {
+        "capital_expenditures": -11085000000,
+        "net_intangibles": null,
+        "net_acquisitions": -33000000,
+        "purchase_of_investments": -109689000000,
+        "sale_of_investments": 106870000000,
+        "other_investing_activity": -608000000,
+        "investing_cash_flow": -14545000000
+      },
+      "financing_activities": {
+        "long_term_debt_issuance": 20393000000,
+        "long_term_debt_payments": -8750000000,
+        "short_term_debt_issuance": 1022000000,
+        "common_stock_issuance": 1105000000,
+        "common_stock_repurchase": -85971000000,
+        "common_dividends": -14467000000,
+        "other_financing_charges": -6685000000,
+        "financing_cash_flow": -93353000000
+      },
+      "end_cash_position": 35929000000,
+      "income_tax_paid": 25385000000,
+      "interest_paid": 2687000000,
+      "free_cash_flow": 92953000000
+    },
+    {
+      "fiscal_date": "2019-09-30",
+      "quarter": 1,
+      "operating_activities": {
+        "net_income": 55256000000,
+        "depreciation": 12547000000,
+        "deferred_taxes": -340000000,
+        "stock_based_compensation": 6068000000,
+        "other_non_cash_items": -652000000,
+        "accounts_receivable": 3176000000,
+        "accounts_payable": -1923000000,
+        "other_assets_liabilities": -4741000000,
+        "operating_cash_flow": 69391000000
+      },
+      "investing_activities": {
+        "capital_expenditures": -10495000000,
+        "net_intangibles": null,
+        "net_acquisitions": -624000000,
+        "purchase_of_investments": -40631000000,
+        "sale_of_investments": 98724000000,
+        "other_investing_activity": -1078000000,
+        "investing_cash_flow": 45896000000
+      },
+      "financing_activities": {
+        "long_term_debt_issuance": 6963000000,
+        "long_term_debt_payments": -8805000000,
+        "short_term_debt_issuance": -5977000000,
+        "common_stock_issuance": 781000000,
+        "common_stock_repurchase": -66897000000,
+        "common_dividends": -14119000000,
+        "other_financing_charges": -2922000000,
+        "financing_cash_flow": -90976000000
+      },
+      "end_cash_position": 50224000000,
+      "income_tax_paid": 15263000000,
+      "interest_paid": 3423000000,
+      "free_cash_flow": 58896000000
+    },
+    {
+      "fiscal_date": "2018-09-30",
+      "quarter": 1,
+      "operating_activities": {
+        "net_income": 59531000000,
+        "depreciation": 10903000000,
+        "deferred_taxes": -32590000000,
+        "stock_based_compensation": 5340000000,
+        "other_non_cash_items": -444000000,
+        "accounts_receivable": -13332000000,
+        "accounts_payable": 9175000000,
+        "other_assets_liabilities": 38851000000,
+        "operating_cash_flow": 77434000000
+      },
+      "investing_activities": {
+        "capital_expenditures": -13313000000,
+        "net_intangibles": null,
+        "net_acquisitions": -721000000,
+        "purchase_of_investments": -73227000000,
+        "sale_of_investments": 104072000000,
+        "other_investing_activity": -745000000,
+        "investing_cash_flow": 16066000000
+      },
+      "financing_activities": {
+        "long_term_debt_issuance": 6969000000,
+        "long_term_debt_payments": -6500000000,
+        "short_term_debt_issuance": -37000000,
+        "common_stock_issuance": 669000000,
+        "common_stock_repurchase": -72738000000,
+        "common_dividends": -13712000000,
+        "other_financing_charges": -2527000000,
+        "financing_cash_flow": -87876000000
+      },
+      "end_cash_position": 25913000000,
+      "income_tax_paid": 10417000000,
+      "interest_paid": 3022000000,
+      "free_cash_flow": 64121000000
+    },
+    {
+      "fiscal_date": "2018-09-30",
+      "quarter": 1,
+      "operating_activities": {
+        "net_income": 59531000000,
+        "depreciation": 10903000000,
+        "deferred_taxes": -32590000000,
+        "stock_based_compensation": 5340000000,
+        "other_non_cash_items": -444000000,
+        "accounts_receivable": -13332000000,
+        "accounts_payable": 9175000000,
+        "other_assets_liabilities": 38851000000,
+        "operating_cash_flow": 77434000000
+      },
+      "investing_activities": {
+        "capital_expenditures": -13313000000,
+        "net_intangibles": null,
+        "net_acquisitions": -721000000,
+        "purchase_of_investments": -73227000000,
+        "sale_of_investments": 104072000000,
+        "other_investing_activity": -745000000,
+        "investing_cash_flow": 16066000000
+      },
+      "financing_activities": {
+        "long_term_debt_issuance": 6969000000,
+        "long_term_debt_payments": -6500000000,
+        "short_term_debt_issuance": -37000000,
+        "common_stock_issuance": 669000000,
+        "common_stock_repurchase": -72738000000,
+        "common_dividends": -13712000000,
+        "other_financing_charges": -2527000000,
+        "financing_cash_flow": -87876000000
+      },
+      "end_cash_position": 25913000000,
+      "income_tax_paid": 10417000000,
+      "interest_paid": 3022000000,
+      "free_cash_flow": 64121000000
+    },
+    {
+      "fiscal_date": "2018-09-30",
+      "quarter": 1,
+      "operating_activities": {
+        "net_income": 59531000000,
+        "depreciation": 10903000000,
+        "deferred_taxes": -32590000000,
+        "stock_based_compensation": 5340000000,
+        "other_non_cash_items": -444000000,
+        "accounts_receivable": -13332000000,
+        "accounts_payable": 9175000000,
+        "other_assets_liabilities": 38851000000,
+        "operating_cash_flow": 77434000000
+      },
+      "investing_activities": {
+        "capital_expenditures": -13313000000,
+        "net_intangibles": null,
+        "net_acquisitions": -721000000,
+        "purchase_of_investments": -73227000000,
+        "sale_of_investments": 104072000000,
+        "other_investing_activity": -745000000,
+        "investing_cash_flow": 16066000000
+      },
+      "financing_activities": {
+        "long_term_debt_issuance": 6969000000,
+        "long_term_debt_payments": -6500000000,
+        "short_term_debt_issuance": -37000000,
+        "common_stock_issuance": 669000000,
+        "common_stock_repurchase": -72738000000,
+        "common_dividends": -13712000000,
+        "other_financing_charges": -2527000000,
+        "financing_cash_flow": -87876000000
+      },
+      "end_cash_position": 25913000000,
+      "income_tax_paid": 10417000000,
+      "interest_paid": 3022000000,
+      "free_cash_flow": 64121000000
+    },
+    {
+      "fiscal_date": "2018-09-30",
+      "quarter": 1,
+      "operating_activities": {
+        "net_income": 59531000000,
+        "depreciation": 10903000000,
+        "deferred_taxes": -32590000000,
+        "stock_based_compensation": 5340000000,
+        "other_non_cash_items": -444000000,
+        "accounts_receivable": -13332000000,
+        "accounts_payable": 9175000000,
+        "other_assets_liabilities": 38851000000,
+        "operating_cash_flow": 77434000000
+      },
+      "investing_activities": {
+        "capital_expenditures": -13313000000,
+        "net_intangibles": null,
+        "net_acquisitions": -721000000,
+        "purchase_of_investments": -73227000000,
+        "sale_of_investments": 104072000000,
+        "other_investing_activity": -745000000,
+        "investing_cash_flow": 16066000000
+      },
+      "financing_activities": {
+        "long_term_debt_issuance": 6969000000,
+        "long_term_debt_payments": -6500000000,
+        "short_term_debt_issuance": -37000000,
+        "common_stock_issuance": 669000000,
+        "common_stock_repurchase": -72738000000,
+        "common_dividends": -13712000000,
+        "other_financing_charges": -2527000000,
+        "financing_cash_flow": -87876000000
+      },
+      "end_cash_position": 25913000000,
+      "income_tax_paid": 10417000000,
+      "interest_paid": 3022000000,
+      "free_cash_flow": 64121000000
+    },
+    {
+      "fiscal_date": "2018-09-30",
+      "quarter": 1,
+      "operating_activities": {
+        "net_income": 59531000000,
+        "depreciation": 10903000000,
+        "deferred_taxes": -32590000000,
+        "stock_based_compensation": 5340000000,
+        "other_non_cash_items": -444000000,
+        "accounts_receivable": -13332000000,
+        "accounts_payable": 9175000000,
+        "other_assets_liabilities": 38851000000,
+        "operating_cash_flow": 77434000000
+      },
+      "investing_activities": {
+        "capital_expenditures": -13313000000,
+        "net_intangibles": null,
+        "net_acquisitions": -721000000,
+        "purchase_of_investments": -73227000000,
+        "sale_of_investments": 104072000000,
+        "other_investing_activity": -745000000,
+        "investing_cash_flow": 16066000000
+      },
+      "financing_activities": {
+        "long_term_debt_issuance": 6969000000,
+        "long_term_debt_payments": -6500000000,
+        "short_term_debt_issuance": -37000000,
+        "common_stock_issuance": 669000000,
+        "common_stock_repurchase": -72738000000,
+        "common_dividends": -13712000000,
+        "other_financing_charges": -2527000000,
+        "financing_cash_flow": -87876000000
+      },
+      "end_cash_position": 25913000000,
+      "income_tax_paid": 10417000000,
+      "interest_paid": 3022000000,
+      "free_cash_flow": 64121000000
+    },
+    {
+      "fiscal_date": "2018-09-30",
+      "quarter": 1,
+      "operating_activities": {
+        "net_income": 59531000000,
+        "depreciation": 10903000000,
+        "deferred_taxes": -32590000000,
+        "stock_based_compensation": 5340000000,
+        "other_non_cash_items": -444000000,
+        "accounts_receivable": -13332000000,
+        "accounts_payable": 9175000000,
+        "other_assets_liabilities": 38851000000,
+        "operating_cash_flow": 77434000000
+      },
+      "investing_activities": {
+        "capital_expenditures": -13313000000,
+        "net_intangibles": null,
+        "net_acquisitions": -721000000,
+        "purchase_of_investments": -73227000000,
+        "sale_of_investments": 104072000000,
+        "other_investing_activity": -745000000,
+        "investing_cash_flow": 16066000000
+      },
+      "financing_activities": {
+        "long_term_debt_issuance": 6969000000,
+        "long_term_debt_payments": -6500000000,
+        "short_term_debt_issuance": -37000000,
+        "common_stock_issuance": 669000000,
+        "common_stock_repurchase": -72738000000,
+        "common_dividends": -13712000000,
+        "other_financing_charges": -2527000000,
+        "financing_cash_flow": -87876000000
+      },
+      "end_cash_position": 25913000000,
+      "income_tax_paid": 10417000000,
+      "interest_paid": 3022000000,
+      "free_cash_flow": 64121000000
+    },
+    {
+      "fiscal_date": "2018-09-30",
+      "quarter": 1,
+      "operating_activities": {
+        "net_income": 59531000000,
+        "depreciation": 10903000000,
+        "deferred_taxes": -32590000000,
+        "stock_based_compensation": 5340000000,
+        "other_non_cash_items": -444000000,
+        "accounts_receivable": -13332000000,
+        "accounts_payable": 9175000000,
+        "other_assets_liabilities": 38851000000,
+        "operating_cash_flow": 77434000000
+      },
+      "investing_activities": {
+        "capital_expenditures": -13313000000,
+        "net_intangibles": null,
+        "net_acquisitions": -721000000,
+        "purchase_of_investments": -73227000000,
+        "sale_of_investments": 104072000000,
+        "other_investing_activity": -745000000,
+        "investing_cash_flow": 16066000000
+      },
+      "financing_activities": {
+        "long_term_debt_issuance": 6969000000,
+        "long_term_debt_payments": -6500000000,
+        "short_term_debt_issuance": -37000000,
+        "common_stock_issuance": 669000000,
+        "common_stock_repurchase": -72738000000,
+        "common_dividends": -13712000000,
+        "other_financing_charges": -2527000000,
+        "financing_cash_flow": -87876000000
+      },
+      "end_cash_position": 25913000000,
+      "income_tax_paid": 10417000000,
+      "interest_paid": 3022000000,
+      "free_cash_flow": 64121000000
+    }
+  ],
+  "general": {
+    "symbol": "AAPL",
+    "name": "Apple Inc",
+    "exchange": "NASDAQ",
+    "mic_code": "XNAS",
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "employees": 147000,
+    "website": "http://www.apple.com",
+    "description": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. It also sells various related services. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple TV, Apple Watch, Beats products, HomePod, iPod touch, and other Apple-branded and third-party accessories. It also provides AppleCare support services; cloud services store services; and operates various platforms, including the App Store, that allow customers to discover and download applications and digital content, such as books, music, video, games, and podcasts. In addition, the company offers various services, such as Apple Arcade, a game subscription service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV+, which offers exclusive original content; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It sells and delivers third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers, wholesalers, retailers, and resellers. Apple Inc. was founded in 1977 and is headquartered in Cupertino, California.",
+    "type": "Common Stock",
+    "CEO": "Mr. Timothy D. Cook",
+    "address": "One Apple Park Way",
+    "city": "Cupertino",
+    "zip": "95014",
+    "state": "CA",
+    "country": "US",
+    "phone": "408-996-1010"
+  },
+  "logo": {
+    "meta": {
+      "symbol": "AAPL",
+      "name": "Apple Inc",
+      "currency": "USD",
+      "exchange": "NASDAQ",
+      "mic_code": "XNAS",
+      "exchange_timezone": "America/New_York"
+    },
+    "url": "https://api.twelvedata.com/logo/apple.com"
+  },
+  "statistics": {
+    "valuations_metrics": {
+      "market_capitalization": 2123407865344,
+      "enterprise_value": 2620597731328,
+      "trailing_pe": 30.162493,
+      "forward_pe": 26.982489,
+      "peg_ratio": 4.74,
+      "price_to_sales_ttm": 7.336227,
+      "price_to_book_mrq": 39.68831,
+      "enterprise_to_revenue": 7.549,
+      "enterprise_to_ebitda": 23.623
+    },
+    "financials": {
+      "fiscal_year_ends": "2021-09-26",
+      "most_recent_quarter": "2021-06-26",
+      "profit_margin": 0.25004,
+      "operating_margin": 0.28788,
+      "return_on_assets_ttm": 0.19302,
+      "return_on_equity_ttm": 1.27125,
+      "income_statement": {
+        "revenue_ttm": 347155005440,
+        "revenue_per_share_ttm": 20.61,
+        "quarterly_revenue_growth": 0.364,
+        "gross_profit_ttm": 104956000000,
+        "ebitda": 110934999040,
+        "net_income_to_common_ttm": 86801997824,
+        "diluted_eps_ttm": 5.108,
+        "quarterly_earnings_growth_yoy": 0.932
+      },
+      "balance_sheet": {
+        "revenue_ttm": 347155005440,
+        "total_cash_mrq": 61696000000,
+        "total_cash_per_share_mrq": 3.732,
+        "total_debt_mrq": 135491002368,
+        "total_debt_to_equity_mrq": 210.782,
+        "current_ratio_mrq": 1.062,
+        "book_value_per_share_mrq": 3.882
+      },
+      "cash_flow": {
+        "operating_cash_flow_ttm": 104414003200,
+        "levered_free_cash_flow_ttm": 80625876992
+      }
+    },
+    "stock_statistics": {
+      "shares_outstanding": 16530199552,
+      "float_shares": 16513305231,
+      "avg_10_volume": 72804757,
+      "avg_30_volume": 77013078,
+      "shares_short": 223105968,
+      "short_ratio": 1.19,
+      "short_percent_of_shares_outstanding": 0.0056,
+      "percent_held_by_insiders": 0.00071000005,
+      "percent_held_by_institutions": 0.58474
+    },
+    "stock_price_summary": {
+      "fifty_two_week_low": 103.1,
+      "fifty_two_week_high": 157.26,
+      "fifty_two_week_change": 0.375625,
+      "beta": 1.201965,
+      "day_50_ma": 148.96686,
+      "day_200_ma": 134.42506
+    },
+    "dividends_and_splits": {
+      "forward_annual_dividend_rate": 0.88,
+      "forward_annual_dividend_yield": 0.02,
+      "trailing_annual_dividend_rate": 0.835,
+      "trailing_annual_dividend_yield": 0.05,
+      "5_year_average_dividend_yield": 2.5,
+      "payout_ratio": 0.21458,
+      "dividend_date": "2021-08-12",
+      "ex_dividend_date": "2021-08-06",
+      "last_split_factor": "4-for-1 split",
+      "last_split_date": "2020-08-31"
+    }
+  },
+  "earnings": [
+    {
+      "date": "2020-04-30",
+      "time": "After Hours",
+      "eps_estimate": 2.09,
+      "eps_actual": 2.55,
+      "difference": 0.46,
+      "surprise_prc": 22.01
+    },
+    {
+      "date": "2020-01-28",
+      "time": "After Hours",
+      "eps_estimate": 4.54,
+      "eps_actual": 4.99,
+      "difference": 0.45,
+      "surprise_prc": 9.91
+    },
+    {
+      "date": "2019-10-30",
+      "time": "After Hours",
+      "eps_estimate": 2.84,
+      "eps_actual": 3.03,
+      "difference": 0.19,
+      "surprise_prc": 6.69
+    },
+    {
+      "date": "2019-07-30",
+      "time": "After Hours",
+      "eps_estimate": 2.1,
+      "eps_actual": 2.18,
+      "difference": 0.08,
+      "surprise_prc": 3.81
+    },
+    {
+      "date": "2019-04-30",
+      "time": "After Hours",
+      "eps_estimate": 2.37,
+      "eps_actual": 2.46,
+      "difference": 0.09,
+      "surprise_prc": 3.8
+    }
+  ],
+  "earningsEst": [
+    {
+      "date": "2022-09-30",
+      "period": "current_quarter",
+      "number_of_analysts": 27,
+      "avg_estimate": 1.26,
+      "low_estimate": 1.13,
+      "high_estimate": 1.35,
+      "year_ago_eps": 1.24
+    },
+    {
+      "date": "2022-12-31",
+      "period": "next_quarter",
+      "number_of_analysts": 23,
+      "avg_estimate": 2.12,
+      "low_estimate": 2.01,
+      "high_estimate": 2.29,
+      "year_ago_eps": 2.1
+    },
+    {
+      "date": "2022-09-30",
+      "period": "current_year",
+      "number_of_analysts": 37,
+      "avg_estimate": 6.1,
+      "low_estimate": 5.96,
+      "high_estimate": 6.4,
+      "year_ago_eps": 5.61
+    },
+    {
+      "date": "2023-09-30",
+      "period": "next_year",
+      "number_of_analysts": 37,
+      "avg_estimate": 6.44,
+      "low_estimate": 5.79,
+      "high_estimate": 7.06,
+      "year_ago_eps": 6.1
+    }
+  ],
+  "revenueEst": [
+    {
+      "date": "2022-09-30",
+      "period": "current_quarter",
+      "number_of_analysts": 24,
+      "avg_estimate": 88631500000,
+      "low_estimate": 85144300000,
+      "high_estimate": 92794900000,
+      "year_ago_sales": 83360000000,
+      "sales_growth": 0.06
+    },
+    {
+      "date": "2022-12-31",
+      "period": "next_quarter",
+      "number_of_analysts": 20,
+      "avg_estimate": 127693000000,
+      "low_estimate": 122868000000,
+      "high_estimate": 132979000000,
+      "year_ago_sales": null,
+      "sales_growth": null
+    },
+    {
+      "date": "2022-09-30",
+      "period": "current_year",
+      "number_of_analysts": 36,
+      "avg_estimate": 392509000000,
+      "low_estimate": 389326000000,
+      "high_estimate": 396977000000,
+      "year_ago_sales": 365817000000,
+      "sales_growth": 0.07
+    },
+    {
+      "date": "2023-09-30",
+      "period": "next_year",
+      "number_of_analysts": 36,
+      "avg_estimate": 411466000000,
+      "low_estimate": 387836000000,
+      "high_estimate": 441307000000,
+      "year_ago_sales": 392509000000,
+      "sales_growth": 0.05
+    }
+  ],
+  "epsTrend": [
+    {
+      "date": "2022-09-30",
+      "period": "current_quarter",
+      "current_estimate": 1.26,
+      "7_days_ago": 1.26,
+      "30_days_ago": 1.31,
+      "60_days_ago": 1.32,
+      "90_days_ago": 1.33
+    },
+    {
+      "date": "2022-12-31",
+      "period": "next_quarter",
+      "current_estimate": 2.12,
+      "7_days_ago": 2.11,
+      "30_days_ago": 2.18,
+      "60_days_ago": 2.19,
+      "90_days_ago": 2.19
+    },
+    {
+      "date": "2022-09-30",
+      "period": "current_year",
+      "current_estimate": 6.1,
+      "7_days_ago": 6.1,
+      "30_days_ago": 6.13,
+      "60_days_ago": 6.14,
+      "90_days_ago": 6.14
+    },
+    {
+      "date": "2023-09-30",
+      "period": "next_year",
+      "current_estimate": 6.44,
+      "7_days_ago": 6.44,
+      "30_days_ago": 6.51,
+      "60_days_ago": 6.55,
+      "90_days_ago": 6.56
+    }
+  ],
+  "epsRev": [
+    {
+      "date": "2022-09-30",
+      "period": "current_quarter",
+      "up_last_week": 1,
+      "up_last_month": 5,
+      "down_last_week": 0,
+      "down_last_month": 0
+    },
+    {
+      "date": "2022-12-31",
+      "period": "next_quarter",
+      "up_last_week": 1,
+      "up_last_month": 5,
+      "down_last_week": 0,
+      "down_last_month": 0
+    },
+    {
+      "date": "2022-09-30",
+      "period": "current_year",
+      "up_last_week": 1,
+      "up_last_month": 10,
+      "down_last_week": 0,
+      "down_last_month": 1
+    },
+    {
+      "date": "2023-09-30",
+      "period": "next_year",
+      "up_last_week": 1,
+      "up_last_month": 10,
+      "down_last_week": 0,
+      "down_last_month": 1
+    }
+  ],
+  "growthEst": {
+    "current_quarter": 0.016,
+    "next_quarter": 0.01,
+    "current_year": 0.087,
+    "next_year": 0.055999998,
+    "next_5_years_pa": 0.094799995,
+    "past_5_years_pa": 0.23867
+  },
+  "recommendations": {
+    "trends": {
+      "current_month": {
+        "strong_buy": 11,
+        "buy": 21,
+        "hold": 6,
+        "sell": 0,
+        "strong_sell": 0
+      },
+      "previous_month": {
+        "strong_buy": 14,
+        "buy": 24,
+        "hold": 8,
+        "sell": 0,
+        "strong_sell": 0
+      },
+      "2_months_ago": {
+        "strong_buy": 14,
+        "buy": 24,
+        "hold": 8,
+        "sell": 0,
+        "strong_sell": 0
+      },
+      "3_months_ago": {
+        "strong_buy": 13,
+        "buy": 20,
+        "hold": 8,
+        "sell": 0,
+        "strong_sell": 0
+      }
+    },
+    "rating": 8.2,
+    "status": "ok"
+  },
+  "priceTarget": {
+    "price_target": {
+      "high": 220,
+      "median": 185,
+      "low": 136,
+      "average": 184.01,
+      "current": 169.5672
+    },
+    "status": "ok"
+  },
+  "analystRatings": {
+    "ratings": [
+      {
+        "date": "2022-08-19",
+        "firm": "Keybanc",
+        "analyst_name": "Brandon Nispel",
+        "rating_change": "Maintains",
+        "rating_current": "Overweight",
+        "rating_prior": "Overweight",
+        "time": "08:29:48",
+        "action_price_target": "Raises",
+        "price_target_current": 185,
+        "price_target_prior": 177
+      },
+      {
+        "date": "2022-07-19",
+        "firm": "World",
+        "analyst_name": "Marco Polo",
+        "rating_change": "Maintains",
+        "rating_current": "Overweight",
+        "rating_prior": "Overweight",
+        "time": "08:29:48",
+        "action_price_target": "Lowers",
+        "price_target_current": 173,
+        "price_target_prior": 177
+      },
+      {
+        "date": "2022-06-19",
+        "firm": "Bank of America",
+        "analyst_name": "John Doe",
+        "rating_change": "Maintains",
+        "rating_current": "Overweight",
+        "rating_prior": "Overweight",
+        "time": "08:29:48",
+        "action_price_target": "Lowers",
+        "price_target_current": 170,
+        "price_target_prior": 177
+      },
+      {
+        "date": "2022-08-17",
+        "firm": "Credit Suisse",
+        "analyst_name": "Shannon Cross",
+        "rating_change": "Upgrade",
+        "rating_current": "Outperform",
+        "rating_prior": "Neutral",
+        "time": "08:14:09",
+        "action_price_target": "Announces",
+        "price_target_current": 201,
+        "price_target_prior": null
+      },
+      {
+        "date": "2022-08-17",
+        "firm": "Wedbush",
+        "analyst_name": "Daniel Ives",
+        "rating_change": "Maintains",
+        "rating_current": "Outperform",
+        "rating_prior": "Outperform",
+        "time": "10:22:55",
+        "action_price_target": "Raises",
+        "price_target_current": 220,
+        "price_target_prior": 200
+      }
+    ],
+    "status": "ok"
+  },
+  "companyNews": [
+    {
+      "url": "https://s.yimg.com/ny/api/res/1.2/A8cTSDowMJyuYyy1hqsylA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNTtoPTI5NA--/https://s.yimg.com/os/creatr-uploaded-images/2023-10/d57f9440-6175-11ee-bff7-6f10a4568d4d",
+      "provider": "Yahoo Finance",
+      "providerSite": "https://finance.yahoo.com/",
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Yahoo%21_Finance_logo_2021.png",
+      "date": "Fri, October 13, 2023",
+      "symbols": [
+        "GOOG",
+        "AAPL"
+      ],
+      "title": "Google Pixel Watch 2 review: Google’s smartwatch is better the second time around",
+      "content": "Google’s (GOOG, GOOGL) Pixel Watch 2 is here, and it proves once again that you should always wait to buy a second-generation product rather than a first-gen.\n The $349 Pixel Watch 2 addresses nearly all of the needling problems with the original Pixel Watch, while building on its feature set to make it my favorite Android smartwatch. There are no real aesthetic differences between the Pixel Watch 2 and its predecessor, and that’s a good thing.\n I loved the unique look and feel of Google’s first watch, and I’m glad the company seems dedicated to the design.The bezel surrounding the Pixel Watch 2’s 41mm display is still a little too big for my liking. Still, it’s far from a dealbreaker, and only noticeable in certain lights and with certain watch faces.",
+      "needsSubscription": false
+    },
+    {
+      "url": "https://s.yimg.com/ny/api/res/1.2/8rHCL2rubWbNWw2yEgES.A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNTtoPTQ3MA--/https://media.zenfs.com/en/motleyfool.com/4f30a834687b5ff8bef17ae0cc2435ee",
+      "provider": "The Motley Fool",
+      "providerSite": "https://www.fool.com/",
+      "providerLogo": "https://seeklogo.com/images/T/the-motley-fool-logo-51D6290BC9-seeklogo.com.png",
+      "date": "Fri, October 13, 2023",
+      "symbols": [
+        "AAPL"
+      ],
+      "title": "Apple CEO Tim Cook Just Sold $88 Million Worth of Stock. Has the Stock Peaked?",
+      "content": "According to a filing from Oct. 1, Apple (NASDAQ: AAPL) CEO Tim Cook exercised options on 511,000 shares of Apple stock which were valued at more than $88 million. It was the largest sale of Apple stock the executive has made in two years. With Apple stock trading down more than 8% since August, is this a sign that even management believes the stock has already peaked?",
+      "needsSubscription": false
+    },
+    {
+      "url": "https://s.yimg.com/ny/api/res/1.2/AQ991hfK7D6.3dNou4euNA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNTtoPTQ3MA--/https://media.zenfs.com/en/motleyfool.com/8e8e6cc0b1d737de5f6d555a698ca3e6",
+      "provider": "The Motley Fool",
+      "providerSite": "https://www.fool.com/",
+      "providerLogo": "https://seeklogo.com/images/T/the-motley-fool-logo-51D6290BC9-seeklogo.com.png",
+      "date": "Fri, October 13, 2023",
+      "symbols": [
+        "AAPL",
+        "BAC"
+      ],
+      "title": "56% of Warren Buffett's $341 Billion Portfolio Is Invested in These 2 Stocks",
+      "content": "Who needs diversification? Approximately $189 billion of Berkshire Hathaway's $341 billion in invested assets can be traced back to just two brand-name companies.",
+      "needsSubscription": true
+    },
+    {
+      "url": "https://s.yimg.com/ny/api/res/1.2/nZs_gRFQ0OlNrp65NfhR2g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNTtoPTM1Mw--/https://media.zenfs.com/en/Barrons.com/abdde4d285498a12350ca9bdfe02d20f",
+      "provider": "Barron's",
+      "providerSite": "https://www.barrons.com/",
+      "providerLogo": "https://logos-download.com/wp-content/uploads/2021/01/Barrons_Logo.png",
+      "date": "Fri, October 13, 2023",
+      "symbols": [
+        "AAPL",
+        "NFLX",
+        "AMZN"
+      ],
+      "title": "How Global Conflict Led to a Surprising Plan to Make Apple Chips in a Desert",
+      "content": "The new wave of U.S. chip manufacturing reflects a paradoxical new reality: Geopolitics are colliding with economics, and what’s good for one is pressuring the other.",
+      "needsSubscription": true
+    },
+    {
+      "url": "https://s.yimg.com/ny/api/res/1.2/nV0CirIrSZNXBTT34HOzXQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNTtoPTQ3MA--/https://media.zenfs.com/en/motleyfool.com/6860c91d447e24850f99cb6c68b49a55",
+      "provider": "The Motley Fool",
+      "providerSite": "https://www.fool.com/",
+      "providerLogo": "https://seeklogo.com/images/T/the-motley-fool-logo-51D6290BC9-seeklogo.com.png",
+      "date": "Fri, October 13, 2023",
+      "symbols": [
+        "AAPL",
+        "BUD"
+      ],
+      "title": "2 Stocks to Invest in Virtual Reality",
+      "content": "As a result, now is an excellent time to invest in an exciting growth area of tech like virtual reality (VR). Data from The Insight Partners shows the VR market is projected to hit $442 billion by 2030, expanding at a compound annual growth rate of 29%. The technology has had trouble attracting mainstream audiences in the past, and has been primarily embraced by the video gaming community.",
+      "needsSubscription": false
+    },
+    {
+      "url": "https://s.yimg.com/ny/api/res/1.2/CWrmmaxwZ9v.5LrctK368A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNTtoPTQ3MA--/https://media.zenfs.com/en/motleyfool.com/12d7a69473184368f4bcf7b1f58da031",
+      "provider": "The Motley Fool",
+      "providerSite": "https://www.fool.com/",
+      "providerLogo": "https://seeklogo.com/images/T/the-motley-fool-logo-51D6290BC9-seeklogo.com.png",
+      "date": "Fri, October 13, 2023",
+      "symbols": [
+        "AAPL"
+      ],
+      "title": "1 Green Flag for Apple in 2023, and 1 Red Flag",
+      "content": "The company is a favorite among consumers, but its dominance in tech devices makes it vulnerable to economic headwinds.",
+      "needsSubscription": true
+    },
+    {
+      "url": "https://s.yimg.com/ny/api/res/1.2/A_E_1OJnHxPBwP9h83TPlA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNTtoPTM5OA--/https://media.zenfs.com/en/bloomberg_markets_842/f2d321e42aab3b476e8e970038fbe246",
+      "provider": "Bloomberg",
+      "providerSite": "https://www.bloomberg.com/europe",
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/New_Bloomberg_Logo.svg/2560px-New_Bloomberg_Logo.svg.png",
+      "date": "Fri, October 13, 2023",
+      "symbols": [
+        "AAPL",
+        "NFLX"
+      ],
+      "title": "Corporate Giants Are the New Hedge Funds of the Global FX Market",
+      "content": "The technology giant is sitting on $135 billion in foreign exchange derivatives, some of which are used to hedge against currency fluctuations across its many markets. Alphabet Inc. has about another $60 billion of these contracts. In comparison, the world’s currency-focused hedge funds manage just $78 billion – combined. The scale of the numbers capture the huge shift that’s taken place in the market in recent years. These days, Wall Street’s biggest banks are increasingly asking their currency traders to cater to the largest companies on the planet in their hunt for more stable, recurring fees. In one sense, it can be seen as the world of forex going dull. Out are the arm-waving, rowdy traders who spend their days exchanging banter and shouting bids in slang. Instead, enter the new titans: smooth talking corporate bankers who have the ear of treasurers and corporate finance chiefs the world over.",
+      "needsSubscription": false
+    },
+    {
+      "url": "https://s.yimg.com/ny/api/res/1.2/3pWBj8SvErN5kDRqHbP5dA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNTtoPTQ3MA--/https://media.zenfs.com/en/motleyfool.com/f8a24b5fae5a46a00905115f13d4a336",
+      "provider": "The Motley Fool",
+      "providerSite": "https://www.fool.com/",
+      "providerLogo": "https://seeklogo.com/images/T/the-motley-fool-logo-51D6290BC9-seeklogo.com.png",
+      "date": "Fri, October 13, 2023",
+      "symbols": [
+        "AAPL",
+        "AAL"
+      ],
+      "title": "A Bull Market is Coming: 2 Warren Buffett Favorites to Buy Now",
+      "content": "Both of these companies have a solid track record and could thrive in a market that supports growth.",
+      "needsSubscription": true
+    },
+    {
+      "url": "https://s.yimg.com/ny/api/res/1.2/2Dr8yVptcDAr5_qj87vd8Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNTtoPTMyNg--/https://media.zenfs.com/en/bloomberg_technology_68/489aec4a57d428b85e439627aa02e737",
+      "provider": "Bloomberg",
+      "providerSite": "https://www.bloomberg.com/europe",
+      "providerLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/New_Bloomberg_Logo.svg/2560px-New_Bloomberg_Logo.svg.png",
+      "date": "Fri, October 13, 2023",
+      "symbols": [
+        "AAPL"
+      ],
+      "title": "Apple’s Top Suppliers in Taiwan Weather Worst Month Since June",
+      "content": "The world’s biggest contract chipmaker, Taiwan Semiconductor Manufacturing Co., did better than feared, recording a 13.4% drop while the wider group of major assemblers and component makers fell 16.4% to NT$1.24 trillion ($38.7 billion) from a year earlier, according to data compiled by Bloomberg. TSMC has weathered sagging smartphone and laptop chip sales better than others thanks to demand for artificial intelligence accelerators it makes for Nvidia Corp. Device assemblers Hon Hai Precision Industry Co., Compal Electronics Inc. and Quanta Computer Inc. led declines, though rival Pegatron Corp. managed to eke out growth in September after having the second-worst August in the group. Last month marked the steepest fall since June and extended August’s double-digit decline, leading to an 8.8% slump for the first nine months of the year.Read more: Nvidia Partner Expects AI Server Sales to Double in 2024 Apple’s iPhone 15 generation went on sale during the month, with upgrades to the entry-level model stirring a positive response. Competitors in China, including Xiaomi Corp., Oppo and Honor Device Co. also added to their lineups. Outside of foldable models that still sell in relatively small number, smartphone makers have struggled to rekindle growth for years and have extended declines that began in 2022.",
+      "needsSubscription": false
+    },
+    {
+      "url": "https://s.yimg.com/ny/api/res/1.2/UD8UC1VllB1ZrQn2gkSIOw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNTtoPTM5Nw--/https://media.zenfs.com/en/Benzinga/94830ab2fd4d3a4951494f8e7ad25349",
+      "provider": "Benzinga",
+      "providerSite": "https://www.benzinga.com/",
+      "providerLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzq_7mHupKI4WoOFWMfUCMKBWQEoX2EEsh_ig0op51KIk59A8YG7ab03fYbQ6_G2qTwa0&usqp=CAU",
+      "date": "Fri, October 13, 2023",
+      "symbols": [
+        "AAPL",
+        "MSFT",
+        "GOOG"
+      ],
+      "title": "Microsoft And Google Tease A New 'Tech For Good' Era",
+      "content": "Although it is quite a quiet week earnings-wise with big lenders yet to kick off bank earnings and the third quarter earnings season on Friday, things are never dull in the tech universe. Microsoft Corporation (NASDAQ: MSFT) and Alphabet Inc (NASDAQ: GOOG)(NASDAQ: GOOGL)-owned Google introduced new AI initiatives to support the healthcare industry and Google made another step to towards a password-free future it announced back in May.",
+      "needsSubscription": false
+    },
+    {
+      "url": "https://s.yimg.com/ny/api/res/1.2/xuD2BkN6OcRPGNvrLNn7lw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNTtoPTMxNA--/https://media.zenfs.com/en/simply_wall_st__316/111e1ed943b99c69faa23f4d91154c1e",
+      "provider": "Simply Wall St.",
+      "providerSite": "https://simplywall.st/",
+      "providerLogo": "data:image/png;base64,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",
+      "date": "Fri, October 13, 2023",
+      "symbols": [
+        "AAPL"
+      ],
+      "title": "A Look At The Intrinsic Value Of Apple Inc. (NASDAQ:AAPL)",
+      "content": "We are going to use a two-stage DCF model, which, as the name states, takes into account two stages of growth. The first stage is generally a higher growth period which levels off heading towards the terminal value, captured in the second 'steady growth' period. To start off with, we need to estimate the next ten years of cash flows. Where possible we use analyst estimates, but when these aren't available we extrapolate the previous free cash flow (FCF) from the last estimate or reported value. We assume companies with shrinking free cash flow will slow their rate of shrinkage, and that companies with growing free cash flow will see their growth rate slow, over this period. We do this to reflect that growth tends to slow more in the early years than it does in later years.",
+      "needsSubscription": true
+    }
+  ],
+  "fundHolders": [
+    {
+      "entity_name": "Vanguard Total Stock Market Index Fund",
+      "date_reported": "2021-06-30",
+      "shares": 447734657,
+      "value": 61321738622,
+      "percent_held": 0.0271
+    },
+    {
+      "entity_name": "Vanguard 500 Index Fund",
+      "date_reported": "2021-06-30",
+      "shares": 325785979,
+      "value": 44619647683,
+      "percent_held": 0.0197
+    },
+    {
+      "entity_name": "Vanguard 500 Index Fund",
+      "date_reported": "2021-06-30",
+      "shares": 325785979,
+      "value": 44619647683,
+      "percent_held": 0.0197
+    },
+    {
+      "entity_name": "Vanguard 500 Index Fund",
+      "date_reported": "2021-06-30",
+      "shares": 325785979,
+      "value": 44619647683,
+      "percent_held": 0.0197
+    },
+    {
+      "entity_name": "Vanguard 500 Index Fund",
+      "date_reported": "2021-06-30",
+      "shares": 325785979,
+      "value": 44619647683,
+      "percent_held": 0.0197
+    },
+    {
+      "entity_name": "Vanguard 500 Index Fund",
+      "date_reported": "2021-06-30",
+      "shares": 325785979,
+      "value": 44619647683,
+      "percent_held": 0.0197
+    },
+    {
+      "entity_name": "Vanguard 500 Index Fund",
+      "date_reported": "2021-06-30",
+      "shares": 325785979,
+      "value": 44619647683,
+      "percent_held": 0.0197
+    },
+    {
+      "entity_name": "Vanguard 500 Index Fund",
+      "date_reported": "2021-06-30",
+      "shares": 325785979,
+      "value": 44619647683,
+      "percent_held": 0.0197
+    },
+    {
+      "entity_name": "Vanguard 500 Index Fund",
+      "date_reported": "2021-06-30",
+      "shares": 325785979,
+      "value": 44619647683,
+      "percent_held": 0.0197
+    },
+    {
+      "entity_name": "SPDR S&P 500 ETF Trust",
+      "date_reported": "2021-06-30",
+      "shares": 161505783,
+      "value": 22119832039,
+      "percent_held": 0.0098
+    }
+  ],
+  "institutionHolders": [
+    {
+      "entity_name": "Vanguard Group, Inc. (The)",
+      "date_reported": "2021-06-30",
+      "shares": 1264936543,
+      "value": 173245708929,
+      "percent_held": 0.0765
+    },
+    {
+      "entity_name": "Blackrock Inc.",
+      "date_reported": "2021-06-30",
+      "shares": 1028698316,
+      "value": 140890521359,
+      "percent_held": 0.0622
+    },
+    {
+      "entity_name": "Berkshire Hathaway, Inc",
+      "date_reported": "2021-06-30",
+      "shares": 887135554,
+      "value": 121502085475,
+      "percent_held": 0.0537
+    },
+    {
+      "entity_name": "Berkshire Hathaway, Inc",
+      "date_reported": "2021-06-30",
+      "shares": 887135554,
+      "value": 21502085475,
+      "percent_held": 0.00537
+    },
+    {
+      "entity_name": "Berkshire Hathaway, Inc",
+      "date_reported": "2021-06-30",
+      "shares": 887135554,
+      "value": 21502085475,
+      "percent_held": 0.00537
+    },
+    {
+      "entity_name": "Berkshire Hathaway, Inc",
+      "date_reported": "2021-06-30",
+      "shares": 887135554,
+      "value": 21502085475,
+      "percent_held": 0.00537
+    },
+    {
+      "entity_name": "Berkshire Hathaway, Inc",
+      "date_reported": "2021-06-30",
+      "shares": 887135554,
+      "value": 21502085475,
+      "percent_held": 0.00537
+    },
+    {
+      "entity_name": "Berkshire Hathaway, Inc",
+      "date_reported": "2021-06-30",
+      "shares": 887135554,
+      "value": 21502085475,
+      "percent_held": 0.00537
+    },
+    {
+      "entity_name": "Berkshire Hathaway, Inc",
+      "date_reported": "2021-06-30",
+      "shares": 887135554,
+      "value": 21502085475,
+      "percent_held": 0.00537
+    },
+    {
+      "entity_name": "Berkshire Hathaway, Inc",
+      "date_reported": "2021-06-30",
+      "shares": 887135554,
+      "value": 21502085475,
+      "percent_held": 0.00537
+    },
+    {
+      "entity_name": "Berkshire Hathaway, Inc",
+      "date_reported": "2021-06-30",
+      "shares": 887135554,
+      "value": 21502085475,
+      "percent_held": 0.00537
+    },
+    {
+      "entity_name": "Berkshire Hathaway, Inc",
+      "date_reported": "2021-06-30",
+      "shares": 887135554,
+      "value": 21502085475,
+      "percent_held": 0.00537
+    },
+    {
+      "entity_name": "Berkshire Hathaway, Inc",
+      "date_reported": "2021-06-30",
+      "shares": 887135554,
+      "value": 21502085475,
+      "percent_held": 0.00537
+    },
+    {
+      "entity_name": "Berkshire Hathaway, Inc",
+      "date_reported": "2021-06-30",
+      "shares": 887135554,
+      "value": 21502085475,
+      "percent_held": 0.00537
+    },
+    {
+      "entity_name": "Berkshire Hathaway, Inc",
+      "date_reported": "2021-06-30",
+      "shares": 887135554,
+      "value": 21502085475,
+      "percent_held": 0.00537
+    },
+    {
+      "entity_name": "Berkshire Hathaway, Inc",
+      "date_reported": "2021-06-30",
+      "shares": 887135554,
+      "value": 21502085475,
+      "percent_held": 0.00537
+    }
+  ],
+  "directHolders": [
+    {
+      "entity_name": "Growth Opportunities Co. For Trading",
+      "date_reported": "2022-04-17",
+      "shares": 2145700,
+      "value": 154490400,
+      "percent_held": null
+    },
+    {
+      "entity_name": "Dhabib Nayef Mohammed Ahmed Al",
+      "date_reported": "2022-04-17",
+      "shares": 210700,
+      "value": 15170400,
+      "percent_held": null
+    },
+    {
+      "entity_name": "Dhabib Mohammed Ahmed Abdullah Al",
+      "date_reported": "2022-04-17",
+      "shares": 10461900,
+      "value": 753256800,
+      "percent_held": null
+    },
+    {
+      "entity_name": "Dhabib Mohammed Mahmoud Abdullah Al",
+      "date_reported": "2022-04-17",
+      "shares": 849981,
+      "value": 61198632,
+      "percent_held": null
+    },
+    {
+      "entity_name": "Dhabib Hamood Abdullah Ibrahim Al",
+      "date_reported": "2022-04-17",
+      "shares": 5813600,
+      "value": 418579200,
+      "percent_held": null
+    }
+  ],
+  "executives": [
+    {
+      "name": "Mr. Timothy D. Cook",
+      "title": "CEO & Director",
+      "age": 59,
+      "year_born": 1961,
+      "pay": 14769259
+    },
+    {
+      "name": "Mr. Luca  Maestri",
+      "title": "CFO & Sr. VP",
+      "age": 56,
+      "year_born": 1964,
+      "pay": 4595583
+    },
+    {
+      "name": "Mr. Jeffrey E. Williams",
+      "title": "Chief Operating Officer",
+      "age": 56,
+      "year_born": 1964,
+      "pay": 4594137
+    },
+    {
+      "name": "Mr. Marco Polo",
+      "title": "Officer",
+      "age": 228,
+      "year_born": 1964,
+      "pay": 10595583
+    },
+    {
+      "name": "Mr. Marco Polo",
+      "title": "Officer",
+      "age": 228,
+      "year_born": 1964,
+      "pay": 10594137
+    },
+    {
+      "name": "Mr. Marco Polo",
+      "title": "Officer",
+      "age": 228,
+      "year_born": 1964,
+      "pay": 10595583
+    },
+    {
+      "name": "Mr. Marco Polo",
+      "title": "Officer",
+      "age": 228,
+      "year_born": 1964,
+      "pay": 10594137
+    },
+    {
+      "name": "Mr. Marco Polo",
+      "title": "Officer",
+      "age": 228,
+      "year_born": 1964,
+      "pay": 10595583
+    },
+    {
+      "name": "Mr. Marco Polo",
+      "title": "Officer",
+      "age": 228,
+      "year_born": 1964,
+      "pay": 10594137
+    }
+  ],
+  "transactions": [
+    {
+      "full_name": "ADAMS KATHERINE L",
+      "position": "General Counsel",
+      "date_reported": "2023-05-03",
+      "is_direct": true,
+      "shares": 17000,
+      "value": 2257631,
+      "description": "Sale at price 132.57 - 133.93 per share."
+    },
+    {
+      "full_name": "COOK TIMOTHY D",
+      "position": "Chief Executive Officer",
+      "date_reported": "2023-05-03",
+      "is_direct": true,
+      "shares": 17000,
+      "value": 2257631,
+      "description": "Sale at price 132.57 - 133.93 per share."
+    },
+    {
+      "full_name": "MAESTRI LUCA",
+      "position": "Chief Financial Officer",
+      "date_reported": "2023-05-03",
+      "is_direct": true,
+      "shares": 121072,
+      "value": 16079338,
+      "description": "Sale at price 132.58 - 133.93 per share."
+    },
+    {
+      "full_name": "MAESTRI LUCA",
+      "position": "Chief Financial Officer",
+      "date_reported": "2023-05-03",
+      "is_direct": true,
+      "shares": 121072,
+      "value": 16079338,
+      "description": "Sale at price 132.58 - 133.93 per share."
+    },
+    {
+      "full_name": "MAESTRI LUCA",
+      "position": "Chief Financial Officer",
+      "date_reported": "2023-05-03",
+      "is_direct": true,
+      "shares": 121072,
+      "value": 16079338,
+      "description": "Buy at price 132.58 - 133.93 per share."
+    },
+    {
+      "full_name": "MAESTRI LUCA",
+      "position": "Chief Financial Officer",
+      "date_reported": "2023-05-03",
+      "is_direct": true,
+      "shares": 71072,
+      "value": 8079338,
+      "description": "Buy at price 132.58 - 133.93 per share."
+    },
+    {
+      "full_name": "MAESTRI LUCA",
+      "position": "Chief Financial Officer",
+      "date_reported": "2023-05-03",
+      "is_direct": true,
+      "shares": 71072,
+      "value": 8079338,
+      "description": "Buy at price 132.58 - 133.93 per share."
+    },
+    {
+      "full_name": "MAESTRI LUCA",
+      "position": "Chief Financial Officer",
+      "date_reported": "2023-05-03",
+      "is_direct": false,
+      "shares": 71072,
+      "value": 8079338,
+      "description": "Sale at price 132.58 - 133.93 per share."
+    },
+    {
+      "full_name": "MAESTRI LUCA",
+      "position": "Chief Financial Officer",
+      "date_reported": "2023-05-03",
+      "is_direct": true,
+      "shares": 121072,
+      "value": 16079338,
+      "description": "Buy at price 132.58 - 133.93 per share."
+    },
+    {
+      "full_name": "MAESTRI LUCA",
+      "position": "Chief Financial Officer",
+      "date_reported": "2023-05-03",
+      "is_direct": true,
+      "shares": 121072,
+      "value": 16079338,
+      "description": "Buy at price 132.58 - 133.93 per share."
+    },
+    {
+      "full_name": "MAESTRI LUCA",
+      "position": "Chief Financial Officer",
+      "date_reported": "2022-11-03",
+      "is_direct": true,
+      "shares": 121072,
+      "value": 16079338,
+      "description": "Buy at price 132.58 - 133.93 per share."
+    },
+    {
+      "full_name": "MAESTRI LUCA",
+      "position": "Chief Financial Officer",
+      "date_reported": "2022-11-03",
+      "is_direct": true,
+      "shares": 121072,
+      "value": 16079338,
+      "description": "Buy at price 132.58 - 133.93 per share."
+    },
+    {
+      "full_name": "MAESTRI LUCA",
+      "position": "Chief Financial Officer",
+      "date_reported": "2022-11-03",
+      "is_direct": true,
+      "shares": 121072,
+      "value": 16079338,
+      "description": "Buy at price 132.58 - 133.93 per share."
+    },
+    {
+      "full_name": "MAESTRI LUCA",
+      "position": "Chief Financial Officer",
+      "date_reported": "2022-11-03",
+      "is_direct": true,
+      "shares": 121072,
+      "value": 16079338,
+      "description": "Buy at price 132.58 - 133.93 per share."
+    },
+    {
+      "full_name": "MAESTRI LUCA",
+      "position": "Chief Financial Officer",
+      "date_reported": "2022-11-03",
+      "is_direct": true,
+      "shares": 121072,
+      "value": 16079338,
+      "description": "Buy at price 132.58 - 133.93 per share."
+    },
+    {
+      "full_name": "MAESTRI LUCA",
+      "position": "Chief Financial Officer",
+      "date_reported": "2022-11-03",
+      "is_direct": true,
+      "shares": 121072,
+      "value": 16079338,
+      "description": "Buy at price 132.58 - 133.93 per share."
+    },
+    {
+      "full_name": "O'BRIEN DEIRDRE",
+      "position": "Officer",
+      "date_reported": "2021-12-16",
+      "is_direct": false,
+      "shares": 18216,
+      "value": 2441126,
+      "description": "Sale at price 134.01 per share."
+    },
+    {
+      "full_name": "KONDO CHRISTOPHER",
+      "position": "Officer",
+      "date_reported": "2021-12-15",
+      "is_direct": true,
+      "shares": 17603,
+      "value": 0,
+      "description": ""
+    }
+  ],
+  "options": {
+    "meta": {
+      "symbol": "AAPL",
+      "name": "Apple Inc",
+      "currency": "USD",
+      "exchange": "NASDAQ",
+      "mic_code": "XNAS",
+      "exchange_timezone": "America/New_York"
+    },
+    "calls": [
+      {
+        "contract_name": "AAPL Option Call 21-01-2022 145",
+        "option_id": "AAPL220121C00145000",
+        "last_trade_date": "2021-09-13 14:53:00",
+        "strike": 145,
+        "last_price": 11.95,
+        "bid": 11.95,
+        "ask": 12.15,
+        "change": -3.2700005,
+        "percent_change": -21.48489,
+        "volume": 1318,
+        "open_interest": 48688,
+        "implied_volatility": 0.2850108120727538,
+        "in_the_money": true
+      },
+      {
+        "contract_name": "AAPL Option Call 21-01-2022 143",
+        "option_id": "AAPL220121C00145022",
+        "last_trade_date": "2021-09-13 14:53:00",
+        "strike": 143,
+        "last_price": 11.95,
+        "bid": 11.95,
+        "ask": 12.15,
+        "change": -3.2700005,
+        "percent_change": -20.48489,
+        "volume": 1318,
+        "open_interest": 48688,
+        "implied_volatility": 0.2450108120727538,
+        "in_the_money": true
+      },
+      {
+        "contract_name": "AAPL Option Call 21-01-2022 143",
+        "option_id": "AAPL220121C00145022",
+        "last_trade_date": "2021-09-13 14:53:00",
+        "strike": 143,
+        "last_price": 11.95,
+        "bid": 11.95,
+        "ask": 12.15,
+        "change": -3.2700005,
+        "percent_change": -20.48489,
+        "volume": 1318,
+        "open_interest": 48688,
+        "implied_volatility": 0.2450108120727538,
+        "in_the_money": true
+      },
+      {
+        "contract_name": "AAPL Option Call 21-01-2022 143",
+        "option_id": "AAPL220121C00145022",
+        "last_trade_date": "2021-09-13 14:53:00",
+        "strike": 143,
+        "last_price": 11.95,
+        "bid": 11.95,
+        "ask": 12.15,
+        "change": -3.2700005,
+        "percent_change": -20.48489,
+        "volume": 1318,
+        "open_interest": 48688,
+        "implied_volatility": 0.2450108120727538,
+        "in_the_money": false
+      },
+      {
+        "contract_name": "AAPL Option Call 21-01-2022 143",
+        "option_id": "AAPL220121C00145022",
+        "last_trade_date": "2021-09-13 14:53:00",
+        "strike": 143,
+        "last_price": 11.95,
+        "bid": 11.95,
+        "ask": 12.15,
+        "change": -3.2700005,
+        "percent_change": -20.48489,
+        "volume": 1318,
+        "open_interest": 48688,
+        "implied_volatility": 0.2450108120727538,
+        "in_the_money": false
+      },
+      {
+        "contract_name": "AAPL Option Call 21-01-2022 144",
+        "option_id": "AAPL220121C00145001",
+        "last_trade_date": "2021-09-13 14:53:00",
+        "strike": 144,
+        "last_price": 11.96,
+        "bid": 11.94,
+        "ask": 12.18,
+        "change": -3.2700005,
+        "percent_change": -18.48489,
+        "volume": 1318,
+        "open_interest": 44688,
+        "implied_volatility": 0.3250108120727538,
+        "in_the_money": false
+      }
+    ],
+    "puts": [
+      {
+        "contract_name": "AAPL Option Put 21-01-2022 150",
+        "option_id": "AAPL220121P00150000",
+        "last_trade_date": "2021-09-13 14:52:00",
+        "strike": 150,
+        "last_price": 10.25,
+        "bid": 10.2,
+        "ask": 10.4,
+        "change": 2.4499998,
+        "percent_change": 31.410254,
+        "volume": 3588,
+        "open_interest": 41797,
+        "implied_volatility": 0.27579459564208975,
+        "in_the_money": false
+      },
+      {
+        "contract_name": "AAPL Option Put 21-01-2022 152",
+        "option_id": "AAPL220121P00150001",
+        "last_trade_date": "2021-09-13 14:52:00",
+        "strike": 151,
+        "last_price": 10.23,
+        "bid": 10.31,
+        "ask": 10.55,
+        "change": 2.4499998,
+        "percent_change": 34.410254,
+        "volume": 2988,
+        "open_interest": 42797,
+        "implied_volatility": 0.26579459564208974,
+        "in_the_money": false
+      },
+      {
+        "contract_name": "AAPL Option Put 21-01-2022 152",
+        "option_id": "AAPL220121P00150001",
+        "last_trade_date": "2021-09-13 14:52:00",
+        "strike": 151,
+        "last_price": 10.23,
+        "bid": 10.31,
+        "ask": 10.55,
+        "change": 2.4499998,
+        "percent_change": 34.410254,
+        "volume": 2988,
+        "open_interest": 42797,
+        "implied_volatility": 0.26579459564208974,
+        "in_the_money": false
+      },
+      {
+        "contract_name": "AAPL Option Put 21-01-2022 152",
+        "option_id": "AAPL220121P00150001",
+        "last_trade_date": "2021-09-13 14:52:00",
+        "strike": 151,
+        "last_price": 10.23,
+        "bid": 10.31,
+        "ask": 10.55,
+        "change": 2.4499998,
+        "percent_change": 34.410254,
+        "volume": 2988,
+        "open_interest": 42797,
+        "implied_volatility": 0.26579459564208974,
+        "in_the_money": true
+      },
+      {
+        "contract_name": "AAPL Option Put 21-01-2022 152",
+        "option_id": "AAPL220121P00150001",
+        "last_trade_date": "2021-09-13 14:52:00",
+        "strike": 151,
+        "last_price": 10.23,
+        "bid": 10.31,
+        "ask": 10.55,
+        "change": 2.4499998,
+        "percent_change": 34.410254,
+        "volume": 2988,
+        "open_interest": 42797,
+        "implied_volatility": 0.26579459564208974,
+        "in_the_money": true
+      },
+      {
+        "contract_name": "AAPL Option Put 21-01-2022 152",
+        "option_id": "AAPL220121P00150002",
+        "last_trade_date": "2021-09-13 14:52:00",
+        "strike": 152,
+        "last_price": 10.35,
+        "bid": 10.21,
+        "ask": 10.44,
+        "change": 2.4499998,
+        "percent_change": 31.410254,
+        "volume": 3788,
+        "open_interest": 42797,
+        "implied_volatility": 0.29579459564208976,
+        "in_the_money": true
+      }
+    ]
+  },
+  "movingAvgs": {
+    "simple_10": {
+      "1min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "176.95"
+      },
+      "5min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "176.77"
+      },
+      "15min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "177.01"
+      },
+      "30min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "177.37"
+      },
+      "1h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "177.60"
+      },
+      "2h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "177.99"
+      },
+      "4h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "178.75"
+      },
+      "1day": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "177.87"
+      },
+      "1week": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "177.52"
+      },
+      "1month": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "173.02"
+      }
+    },
+    "simple_20": {
+      "1min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "176.79"
+      },
+      "5min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "176.87"
+      },
+      "15min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "177.39"
+      },
+      "30min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "177.47"
+      },
+      "1h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "178.10"
+      },
+      "2h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "178.84"
+      },
+      "4h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "177.57"
+      },
+      "1day": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "175.47"
+      },
+      "1week": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "182.53"
+      },
+      "1month": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "161.86"
+      }
+    },
+    "simple_50": {
+      "1min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "176.73"
+      },
+      "5min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "176.87"
+      },
+      "15min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "177.11"
+      },
+      "30min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "178.27"
+      },
+      "1h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "178.72"
+      },
+      "2h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "178.84"
+      },
+      "4h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "176.79"
+      },
+      "1day": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "175.66"
+      },
+      "1week": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "165.22"
+      },
+      "1month": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "134.03"
+      }
+    },
+    "simple_100": {
+      "1min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "176.71"
+      },
+      "5min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "177.08"
+      },
+      "15min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "178.27"
+      },
+      "30min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "178.59"
+      },
+      "1h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "176.03"
+      },
+      "2h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "175.69"
+      },
+      "4h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "177.78"
+      },
+      "1day": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "182.55"
+      },
+      "1week": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "161.66"
+      },
+      "1month": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "85.85"
+      }
+    },
+    "simple_200": {
+      "1min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "176.65"
+      },
+      "5min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "177.58"
+      },
+      "15min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "178.56"
+      },
+      "30min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "175.59"
+      },
+      "1h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "176.03"
+      },
+      "2h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "178.33"
+      },
+      "4h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "182.47"
+      },
+      "1day": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "169.03"
+      },
+      "1week": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "138.02"
+      },
+      "1month": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "49.76"
+      }
+    },
+    "exponential_10": {
+      "1min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "176.95"
+      },
+      "5min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "176.77"
+      },
+      "15min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "177.01"
+      },
+      "30min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "177.37"
+      },
+      "1h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "177.60"
+      },
+      "2h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "177.99"
+      },
+      "4h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "178.75"
+      },
+      "1day": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "177.87"
+      },
+      "1week": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "177.52"
+      },
+      "1month": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "173.02"
+      }
+    },
+    "exponential_20": {
+      "1min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "176.79"
+      },
+      "5min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "176.87"
+      },
+      "15min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "177.39"
+      },
+      "30min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "177.47"
+      },
+      "1h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "178.10"
+      },
+      "2h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "178.84"
+      },
+      "4h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "177.57"
+      },
+      "1day": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "175.47"
+      },
+      "1week": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "182.53"
+      },
+      "1month": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "161.86"
+      }
+    },
+    "exponential_50": {
+      "1min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "176.73"
+      },
+      "5min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "176.87"
+      },
+      "15min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "177.11"
+      },
+      "30min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "178.27"
+      },
+      "1h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "178.72"
+      },
+      "2h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "178.84"
+      },
+      "4h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "176.79"
+      },
+      "1day": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "175.66"
+      },
+      "1week": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "165.22"
+      },
+      "1month": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "134.03"
+      }
+    },
+    "exponential_100": {
+      "1min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "176.71"
+      },
+      "5min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "177.08"
+      },
+      "15min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "178.27"
+      },
+      "30min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "178.59"
+      },
+      "1h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "176.03"
+      },
+      "2h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "175.69"
+      },
+      "4h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "177.78"
+      },
+      "1day": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "182.55"
+      },
+      "1week": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "161.66"
+      },
+      "1month": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "85.85"
+      }
+    },
+    "exponential_200": {
+      "1min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "176.65"
+      },
+      "5min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "177.58"
+      },
+      "15min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "178.56"
+      },
+      "30min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "175.59"
+      },
+      "1h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "176.03"
+      },
+      "2h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "178.33"
+      },
+      "4h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "182.47"
+      },
+      "1day": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "169.03"
+      },
+      "1week": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "138.02"
+      },
+      "1month": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "49.76"
+      }
+    },
+    "weighted": {
+      "1min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "176.65"
+      },
+      "5min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "177.58"
+      },
+      "15min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "178.56"
+      },
+      "30min": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "175.59"
+      },
+      "1h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "176.03"
+      },
+      "2h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "178.33"
+      },
+      "4h": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "182.47"
+      },
+      "1day": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "169.03"
+      },
+      "1week": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "138.02"
+      },
+      "1month": {
+        "datetime": "2019-08-09 15:59:00",
+        "sma": "49.76"
+      }
+    }
+  },
+  "oscillators": {
+    "relative_strength_index": {
+      "1min": {
+        "datetime": "2019-08-09 15:59:00",
+        "rsi": "70.88"
+      },
+      "5min": {
+        "datetime": "2019-08-09 15:59:00",
+        "rsi": "58.40"
+      },
+      "15min": {
+        "datetime": "2019-08-09 15:59:00",
+        "rsi": "45.12"
+      },
+      "30min": {
+        "datetime": "2019-08-09 15:59:00",
+        "rsi": "40.18"
+      },
+      "1h": {
+        "datetime": "2019-08-09 15:59:00",
+        "rsi": "38.31"
+      },
+      "2h": {
+        "datetime": "2019-08-09 15:59:00",
+        "rsi": "39.54"
+      },
+      "4h": {
+        "datetime": "2019-08-09 15:59:00",
+        "rsi": "40.27"
+      },
+      "1day": {
+        "datetime": "2019-08-09 15:59:00",
+        "rsi": "43.10"
+      },
+      "1week": {
+        "datetime": "2019-08-09 15:59:00",
+        "rsi": "48.65"
+      },
+      "1month": {
+        "datetime": "2019-08-09 15:59:00",
+        "rsi": "56.39"
+      }
+    },
+    "stochastic_oscillator": {
+      "1min": {
+        "datetime": "2019-08-09 15:59:00",
+        "slow_k": "11.35",
+        "slow_d": "7.59"
+      },
+      "5min": {
+        "datetime": "2019-08-09 15:59:00",
+        "slow_k": "8.59",
+        "slow_d": "6.52"
+      },
+      "15min": {
+        "datetime": "2019-08-09 15:59:00",
+        "slow_k": "7.95",
+        "slow_d": "11.24"
+      },
+      "30min": {
+        "datetime": "2019-08-09 15:59:00",
+        "slow_k": "16.55",
+        "slow_d": "11.47"
+      },
+      "1h": {
+        "datetime": "2019-08-09 15:59:00",
+        "slow_k": "12.05",
+        "slow_d": "10.42"
+      },
+      "2h": {
+        "datetime": "2019-08-09 15:59:00",
+        "slow_k": "14.43",
+        "slow_d": "9.25"
+      },
+      "4h": {
+        "datetime": "2019-08-09 15:59:00",
+        "slow_k": "8.85",
+        "slow_d": "5.52"
+      },
+      "1day": {
+        "datetime": "2019-08-09 15:59:00",
+        "slow_k": "34.66",
+        "slow_d": "42.74"
+      },
+      "1week": {
+        "datetime": "2019-08-09 15:59:00",
+        "slow_k": "28.71",
+        "slow_d": "30.41"
+      },
+      "1month": {
+        "datetime": "2019-08-09 15:59:00",
+        "slow_k": "71.77",
+        "slow_d": "65.47"
+      }
+    },
+    "macd": {
+      "1min": {
+        "datetime": "2019-08-09 15:59:00",
+        "macd": "-0.3998",
+        "macd_signal": "-0.25279",
+        "macd_hist": "-0.147"
+      },
+      "5min": {
+        "datetime": "2019-08-09 15:59:00",
+        "macd": "0.1334",
+        "macd_signal": "-0.12279",
+        "macd_hist": "-0.147"
+      },
+      "15min": {
+        "datetime": "2019-08-09 15:59:00",
+        "macd": "-0.2913",
+        "macd_signal": "-0.32279",
+        "macd_hist": "-0.147"
+      },
+      "30min": {
+        "datetime": "2019-08-09 15:59:00",
+        "macd": "-0.8552",
+        "macd_signal": "-0.9136",
+        "macd_hist": "-0.147"
+      },
+      "1h": {
+        "datetime": "2019-08-09 15:59:00",
+        "macd": "-1.2347",
+        "macd_signal": "-0.8952",
+        "macd_hist": "-0.147"
+      },
+      "2h": {
+        "datetime": "2019-08-09 15:59:00",
+        "macd": "-1.2847",
+        "macd_signal": "-0.9943",
+        "macd_hist": "-0.147"
+      },
+      "4h": {
+        "datetime": "2019-08-09 15:59:00",
+        "macd": "-0.5656",
+        "macd_signal": "-0.3875",
+        "macd_hist": "-0.147"
+      },
+      "1day": {
+        "datetime": "2019-08-09 15:59:00",
+        "macd": "-0.6723",
+        "macd_signal": "-0.5578",
+        "macd_hist": "-0.147"
+      },
+      "1week": {
+        "datetime": "2019-08-09 15:59:00",
+        "macd": "-1.2135",
+        "macd_signal": "-1.1258",
+        "macd_hist": "-0.147"
+      },
+      "1month": {
+        "datetime": "2019-08-09 15:59:00",
+        "macd": "12.9952",
+        "macd_signal": "6.2536",
+        "macd_hist": "-0.147"
+      }
+    }
+  },
+  "other": [
+    {
+      "user": "breso123",
+      "datetime": "2023/10/02",
+      "ticker": "AAPL",
+      "valuation": "DCF",
+      "cagr": 0.025,
+      "tg": 0.01,
+      "wacc": 0.0745,
+      "diff": -0.445,
+      "dcfData": {
+        "cash": 34940000000,
+        "debt": 124719000000,
+        "fas": 155576000000,
+        "nci": null,
+        "shares": 16701272000,
+        "dcfSum": 1556208825188.3027,
+        "values": [
+          {
+            "period": 2022,
+            "value": 95276824999.99998,
+            "wacc": 0.0745,
+            "discounted": 88670846905.53745
+          },
+          {
+            "period": 2023,
+            "value": 97658745624.99997,
+            "wacc": 0.0745,
+            "discounted": 84585963776.80397
+          },
+          {
+            "period": 2024,
+            "value": 100100214265.62495,
+            "wacc": 0.0745,
+            "discounted": 80689262793.13547
+          },
+          {
+            "period": 2025,
+            "value": 102602719622.26556,
+            "wacc": 0.0745,
+            "discounted": 76972074791.03195
+          },
+          {
+            "period": 2026,
+            "value": 105167787612.82219,
+            "wacc": 0.0745,
+            "discounted": 73426129977.4851
+          },
+          {
+            "period": 2027,
+            "value": 107796982303.14273,
+            "wacc": 0.0745,
+            "discounted": 70043539531.8029
+          },
+          {
+            "period": 2028,
+            "value": 110491906860.72128,
+            "wacc": 0.0745,
+            "discounted": 66816778055.00043
+          },
+          {
+            "period": 2029,
+            "value": 113254204532.2393,
+            "wacc": 0.0745,
+            "discounted": 63738666827.710976
+          },
+          {
+            "period": 2030,
+            "value": 116085559645.54527,
+            "wacc": 0.0745,
+            "discounted": 60802357839.37063
+          },
+          {
+            "period": 2031,
+            "value": 1817773879720.9417,
+            "wacc": 0.0745,
+            "discounted": 886085562316.9146
+          }
+        ],
+        "title": "While Apple Inc. is at it's peak, it is very possible that future cash flows growth significantly slows down.",
+        "content": "As one of most profitable companies in the world came to it's peak, competitors such as Samsung, Google and Huawei are using even more aggresive strategy to place their products in the market. It can significantly slow down Apple's cash flows growth"
+      }
+    },
+    {
+      "user": "optionTrader22",
+      "datetime": "2023/10/12",
+      "ticker": "AAPL",
+      "valuation": "DCF",
+      "cagr": 0.052,
+      "tg": 0.01,
+      "wacc": 0.0775,
+      "diff": -0.368,
+      "dcfData": {
+        "cash": 34940000000,
+        "debt": 124719000000,
+        "fas": 155576000000,
+        "nci": null,
+        "shares": 16701272000,
+        "dcfSum": 1782112097691.2314
+      },
+      "values": [
+        {
+          "period": 2022,
+          "value": 97786556000,
+          "wacc": 0.0775,
+          "discounted": 90753184222.73782
+        },
+        {
+          "period": 2023,
+          "value": 102871456912,
+          "wacc": 0.0775,
+          "discounted": 88605429050.87721
+        },
+        {
+          "period": 2024,
+          "value": 108220772671.42401,
+          "wacc": 0.0775,
+          "discounted": 86508502423.6871
+        },
+        {
+          "period": 2025,
+          "value": 113848252850.33806,
+          "wacc": 0.0775,
+          "discounted": 84461201438.25415
+        },
+        {
+          "period": 2026,
+          "value": 119768361998.55565,
+          "wacc": 0.0775,
+          "discounted": 82462351659.43701
+        },
+        {
+          "period": 2027,
+          "value": 125996316822.48055,
+          "wacc": 0.0775,
+          "discounted": 80510806446.15103
+        },
+        {
+          "period": 2028,
+          "value": 132548125297.24954,
+          "wacc": 0.0775,
+          "discounted": 78605446293.59712
+        },
+        {
+          "period": 2029,
+          "value": 139440627812.7065,
+          "wacc": 0.0775,
+          "discounted": 76745178191.05725
+        },
+        {
+          "period": 2030,
+          "value": 146691540458.96725,
+          "wacc": 0.0775,
+          "discounted": 74928934994.88838
+        },
+        {
+          "period": 2031,
+          "value": 2194940086867.5098,
+          "wacc": 0.0775,
+          "discounted": 1040518681376.1246
+        }
+      ],
+      "title": "Apple continues to skyrocket in the upcoming years but price is still far above it's intrinsic value",
+      "content": "For the past five years Apple Inc. have shown incredible growth capabilities, mostly due to excellent performance in iPhone sales. In the next four years total sales will grow at least 10% annually, however working capital situation is getting worse and might just impact cash flow margins a little bit."
+    },
+    {
+      "user": "bloombergBusiness77",
+      "datetime": "2023/10/12",
+      "ticker": "AAPL",
+      "valuation": "P/S",
+      "cagr": 0.047,
+      "values": [
+        {
+          "period": 2018,
+          "value": 265595000000,
+          "shares": 19821508000,
+          "type": "act"
+        },
+        {
+          "period": 2019,
+          "value": 260174000000,
+          "shares": 18471336000,
+          "type": "act"
+        },
+        {
+          "period": 2020,
+          "value": 274515000000,
+          "shares": 17352119000,
+          "type": "act"
+        },
+        {
+          "period": 2021,
+          "value": 365817000000,
+          "shares": 16701272000,
+          "type": "act"
+        },
+        {
+          "period": 2022,
+          "value": 383010399000,
+          "type": "fcst"
+        },
+        {
+          "period": 2023,
+          "value": 401011887753,
+          "type": "fcst"
+        },
+        {
+          "period": 2024,
+          "value": 419859446477.391,
+          "type": "fcst"
+        },
+        {
+          "period": 2025,
+          "value": 439592840461.82837,
+          "type": "fcst"
+        }
+      ],
+      "title": "As Apple records all-time high price, estimates look even better",
+      "content": "With a peak of USD 175 per share and average P/S ratio of 7.5, Apple's revenue is estimated to grow even more in upcoming years, mostly due to iPhone and Mac sales"
+    }
+  ]
+}
