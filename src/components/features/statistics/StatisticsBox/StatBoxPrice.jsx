@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import Box from "../../../../ui/box/Box";
 import PriceOverlay from "../items/PriceOverlay";
 import PriceRange from "../items/PriceRange";
 import StatBoxHeader from "./StatBoxHeader";
@@ -6,12 +7,17 @@ import StatBoxHeader from "./StatBoxHeader";
 import StatBoxMain from "./StatBoxMain";
 
 function StatBoxPrice({ pv }) {
+  const legendData = [
+    { item: "50 MA", color: "bg-blue-950" },
+    { item: "200 MA", color: "bg-indigo-700" },
+  ];
+
   return (
-    <div className="flex flex-col items-center justify-center h-72 w-[95%] mb-2 mt-1 p-2 bg-orange-100/25 relative shadow-statPrice">
+    <Box type="classic">
       <StatBoxHeader
         subtitle="52 Week Change (%)"
         title="Price Range"
-        legend={["50 MA", "200 MA"]}
+        legend={legendData}
       />
       <StatBoxMain>
         <div>
@@ -19,7 +25,7 @@ function StatBoxPrice({ pv }) {
         </div>
         <PriceOverlay pv={pv} />
       </StatBoxMain>
-    </div>
+    </Box>
   );
 }
 

@@ -1,7 +1,11 @@
 /* eslint-disable react/prop-types */
 import { useDispatch, useSelector } from "react-redux";
 import Step2Input from "../../formItems/Step2Input";
-import { setErrors, typeContent, typeTitle } from "../../../../newIdeaSlice";
+import {
+  setErrorsInput,
+  typeContent,
+  typeTitle,
+} from "../../../../newIdeaSlice";
 
 function TitleContent() {
   const { title, content } = useSelector((state) => state.newIdea);
@@ -10,13 +14,13 @@ function TitleContent() {
   function handleChangeTitle(e) {
     e.preventDefault();
     dispatch(typeTitle(e.target.value));
-    dispatch(setErrors());
+    dispatch(setErrorsInput());
   }
 
   function handleChangeContent(e) {
     e.preventDefault();
     dispatch(typeContent(e.target.value));
-    dispatch(setErrors());
+    dispatch(setErrorsInput());
   }
 
   return (

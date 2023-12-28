@@ -1,8 +1,6 @@
 //import { useDispatch } from "react-redux";
 import HeaderFins from "./financialsItems/HeaderFins";
 import { Outlet } from "react-router-dom";
-//import { useEffect } from "react";
-//import { fetchStatements } from "./financialsSlice";
 
 function Financials() {
   return (

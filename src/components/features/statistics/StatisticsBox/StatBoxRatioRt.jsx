@@ -1,17 +1,19 @@
 /* eslint-disable react/prop-types */
-import ReusableSVG from "../../../reusableSVG/ReusableSVG";
+import Box from "../../../../ui/box/Box";
+import CircleReused from "../../../../ui/circle/CircleReused";
+
 import StatBoxHeader from "./StatBoxHeader";
 import StatBoxMain from "./StatBoxMain";
 
 function StatBoxRatioRt({ title, ratios }) {
   return (
-    <div className="flex flex-col items-center justify-center h-72 w-[95%] mb-2 mt-1 p-2 bg-orange-100/25 relative shadow-statPrice col-span-2">
+    <Box type="returns">
       <StatBoxHeader title={title} />
       <StatBoxMain>
         <div className="grid grid-cols-4 items-center mt-8 justify-items-center w-[90%] divide-x divide-blue-950/25 self-start">
           {ratios?.map((ratio, i) => {
-            const val = ratio.value;
-            const sdo = (1 - (val < 0 ? Math.abs(val) : val)) * 375;
+            const v = ratio.value;
+
             return (
               <div
                 key={i}
@@ -23,18 +25,13 @@ function StatBoxRatioRt({ title, ratios }) {
                 >
                   {ratio.item}
                 </p>
-                <ReusableSVG
-                  percent={val}
-                  strokeWidth={5}
-                  svgSize={175}
-                  strokeDashoffset={sdo}
-                />
+                <CircleReused num={v} svgSize={175} strokeWidth={5} sdo={375} />
               </div>
             );
           })}
         </div>
       </StatBoxMain>
-    </div>
+    </Box>
   );
 }
 

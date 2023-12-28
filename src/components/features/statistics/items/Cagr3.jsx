@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 
-import ReusableSVG from "../../../reusableSVG/ReusableSVG";
+import CircleReused from "../../../../ui/circle/CircleReused";
 
-function Cagr3({ sdo, cagr }) {
+function Cagr3({ cagr }) {
   const opacity = { opacity: cagr !== null ? "1" : "0.2" };
   return (
     <div className="w-full h-[10%] flex items-center justify-start ml-10 mt-2">
@@ -13,12 +13,7 @@ function Cagr3({ sdo, cagr }) {
         style={opacity}
         className="grow w-1/2 flex items-center justify-center translate-x-[-10%]"
       >
-        <ReusableSVG
-          percent={cagr}
-          strokeWidth={6}
-          svgSize={130}
-          strokeDashoffset={sdo}
-        />
+        <CircleReused num={cagr} svgSize={130} strokeWidth={6} sdo={275} />
       </div>
     </div>
   );

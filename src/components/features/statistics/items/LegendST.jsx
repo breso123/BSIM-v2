@@ -2,7 +2,7 @@
 
 function LegendST({ values = [], colors }) {
   return (
-    <div className="flex gap-4 p-0+4 rounded-lg shadow-hoverFins px-2 py-1">
+    <div className="flex gap-4 rounded-lg shadow-hoverFins px-2 py-1">
       {colors.map((col, i) => {
         return (
           <div key={i} className="flex items-center gap-1 text-xs">

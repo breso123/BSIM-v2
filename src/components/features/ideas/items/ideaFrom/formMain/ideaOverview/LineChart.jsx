@@ -1,23 +1,44 @@
 /* eslint-disable react/prop-types */
-import useTripleLine from "../../../../../../chartHooks/useTripleLine";
+import { useState } from "react";
 import ScenarioHeader from "../ScenarioHeader";
+import LineChartMain from "./ChartItems/LineChartMain";
+import {
+  getLegendLC,
+  getLegendStrLC,
+  getValsLC,
+} from "../../../../helpers/stringers";
+import Legend1 from "../../../../../../../ui/reusableLegend/Legend1";
 
-const mapToVals = (arr) => arr.map((ar) => ar.value);
-const mapToPers = (arr) => arr.map((ar) => ar.period);
+function LineChart({ values, idea, isConfirmed, translate = null }) {
+  const [item, setItem] = useState("value");
+  const { valuation } = idea;
+  const transform = { transform: `translate(${translate})` };
 
-function LineChart({ values, idea, isConfirmed }) {
-  const { optimistic, realistic, pessimistic } = idea;
-  const line = useTripleLine(
-    [...mapToVals(values), ...mapToVals(optimistic.values.slice(0, -1))],
-    [...mapToVals(values), ...mapToVals(realistic.values.slice(0, -1))],
-    [...mapToVals(values), ...mapToVals(pessimistic.values.slice(0, -1))],
-    [...mapToPers(values), ...mapToPers(realistic.values.slice(0, -1))]
-  );
+  function handleChange(e) {
+    e.preventDefault();
+    setItem(e.target.value);
+  }
+
+  const data = {
+    item,
+    onChange: handleChange,
+    vals: getValsLC(valuation),
+    names: getLegendLC(valuation),
+  };
 
   return (
-    <div className="h-full w-full flex items-center flex-col gap-6">
-      <ScenarioHeader desc="Future Cash Flows" isConfirmed={isConfirmed} />
-      <div ref={line}></div>
+    <div
+      style={transform}
+      className="h-full w-full flex flex-col gap-6 relative transition-all duration-300"
+    >
+      <ScenarioHeader
+        desc="Scenario Overview"
+        isConfirmed={isConfirmed}
+        data={data}
+      />
+      <Legend1 type="leg2" data={getLegendStrLC(item)} />
+
+      <LineChartMain item={item} values={values} idea={idea} />
     </div>
   );
 }

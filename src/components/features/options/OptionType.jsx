@@ -5,7 +5,8 @@ import {
   formatInterface2,
   formatPercentage,
 } from "../../../helpers/formatters";
-import ReusableSVG from "../../reusableSVG/ReusableSVG";
+import CircleReused from "../../../ui/circle/CircleReused";
+import Box from "../../../ui/box/Box";
 
 function OptionType() {
   const { optKey } = useParams();
@@ -16,22 +17,11 @@ function OptionType() {
       <HeaderStatistics />
       <div className="w-full max-h-[38rem] grid grid-cols-1 gap-y-4 justify-items-center overflow-scroll py-1">
         {options[optKey].map((opt, i) => {
-          const sdo =
-            (1 -
-              (opt.implied_volatility < 0
-                ? Math.abs(opt.implied_volatility)
-                : opt.implied_volatility)) *
-            190;
           const col = opt.in_the_money ? "text-blue-700" : "text-orange-700";
           const colCh = opt.change > 0 ? "text-blue-800" : "text-orange-900";
-          const bg = opt.in_the_money
-            ? "bg-indigo-200/25 hover:bg-indigo-200/50"
-            : "bg-orange-100/25 hover:bg-orange-100/50";
+
           return (
-            <div
-              className={`relative w-[90%] h-[7rem] px-4 py-2 shadow-statPrice flex items-center justify-between transition-all duration-200 ${bg}`}
-              key={i}
-            >
+            <Box type={opt.in_the_money ? "optionCall" : "optionPut"} key={i}>
               <div className="flex flex-col h-full items-start justify-between">
                 <p className="text-xs italic text-blue-950">
                   ID: {opt.option_id}
@@ -66,11 +56,11 @@ function OptionType() {
                 </p>
               </div>
               <div>
-                <ReusableSVG
-                  percent={opt.implied_volatility}
+                <CircleReused
+                  num={opt.implied_volatility}
                   svgSize={90}
                   strokeWidth={4}
-                  strokeDashoffset={sdo}
+                  sdo={190}
                 />
               </div>
               <div className="flex flex-col h-full items-end justify-between text-sm font-sans">
@@ -87,7 +77,7 @@ function OptionType() {
                   </span>
                 </p>
               </div>
-            </div>
+            </Box>
           );
         })}
       </div>

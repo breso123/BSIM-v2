@@ -1,3 +1,5 @@
+import Select1 from "../../../../../ui/selects/Select1";
+
 /* eslint-disable react/prop-types */
 function CagrHead({ onChange, cagr, cagrRev, title }) {
   return (
@@ -8,17 +10,13 @@ function CagrHead({ onChange, cagr, cagrRev, title }) {
       >
         {title}
       </p>
-      <select
-        onChange={onChange}
-        value={cagr}
-        className="bg-sky-100/0 text-md italic w-[50px] text-fuchsia-950"
-      >
+      <Select1 value={cagr} onChange={onChange} type="cagr">
         {Object.keys(cagrRev).map((_, i) => (
           <option className="text-sm" key={i} value={i + 1}>
             {i + 1}Y
           </option>
         ))}
-      </select>
+      </Select1>
     </div>
   );
 }

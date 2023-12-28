@@ -1,9 +1,14 @@
 import { useDispatch } from "react-redux";
 import {
   switchChart,
+  switchFcstDbtEb,
+  switchFcstEbmg,
+  switchFcstMulti,
+  switchFcstShares,
   switchIvpsDisplay,
   switchLcDisplay,
   switchSelectedIdea,
+  switchSensDisplay,
   switchView,
 } from "../../../newIdeaSlice";
 import { switchScenario } from "../../../ideasSlice";
@@ -28,6 +33,11 @@ function BtnDC({ dc, ivpsDisplay, i, type }) {
     sc: noRounds,
     view: noRounds,
     sc2: noRounds,
+    shares: rounds,
+    multi: rounds,
+    ebmg: rounds,
+    dbtEb: rounds,
+    sens: rounds,
   };
 
   function handleClick(e) {
@@ -39,6 +49,12 @@ function BtnDC({ dc, ivpsDisplay, i, type }) {
     type === "chart" && dispatch(switchChart(dc));
     type === "view" && dispatch(switchView(dc));
     type === "sc2" && dispatch(switchScenario(dc.toLowerCase()));
+    type === "shares" && dispatch(switchFcstShares(dc));
+    type === "multi" && dispatch(switchFcstMulti(dc));
+    type === "ebmg" && dispatch(switchFcstEbmg(dc));
+    type === "dbtEb" && dispatch(switchFcstDbtEb(dc));
+    type === "sens" && dispatch(switchSensDisplay(dc));
+    dc === "Setup" && dispatch(switchSelectedIdea("realistic"));
   }
 
   return (

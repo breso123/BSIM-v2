@@ -2,9 +2,8 @@
 
 import { Form, redirect, useActionData } from "react-router-dom";
 import PageNav from "../components/PageNav";
-import ButtonMain from "../components/reusableButtons/ButtonMain";
-
 import { getUsers, updateUser } from "./services/apiLobby";
+import Button1 from "../ui/buttons/Button1";
 
 function Login() {
   const formErrors = useActionData();
@@ -42,14 +41,9 @@ function Login() {
             name="password"
             required
           />
-          <ButtonMain
-            btType="classic"
-            additionalClass=" mt-7 h-12 w-36 hover:scale-125"
-            type="submit"
-            to={`${formErrors === null ? "/" : ""}`}
-          >
+          <Button1 type="login2" to={`${formErrors === null ? "/" : ""}`}>
             Log In
-          </ButtonMain>
+          </Button1>
         </Form>
       </div>
     </div>

@@ -9,7 +9,11 @@ function AppNavBtn({ ft, onClick, isSelected }) {
           : ""
       }`}
     >
-      {ft === "general" ? "Stock" : ft[0].toUpperCase() + ft.slice(1)}
+      {ft === "general"
+        ? "Stock"
+        : `${
+            ft === "scorebi" ? "BI-score" : ft[0].toUpperCase() + ft.slice(1)
+          }`}
     </button>
   );
 }

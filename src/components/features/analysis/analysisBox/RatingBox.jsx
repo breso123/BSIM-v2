@@ -1,4 +1,5 @@
 import { formatPercentage } from "../../../../helpers/formatters";
+import Box from "../../../../ui/box/Box";
 import StatBoxMain from "../../statistics/StatisticsBox/StatBoxMain";
 
 /* eslint-disable react/prop-types */
@@ -10,7 +11,7 @@ function RatingBox({ r }) {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-36 w-[90%] mb-2 mt-1 p-2 relative bg-orange-100/25 shadow-statPrice">
+    <Box type="rating">
       <StatBoxMain>
         <div className="w-full h-full flex items-center justify-between px-8">
           <div className="flex flex-col items-start justify-between h-full w-1/3">
@@ -53,7 +54,7 @@ function RatingBox({ r }) {
           </div>
         </div>
       </StatBoxMain>
-    </div>
+    </Box>
   );
 }
 

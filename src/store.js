@@ -7,6 +7,7 @@ import insidersReducer from "./components/features/insiders/insidersSlice";
 import technicalsReducer from "./components/features/technicals/technicalsSlice";
 import ideasReducer from "./components/features/ideas/ideasSlice";
 import newIdeaReducer from "./components/features/ideas/newIdeaSlice";
+import scorebiReducer from "./components/features/BI-score/scoreSlice";
 import appReducer from "./components/appSlice";
 
 const store = configureStore({
@@ -19,6 +20,7 @@ const store = configureStore({
     technicals: technicalsReducer,
     ideas: ideasReducer,
     newIdea: newIdeaReducer,
+    scorebi: scorebiReducer,
     app: appReducer,
   },
 });

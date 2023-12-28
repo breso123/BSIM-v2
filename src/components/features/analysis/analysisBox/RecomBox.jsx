@@ -6,6 +6,7 @@ import RecomChart from "../items/RecomChart";
 import RecomLegend from "./RecomLegend";
 import Rating from "../items/Rating";
 import { useSelector } from "react-redux";
+import Box from "../../../../ui/box/Box";
 
 function RecomBox() {
   const { trends, rating } = useSelector((state) => state.analysis.recoms);
@@ -19,7 +20,7 @@ function RecomBox() {
   const weights = values?.map((el) => el / numAnly);
 
   return (
-    <div className="flex flex-col items-center justify-center h-[95%] w-full mb-2 mt-1 p-2 relative bg-orange-100/25 shadow-statPrice col-span-2">
+    <Box type="recom">
       <StatBoxHeader
         title="Analyst Recommendations"
         inputEl={inputEl}
@@ -51,7 +52,7 @@ function RecomBox() {
           <RecomChart data={weights} cols={cols} />
         </div>
       </StatBoxMain>
-    </div>
+    </Box>
   );
 }
 

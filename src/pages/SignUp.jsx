@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
 import { Form, redirect, useActionData } from "react-router-dom";
 import PageNav from "../components/PageNav";
-import ButtonMain from "../components/reusableButtons/ButtonMain";
 
 import { getUsers, registerNewUser } from "./services/apiLobby";
+import Button1 from "../ui/buttons/Button1";
 
 function SignUp() {
   const formErrors = useActionData();
@@ -75,15 +75,9 @@ function SignUp() {
             name="confirmpassword"
             required
           />
-
-          <ButtonMain
-            btType="classic"
-            additionalClass=" mt-7 h-12 w-36 hover:scale-125"
-            type="submit"
-            to={`${formErrors === null ? "/login" : ""}`}
-          >
+          <Button1 type="signUp2" to={`${formErrors === null ? "/login" : ""}`}>
             Sign Up
-          </ButtonMain>
+          </Button1>
         </Form>
       </div>
     </div>

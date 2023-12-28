@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import PageNav from "../components/PageNav";
-import ButtonMain from "../components/reusableButtons/ButtonMain";
 import { useNavigate } from "react-router-dom";
+import Button1 from "../ui/buttons/Button1";
 
 function Homepage() {
   const navigate = useNavigate();
@@ -25,13 +25,9 @@ function Homepage() {
           reprehenderit voluptate magni amet quis rerum quam ipsa laudantium
           unde corrupti quasi? Numquam, porro.
         </p>
-        <ButtonMain
-          onClick={(e) => enterTheApp(e)}
-          btType="classic"
-          additionalClass="h-16 w-48 text-xl hover:text-indigo-300 hover:scale-105 hover:shadow-hoverBtns"
-        >
+        <Button1 type="getStarted" onClick={(e) => enterTheApp(e)}>
           Get Started
-        </ButtonMain>
+        </Button1>
       </div>
     </div>
   );

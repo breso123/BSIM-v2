@@ -6,6 +6,7 @@ import StatBoxMain from "../../statistics/StatisticsBox/StatBoxMain";
 import ChartFCST from "../items/ChartFCST";
 import { itemStringed } from "../../../../helpers/formatters";
 import { useSelector } from "react-redux";
+import Box from "../../../../ui/box/Box";
 
 function ForecastBox({ max }) {
   const [inputEl, setInputEl] = useState("Current Quarter");
@@ -14,6 +15,12 @@ function ForecastBox({ max }) {
   const dataEps = epsEst?.find((el) => el.period === inputVal);
   const dataRev = revEst?.find((el) => el.period === inputVal);
   const cols = ["#172554", "#0c4a6e", "#042f2e", "#581c87"];
+  const legendData = [
+    { item: "Average", color: "bg-blue-900" },
+    { item: "Low Estimate", color: "bg-sky-800" },
+    { item: "High Estimate", color: "bg-emerald-950" },
+    { item: "Year Ago", color: "bg-purple-700" },
+  ];
 
   function findValues(arr) {
     return [
@@ -25,13 +32,13 @@ function ForecastBox({ max }) {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center h-96 w-full mb-2 mt-1 p-2  relative col-span-2 bg-orange-100/25 shadow-statPrice">
+    <Box type="fcst">
       <StatBoxHeader
         title="Earnings/Revenue"
         inputEl={inputEl}
         input={["Current Quarter", "Next Quarter", "Current Year", "Next Year"]}
         onSetInputEl={setInputEl}
-        legend={["Average", "Low Estimate", "High Estimate", "Year Ago"]}
+        legend={legendData}
         colors={cols}
       />
       <StatBoxMain>
@@ -57,7 +64,7 @@ function ForecastBox({ max }) {
           Period: {dataEps?.date.replaceAll("-", "/")}
         </p>
       </StatBoxMain>
-    </div>
+    </Box>
   );
 }
 

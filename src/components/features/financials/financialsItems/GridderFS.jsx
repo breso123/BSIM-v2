@@ -9,6 +9,10 @@ import * as kw from "../../../../keywords/kwsFINS";
 import { fkStringed } from "../../../../helpers/formatters";
 import { useSelector } from "react-redux";
 import HeaderStatistics from "../../statistics/HeaderStatistics";
+import GridderPeriod from "../../../../ui/gridders/GridderPeriod";
+import GridderVals from "../../../../ui/gridders/GridderVals";
+import GridderLeft from "../../../../ui/gridders/GridderLeft";
+import GridderRight from "../../../../ui/gridders/GridderRight";
 
 /* eslint-disable react/prop-types */
 function GridderFS() {
@@ -40,47 +44,30 @@ function GridderFS() {
     <div className="w-full border-t-2 border-l-2 border-solid border-blue-950 px-4 relative">
       <HeaderStatistics />
       <div className="h-[39rem] flex flex-col items-center justify-center w-full">
-        <div
-          style={{ gridTemplateColumns: "1fr 2fr" }}
-          className="h-[3rem] px-3 grid grid-cols-2 w-[99%] bg-indigo-900 items-center rounded-2xl text-sky-200/75 font-semibold mb-4 shadow-hoverFins2 font-mono"
-        >
-          <p className="pl-6">USD in millions</p>
-          <div className="grid grid-cols-9">
-            {periods.map((p, i) => (
-              <p className="text-center text-sm" key={i}>
-                {p}
-              </p>
-            ))}
-          </div>
-        </div>
+        <GridderPeriod periods={periods} type="fins" />
         <div className="h-[36rem] overflow-scroll w-full">
-          {keywords.map((kw, i) => {
-            return (
-              <div
-                style={{ gridTemplateColumns: "1fr 2fr" }}
-                className={`text-[13.5px] px-1 rounded-2xl grid grid-cols-2 w-[99%] h-7 items-center hover:shadow-hoverFins hover:font-bold hover:italic ${setClassList(
-                  kw
-                )}`}
-                key={i}
+          {keywords.map((kw, i) => (
+            <GridderVals
+              key={i}
+              additional={setClassList(kw)}
+              type="fins"
+              gtc="1fr 2fr"
+            >
+              <GridderLeft type="fins">
+                <span>{kw[0]}</span>
+                {kwsWithChart.some((k) => k === kw[1]) && (
+                  <FinChart keyword={kw[1]} />
+                )}
+              </GridderLeft>
+              <GridderRight
+                cols="9"
+                type="fins"
+                additional={!kw || kw[1] === "title" ? "opacity-0" : ""}
               >
-                <div className="px-3">
-                  <p className="text-md tracking-wide flex items-center justify-between gap-3 relative">
-                    <span>{kw[0]}</span>
-                    {kwsWithChart.some((k) => k === kw[1]) && (
-                      <FinChart keyword={kw[1]} />
-                    )}
-                  </p>
-                </div>
-                <div
-                  className={`grid grid-cols-9 text-center ${
-                    !kw || kw[1] === "title" ? "opacity-0" : ""
-                  }`}
-                >
-                  {<GridderContent statements={statements} keyword={kw} />}
-                </div>
-              </div>
-            );
-          })}
+                <GridderContent statements={statements} keyword={kw} />
+              </GridderRight>
+            </GridderVals>
+          ))}
         </div>
       </div>
       <ChartFS statements={statements} keywords={keywords} />

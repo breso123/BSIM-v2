@@ -1,17 +1,11 @@
 import { formatNumOfShares } from "../../../../helpers/formatters";
-import ReusableSVG from "../../../reusableSVG/ReusableSVG";
+import CircleReused from "../../../../ui/circle/CircleReused";
 
 /* eslint-disable react/prop-types */
 function ReusableCirc({ val, sdoVal, inputEl }) {
-  const strokeDashoffset = (1 - (sdoVal < 0 ? Math.abs(sdoVal) : sdoVal)) * 577;
   return (
     <>
-      <ReusableSVG
-        svgSize={275}
-        percent={sdoVal}
-        strokeDashoffset={strokeDashoffset}
-        strokeWidth={6}
-      />
+      <CircleReused num={sdoVal} svgSize={275} strokeWidth={6} sdo={577} />
       <div className="absolute flex flex-col items-center bottom-[5%] left-[5%]">
         <p className="text-3xl text-blue-900/75 font-semibold">
           {inputEl === "short_ratio" ? "-" : formatNumOfShares(val)}

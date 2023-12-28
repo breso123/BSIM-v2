@@ -1,13 +1,13 @@
 /* eslint-disable react/prop-types */
-import LegendST from "../items/LegendST";
+import Legend1 from "../../../../ui/reusableLegend/Legend1";
+import Select1 from "../../../../ui/selects/Select1";
 
 function StatBoxHeader({
   title,
   inputEl,
   legend = null,
-  input = null,
+  input = false,
   subtitle = null,
-  colors = ["midnightblue", "#4338ca"],
   onSetInputEl,
 }) {
   function handleChange(e) {
@@ -20,12 +20,13 @@ function StatBoxHeader({
       <p className="text-xl font-semibold italic font-sans tracking-wide text-blue-800 drop-shadow-gridderInd">
         {title}
       </p>
-      {legend && <LegendST values={legend} colors={colors} />}
+
+      {legend && <Legend1 type="leg3" data={legend} />}
       {input && (
-        <select
-          className="w-[12rem] h-[1.5rem] bg-white/10 text-sm border-solid border border-blue-950 text-blue-950 rounded-lg "
-          onChange={(e) => handleChange(e)}
+        <Select1
           value={inputEl}
+          onChange={(e) => handleChange(e)}
+          type="statBox"
         >
           {input.map((inp, i) => {
             return (
@@ -37,7 +38,7 @@ function StatBoxHeader({
               </option>
             );
           })}
-        </select>
+        </Select1>
       )}
       {subtitle && (
         <p className="absolute top-[13rem] text-xs italic text-purple-900 tracking-wider">

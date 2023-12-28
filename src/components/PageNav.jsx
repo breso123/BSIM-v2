@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { NavLink, useNavigate } from "react-router-dom";
-import ButtonMain from "./reusableButtons/ButtonMain";
 import User from "./User";
+import Button1 from "../ui/buttons/Button1";
 
 function PageNav() {
   const lobbyArr = ["home", "about", "news", "pricing", "contact"];
@@ -31,21 +31,12 @@ function PageNav() {
           <User user={user} />
         ) : (
           <>
-            <ButtonMain
-              btType="classic"
-              to="/login"
-              additionalClass="h-10 w-20 hover:font-semibold text-sm"
-              onClick={() => navigate("/login")}
-            >
+            <Button1 type="login" onClick={() => navigate("/login")}>
               Log In
-            </ButtonMain>
-            <ButtonMain
-              to="/signup"
-              btType="noBorder"
-              additionalClass="text-blue-300"
-            >
+            </Button1>
+            <Button1 type="signUp" to="/signup">
               Sign Up
-            </ButtonMain>
+            </Button1>
           </>
         )}
       </div>

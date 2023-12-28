@@ -1,7 +1,6 @@
 //import ReusableSVG from "../../../reusableSVG/ReusableSVG";
-
 import { useParams } from "react-router-dom";
-import ReusableSVG from "../../../reusableSVG/ReusableSVG";
+import CircleReused from "../../../../ui/circle/CircleReused";
 
 /* eslint-disable react/prop-types */
 function ChartUpper({ statements, item, supportItem }) {
@@ -14,16 +13,10 @@ function ChartUpper({ statements, item, supportItem }) {
           : p[supportItem];
 
         const checkItem100 = percItem >= 1 || percItem <= -1;
-        const strokeDashoffset =
-          (1 - (percItem < 0 ? Math.abs(percItem) : percItem)) * 210;
+        const sdo = checkItem100 ? 0 : 210;
 
         return (
-          <ReusableSVG
-            percent={percItem}
-            key={i}
-            strokeDashoffset={checkItem100 ? 0 : strokeDashoffset}
-            strokeWidth={6}
-          />
+          <CircleReused key={i} sdo={sdo} num={percItem} strokeWidth={5} />
         );
       })}
     </div>

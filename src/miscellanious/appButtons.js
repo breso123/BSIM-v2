@@ -102,3 +102,16 @@ export const ideas = [
   ["Exit Multiple", "https://static.thenounproject.com/png/4488759-200.png"],
   ["Technicals", "https://static.thenounproject.com/png/1454301-200.png"],
 ];
+
+export const scorebi = [
+  ["Total", "https://cdn-icons-png.flaticon.com/512/4578/4578179.png"],
+  [
+    "Revenue And Profit",
+    "https://cdn-icons-png.flaticon.com/512/2654/2654601.png",
+  ],
+  [
+    "Liquidity And Cf",
+    "https://cdn-icons-png.flaticon.com/512/4896/4896233.png",
+  ],
+  ["Indebtness", "https://cdn-icons-png.flaticon.com/512/6536/6536379.png"],
+];

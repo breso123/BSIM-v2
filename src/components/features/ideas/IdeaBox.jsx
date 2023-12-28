@@ -1,64 +1,45 @@
 /* eslint-disable react/prop-types */
-//import IdeaChart from "./items/IdeaChart";
-
 import { useDispatch } from "react-redux";
-import IdeaChart from "./items/IdeaChart";
-import IdeaDcfChart from "./items/IdeaDcfChart";
+import IdeaChart from "./items/ideaBox/IdeaChart";
+import IdeaDcfChart from "./items/ideaBox/IdeaDcfChart";
 import { setClickedIdea } from "./ideasSlice";
 import { useNavigate } from "react-router-dom";
+import IdeaBoxHeader from "./items/ideaBox/IdeaBoxHeader";
+import IdeaBoxFooter from "./items/ideaBox/IdeaBoxFooter";
+import IdeaBoxTC from "./items/ideaBox/IdeaBoxTC";
+import IdeaBoxTV from "./items/ideaBox/IdeaBoxTV";
+import Box from "../../../ui/box/Box";
 
 function IdeaBox({ idea }) {
-  const { user, datetime, ticker, valuation, title, content } = idea;
-  const ideaDate = new Date(datetime);
-  const { cagr, values } = idea.realistic;
-
+  const {
+    user,
+    datetime,
+    ticker,
+    valuation,
+    title,
+    content,
+    id,
+    likes,
+    comments,
+  } = idea;
   const dispatch = useDispatch();
   const navigate = useNavigate();
-
-  function setTextLength(text, maxLength) {
-    return text
-      .split(" ")
-      .map((t, i, arr) => {
-        if (arr.length >= maxLength)
-          return i <= maxLength ? t + (i === maxLength ? "..." : "") : "";
-        else return t;
-      })
-      .join(" ");
-  }
 
   function handleClick(e) {
     e.preventDefault();
     dispatch(setClickedIdea(idea));
-    navigate("article");
+    navigate(`article/${id}`);
   }
 
   return (
-    <div
-      onClick={(e) => handleClick(e)}
-      className="h-[30rem] shadow-statPrice bg-orange-100/10 flex flex-col px-4 hover:cursor-pointer"
-    >
-      <div className="w-full h-[10%] flex items-center justify-between text-sm font-semibold">
-        <p>{user}</p>
-        <p>
-          {ideaDate.getFullYear()}/{ideaDate.getMonth() + 1}/
-          {ideaDate.getDate()}
-        </p>
-      </div>
+    <Box type="idea" onClick={(e) => handleClick(e)}>
+      <IdeaBoxHeader user={user} datetime={datetime} />
       {valuation === "DCF" && <IdeaDcfChart idea={idea} />}
-      {valuation !== "DCF" && (
-        <IdeaChart values={values} cagr={cagr} str={idea.fcstString} />
-      )}
-      <div className="w-full h-[10%] mb-5 italic flex items-center justify-between text-sm px-3">
-        <p>Symbol: {ticker}</p>
-        <p>Valuation: {valuation}</p>
-      </div>
-      <div className="w-full h-[10%] font-semibold font-sans">
-        <p>{setTextLength(title, 8)}</p>
-      </div>
-      <div className="w-full h-[20%] text-sm">
-        <p className="text-justify">{setTextLength(content, 25)}</p>
-      </div>
-    </div>
+      {valuation !== "DCF" && <IdeaChart idea={idea} />}
+      <IdeaBoxTV ticker={ticker} valuation={valuation} />
+      <IdeaBoxTC title={title} content={content} />
+      <IdeaBoxFooter likes={likes} comments={comments} />
+    </Box>
   );
 }
 

@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
+import Button1 from "../ui/buttons/Button1";
 import PricingIcon from "./icons/PricingIcon";
-import ButtonMain from "./reusableButtons/ButtonMain";
 
 function PricingBox({ name, price, allFeatures, included }) {
   return (
@@ -28,13 +28,7 @@ function PricingBox({ name, price, allFeatures, included }) {
           );
         })}
       </ul>
-      <ButtonMain
-        btType="classic"
-        additionalClass="my-4 h-8 w-28 hover:scale-105"
-        to=""
-      >
-        Add To Cart
-      </ButtonMain>
+      <Button1 type="addToCart">Add To Cart</Button1>
     </div>
   );
 }

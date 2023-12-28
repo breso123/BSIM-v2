@@ -1,16 +1,17 @@
 /* eslint-disable no-undef */
 import { useEffect, useRef } from "react";
 import { formatInterface2 } from "../../helpers/formatters";
+import { useSelector } from "react-redux";
 
-const useTripleLine = (data1, data2, data3, periods) => {
+const useTripleLine = (data1, data2, data3, periods, item, boxed = false) => {
+  const { price: pr } = useSelector((state) => state.app);
   const chartRef = useRef();
 
   useEffect(() => {
-    const width = 750;
-    const height = 250;
+    const width = boxed ? 420 : 730;
+    const height = boxed ? 220 : 250;
     const margin = { top: 20, right: 30, bottom: 30, left: 60 };
-
-    // Sample data arrays
+    const price = Array.from({ length: boxed ? 9 : 8 }, () => pr);
 
     while (chartRef.current.firstChild)
       chartRef.current.removeChild(chartRef.current.firstChild);
@@ -29,8 +30,8 @@ const useTripleLine = (data1, data2, data3, periods) => {
     const yScale = d3
       .scaleLinear()
       .domain([
-        d3.min([...data1, ...data2, ...data3]),
-        d3.max([...data1, ...data2, ...data3]),
+        d3.min([...data1, ...data2, ...data3, ...price]),
+        d3.max([...data1, ...data2, ...data3, ...price]),
       ])
       .nice()
       .range([height - margin.bottom, margin.top]);
@@ -65,6 +66,15 @@ const useTripleLine = (data1, data2, data3, periods) => {
       .attr("stroke-width", 3)
       .attr("d", lineGenerator);
 
+    if (item === "fairVal")
+      svg
+        .append("path")
+        .datum(price)
+        .attr("fill", "none")
+        .attr("stroke", "#15803d")
+        .attr("stroke-width", 2)
+        .attr("d", lineGenerator);
+
     // Create x-axis
     const xAxis = d3
       .axisBottom(xScale)
@@ -84,7 +94,9 @@ const useTripleLine = (data1, data2, data3, periods) => {
     const yAxis = d3
       .axisLeft(yScale)
       .tickSize(6)
-      .tickFormat((d) => formatInterface2(d, true));
+      .tickFormat((d) =>
+        item === "price" || item === "fairVal" ? d : formatInterface2(d, true)
+      );
 
     const yAxisGroup = svg
       .append("g")
@@ -93,7 +105,7 @@ const useTripleLine = (data1, data2, data3, periods) => {
 
     yAxisGroup.select("path").style("opacity", "0.4");
     yAxisGroup.selectAll("line").style("opacity", "0.4");
-  }, [data1, data2, data3, periods]);
+  }, [data1, data2, data3, periods, item, boxed, pr]);
 
   return chartRef;
 };

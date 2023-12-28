@@ -17,7 +17,7 @@ function GridderContent({ keyword, statements }) {
   return (
     <>
       {statements?.[financialsKey]?.map((fs, i) => (
-        <div className="{styles.gridderValueContainer}" key={i}>
+        <div key={i}>
           {financialsKey === "piotroski_score" ? (
             <p>{formatPi(fs[keyword[1]])}</p>
           ) : (

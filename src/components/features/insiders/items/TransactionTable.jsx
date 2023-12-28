@@ -1,6 +1,8 @@
 import { useDispatch, useSelector } from "react-redux";
 import { switchPeriodRangeTable } from "../insidersSlice";
 import TableItem from "./ItemsTF/TableItem";
+import Select1 from "../../../../ui/selects/Select1";
+import { periodFilter } from "./ItemsTF/OptionsIT";
 
 function TransactionTable() {
   const dispatch = useDispatch();
@@ -25,18 +27,20 @@ function TransactionTable() {
         <TableItem header="Bought" type="Buy" col="text-blue-700" />
         <TableItem header="Sold" type="Sale" col="text-orange-700" />
       </div>
-      <select
-        onChange={(e) => handleChange(e)}
-        className="absolute top-[-35px] bg-white/5 left-1/2 translate-x-[-50%] border border-blue-950 text-blue-950 font-sans rounded-xl px-1 italic"
+      <Select1
         value={executiveSummation}
+        type="transactFiltSum"
+        onChange={(e) => handleChange(e)}
       >
-        <option value="all">All</option>
-        <option value="last-30-days">Last 30 Days</option>
-        <option value="last-3-months">Last 3 Months</option>
-        <option value="last-6-months">Last 6 Months</option>
-        <option value="last-12-months">Last 12 Months</option>
-        <option value="last-2-years">Last 2 Years</option>
-      </select>
+        {["all", ...periodFilter].map((p, i) => (
+          <option key={i} value={p}>
+            {p
+              .split("-")
+              .map((p) => p[0].toUpperCase() + p.slice(1))
+              .join(" ")}
+          </option>
+        ))}
+      </Select1>
     </div>
   );
 }

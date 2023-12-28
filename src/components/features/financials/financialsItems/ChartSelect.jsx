@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useDispatch } from "react-redux";
 import { switchSupportItem } from "../financialsSlice.js";
+import Select1 from "../../../../ui/selects/Select1.jsx";
 
 function ChartSelect({ item, financialsKey, supportItem }) {
   const dispatch = useDispatch();
@@ -19,10 +20,10 @@ function ChartSelect({ item, financialsKey, supportItem }) {
   }
 
   return (
-    <select
-      onChange={(e) => itemManagement(e)}
-      className="w-48 h-[2rem] text-sm text-blue-900 bg-sky-100/25 border-2 border-solid border-blue-950 rounded-lg pl-1 font-semibold font-serif absolute top-2/4 left-2/4 translate-y-[-50%] translate-x-[-50%]"
+    <Select1
       value={supportItem}
+      onChange={(e) => itemManagement(e)}
+      type="finItemType"
     >
       <option value="G">% Growth</option>
       <option value="M">% of {marginKW()}</option>
@@ -32,7 +33,7 @@ function ChartSelect({ item, financialsKey, supportItem }) {
       {item === "cptT" && <option value="rotce">% ROTCE</option>}
       {item === "tngB" && <option value="rota">% ROTA</option>}
       {item === "ocfl" && <option value="ocflMg">% of Revenue</option>}
-    </select>
+    </Select1>
   );
 }
 

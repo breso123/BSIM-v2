@@ -1,8 +1,9 @@
 import { useState } from "react";
-import ReusableSVG from "../../../reusableSVG/ReusableSVG";
 import StatBoxHeader from "../../statistics/StatisticsBox/StatBoxHeader";
 import StatBoxMain from "../../statistics/StatisticsBox/StatBoxMain";
 import { itemStringed } from "../../../../helpers/formatters";
+import CircleReused from "../../../../ui/circle/CircleReused";
+import Box from "../../../../ui/box/Box";
 
 function GrowthBox() {
   const [inputEl, setInputEl] = useState("Current Quarter");
@@ -10,9 +11,8 @@ function GrowthBox() {
   const inputVal = itemStringed(inputEl);
   const value = growth[inputVal];
 
-  const sdo = (1 - (value < 0 ? Math.abs(value) : value)) * 577;
   return (
-    <div className="flex flex-col items-center justify-center h-72 w-[95%] mb-2 mt-1 p-2 relative bg-orange-100/25 shadow-statPrice">
+    <Box type="classic">
       <StatBoxHeader
         title="Growth Estimate"
         input={[
@@ -26,14 +26,9 @@ function GrowthBox() {
         onSetInputEl={setInputEl}
       />
       <StatBoxMain>
-        <ReusableSVG
-          percent={value}
-          svgSize={275}
-          strokeWidth={6}
-          strokeDashoffset={sdo}
-        />
+        <CircleReused num={value} svgSize={275} strokeWidth={6} sdo={577} />
       </StatBoxMain>
-    </div>
+    </Box>
   );
 }
 

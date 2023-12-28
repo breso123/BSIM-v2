@@ -7,6 +7,7 @@ import {
   setMultipleRating,
   setValuationTick,
 } from "../../../../helpers/miscFuncs";
+import Box from "../../../../ui/box/Box";
 
 const inputPairs = [
   ["Trailing P/E", "trailing_pe", [10, 20, 30, 40, 50, 60]],
@@ -19,7 +20,6 @@ const inputPairs = [
 
 function StatBoxMulti({ val }) {
   const [inputEl, setInputEl] = useState("Trailing P/E");
-  //const { valuation: val } = JSON.parse(localStorage.getItem("statistics"));
   const multiplePos = inputPairs.find((p) => p[0] === inputEl)[1];
   const multipleOpts = inputPairs.find((p) => p[0] === inputEl)[2];
   const multiple = val?.[multiplePos];
@@ -27,7 +27,7 @@ function StatBoxMulti({ val }) {
   const rating = setMultipleRating(multiple, multipleOpts);
 
   return (
-    <div className="flex flex-col items-center justify-center h-72 w-[95%] mb-2 mt-1 p-2 bg-indigo-200/25 relative shadow-statPrice">
+    <Box type="classic">
       <StatBoxHeader
         onSetInputEl={setInputEl}
         inputEl={inputEl}
@@ -55,7 +55,7 @@ function StatBoxMulti({ val }) {
           </p>
         </div>
       </StatBoxMain>
-    </div>
+    </Box>
   );
 }
 

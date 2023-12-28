@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import Box from "../../../../ui/box/Box";
 import StatBarChart from "../items/StatBarChart";
 import StatBoxHeader from "./StatBoxHeader";
 import StatBoxMain from "./StatBoxMain";
@@ -6,17 +7,18 @@ import StatBoxMain from "./StatBoxMain";
 function StatBoxMV({ val }) {
   const data = [val?.market_capitalization, val?.enterprise_value];
   const max = Math.max(...data);
+  const legendData = [
+    { item: "Mkt. Capitalization", color: "bg-blue-800" },
+    { item: "Enterprise Value", color: "bg-indigo-950" },
+  ];
 
   return (
-    <div className="flex flex-col items-center justify-center h-72 w-[95%] mb-2 mt-1 p-2 bg-orange-100/25 relative shadow-statPrice">
-      <StatBoxHeader
-        title="Market Value"
-        legend={["Mkt. Capitalization", "Enterprise Value"]}
-      />
+    <Box type="classic">
+      <StatBoxHeader title="Market Value" legend={legendData} />
       <StatBoxMain>
         <StatBarChart data={data} max={max} />
       </StatBoxMain>
-    </div>
+    </Box>
   );
 }
 

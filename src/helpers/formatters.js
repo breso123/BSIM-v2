@@ -85,13 +85,32 @@ export const formatPi = function (p) {
   }
 };
 
-export const formatDate = function (num) {
-  const day = String(new Date(num).getDay()).padStart(2, 0);
-  const month = String(new Date(num).getMonth()).padStart(2, 0);
-  const year = String(new Date(num).getFullYear()).padStart(2, 0);
+export function formatDate(isoString) {
+  const currentDate = new Date();
+  const inputDate = new Date(isoString);
 
-  return `${day}/${month}/${year}`;
-};
+  const timeDifference = currentDate - inputDate;
+  const seconds = Math.floor(timeDifference / 1000);
+  const minutes = Math.floor(seconds / 60);
+  const hours = Math.floor(minutes / 60);
+  const days = Math.floor(hours / 24);
+
+  if (days <= 0) {
+    if (hours < 1) {
+      return `${minutes}min`;
+    } else if (hours < 24) {
+      return `${hours}h`;
+    }
+  } else if (days <= 7) {
+    return `${days}d`;
+  } else {
+    const year = inputDate.getFullYear();
+    const month = inputDate.getMonth() + 1; // Months are zero-indexed
+    const date = inputDate.getDate();
+
+    return `${year}/${month}/${date}`;
+  }
+}
 
 export const itemStringed = (string) =>
   string

@@ -1,49 +1,51 @@
 /* eslint-disable react/prop-types */
 import { useDispatch, useSelector } from "react-redux";
-import { setErrors, switchForecastBy } from "../../../newIdeaSlice";
-import CtrlBtns from "../formItems/CtrlBtns";
+import DescriptionSH from "./scenarioHeaderItems/DescriptionSH";
+import CtrlSH from "./scenarioHeaderItems/CtrlSH";
+import Select1 from "../../../../../../ui/selects/Select1";
+import { setErrorsInput, switchForecastBy } from "../../../newIdeaSlice";
 
-function ScenarioHeader({ desc, isConfirmed }) {
-  const { scenario } = useSelector((state) => state.ideas);
-  const { forecastBy, isSubmitting, selectedIdea, ivpsDisplay } = useSelector(
-    (state) => state.newIdea
-  );
-
+function ScenarioHeader({ desc, isConfirmed, data = null }) {
+  const { isSubmitting, forecastBy } = useSelector((state) => state.newIdea);
   const dispatch = useDispatch();
-  const scenarios = ["Optimistic", "Realistic", "Pessimistic"];
-  const dispIV = ["Diff", "CAGR"];
-  const si = selectedIdea[0].toUpperCase() + selectedIdea.slice(1);
-  const si2 = scenario[0].toUpperCase() + scenario.slice(1);
 
-  function handleChange(e) {
+  function handleChangeCC(e) {
     e.preventDefault();
     dispatch(switchForecastBy(e.target.value));
-    dispatch(setErrors());
+    dispatch(setErrorsInput());
   }
 
   return (
-    <div className="w-full grid grid-cols-2 h-8 rounded-full border-b-2 border-blue-950 px-6">
-      <p className="font-sans text-blue-950/75 font-semibold">{desc}</p>
+    <div
+      className={`w-full grid grid-cols-2 h-10 rounded-full px-2 py-1 mb-4 ${
+        desc === "Scenario" ? "px-6" : "border-b border-blue-950"
+      } `}
+    >
+      <DescriptionSH desc={desc} />
       <div className="flex items-center justify-end">
         {!isSubmitting && !isConfirmed && (
-          <select
-            onChange={(e) => handleChange(e)}
+          <Select1
             value={forecastBy}
-            className="bg-white/10 border-x px-3 text-blue-950 italic border-blue-950 rounded-full"
+            onChange={(e) => handleChangeCC(e)}
+            type="ideaLineChart"
           >
             <option value="cagr">CAGR</option>
             <option value="custom">Custom</option>
-          </select>
+          </Select1>
         )}
-        {desc === "DCF Table" && (
-          <CtrlBtns
-            arr={scenarios}
-            item={!isConfirmed ? si : si2}
-            type={!isConfirmed ? "sc" : "sc2"}
-          />
-        )}
-        {desc === "Intrinsic Values per Share" && (
-          <CtrlBtns arr={dispIV} item={ivpsDisplay} type="ivps" />
+        <CtrlSH desc={desc} isConfirmed={isConfirmed} />
+        {data && desc === "Scenario Overview" && (
+          <Select1
+            onChange={(e) => data.onChange(e)}
+            value={data.item}
+            type="ideaLineChart"
+          >
+            {data.vals.map((d, i) => (
+              <option key={i} value={d}>
+                {data.names[i]}
+              </option>
+            ))}
+          </Select1>
         )}
       </div>
     </div>

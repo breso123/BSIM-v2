@@ -1,76 +1,71 @@
 import { createSlice } from "@reduxjs/toolkit";
+import {
+  customInputs,
+  shares,
+  multiples,
+  ebmg,
+  dbtEb,
+} from "./newIdeaInputVals";
+import {
+  getErrorCOE,
+  getErrorDbtEb,
+  getErrorEbmg,
+  getErrorMulti,
+  getErrorTG,
+  getErrorWACC,
+  getInputError,
+  getSharesError,
+} from "./helpers/errorHandlers";
 
 const initialState = {
-  optimistic_0: "",
-  optimistic_1: "",
-  optimistic_2: "",
-  optimistic_3: "",
-  optimistic_4: "",
-  optimistic_5: "",
-  optimistic_6: "",
-  optimistic_7: "",
-  optimistic_8: "",
-  realistic_0: "",
-  realistic_1: "",
-  realistic_2: "",
-  realistic_3: "",
-  realistic_4: "",
-  realistic_5: "",
-  realistic_6: "",
-  realistic_7: "",
-  realistic_8: "",
-  pessimistic_0: "",
-  pessimistic_1: "",
-  pessimistic_2: "",
-  pessimistic_3: "",
-  pessimistic_4: "",
-  pessimistic_5: "",
-  pessimistic_6: "",
-  pessimistic_7: "",
-  pessimistic_8: "",
-  errors: {},
+  ...customInputs,
+  ...shares,
+  ...multiples,
+  ...ebmg,
+  ...dbtEb,
+  errorsInput: {},
+  errorsTC: {},
+  errorsDCF: {},
+  errorShares: {},
+  errorMulti: {},
+  errorCOE: {},
+  errorEBMG: {},
+  errorDbtEb: {},
   selectedStep: 1,
   optimistic: [],
   realistic: [],
   pessimistic: [],
   vals: [],
+  shares: [],
+  multi: [],
+  ebmg: [],
+  dbtEb: [],
   selectedIdea: "optimistic",
   forecastBy: "cagr",
-  valuation: "dcf",
+  forecastBySh: "cagr",
+  forecastByMulti: "average",
+  forecastByEbmg: "average",
+  forecastByDbtEb: "average",
+  valuation: "DCF",
+  multipleVal: "P/E",
   ivpsDisplay: "Diff",
+  sensDisplay: "Value",
   lcDisplay: "Setup",
   chartDisplay: "Bar",
   viewDisplay: "Cards",
   optimisticCAGR: "",
   realisticCAGR: "",
   pessimisticCAGR: "",
+  sharesCAGR: "",
+  multiCAGR: "",
+  ebmgCAGR: "",
+  dbtEbCAGR: "",
   wacc: "",
+  costOfEquity: "",
   tg: "",
   title: "",
   content: "",
   isSubmitting: false,
-};
-
-const getInputError = (state) => {
-  if (state.forecastBy === "cagr")
-    return [
-      state.optimisticCAGR,
-      state.pessimisticCAGR,
-      state.realisticCAGR,
-    ].some((cagr) => cagr === "")
-      ? "All scenario inputs must be filled"
-      : "";
-  else
-    return Object.entries(state)
-      .filter(
-        (s) =>
-          s[0].includes("realistic_") ||
-          s[0].includes("optimistic_") ||
-          s[0].includes("pessimistic_")
-      )
-      .some((s) => s[1] === "")
-      ? "All inputs must be filled"
-      : "";
 };
 
 const newIdeaSlice = createSlice({
@@ -93,6 +88,18 @@ const newIdeaSlice = createSlice({
     switchForecastBy(state, action) {
       state.forecastBy = action.payload;
     },
+    switchFcstShares(state, action) {
+      state.forecastBySh = action.payload;
+    },
+    switchFcstMulti(state, action) {
+      state.forecastByMulti = action.payload;
+    },
+    switchFcstEbmg(state, action) {
+      state.forecastByEbmg = action.payload;
+    },
+    switchFcstDbtEb(state, action) {
+      state.forecastByDbtEb = action.payload;
+    },
     switchSelectedIdea(state, action) {
       state.selectedIdea = action.payload;
     },
@@ -101,6 +108,15 @@ const newIdeaSlice = createSlice({
     },
     switchView(state, action) {
       state.viewDisplay = action.payload;
+    },
+    switchSensDisplay(state, action) {
+      state.sensDisplay = action.payload;
+    },
+    switchValuation(state, action) {
+      state.valuation = action.payload;
+    },
+    switchValMultiple(state, action) {
+      state.multipleVal = action.payload;
     },
     setScenarioArray(state, action) {
       state[`${action.payload}`] = [
@@ -136,6 +152,9 @@ const newIdeaSlice = createSlice({
     typeTG(state, action) {
       state.tg = action.payload;
     },
+    typeCOE(state, action) {
+      state.costOfEquity = action.payload;
+    },
     switchIvpsDisplay(state, action) {
       state.ivpsDisplay = action.payload;
     },
@@ -148,12 +167,31 @@ const newIdeaSlice = createSlice({
     unsetIsSubmitting(state) {
       state.isSubmitting = false;
     },
-    setErrors(state) {
-      state.errors.wacc = state.wacc === "" ? "Please enter W.A.C.C." : "";
-      state.errors.tg = state.tg === "" ? "Please enter T-growth" : "";
-      state.errors.cagr = getInputError(state);
-      state.errors.title = state.title === "" ? "Please name your idea" : "";
-      state.errors.content =
+    setErrorsDCF(state) {
+      state.errorsDCF.wacc = getErrorWACC(state);
+      state.errorsDCF.tg = getErrorTG(state);
+    },
+    setErrorCOE(state) {
+      state.errorCOE.coe = getErrorCOE(state);
+    },
+    setErrorShares(state) {
+      state.errorShares.shares = getSharesError(state);
+    },
+    setErrorMulti(state) {
+      state.errorMulti.multi = getErrorMulti(state);
+    },
+    setErrorDbtEb(state) {
+      state.errorDbtEb.dbtEb = getErrorDbtEb(state);
+    },
+    setErrorEbmg(state) {
+      state.errorEBMG.ebmg = getErrorEbmg(state);
+    },
+    setErrorsInput(state) {
+      state.errorsInput.cagr = getInputError(state);
+    },
+    setErrorsTC(state) {
+      state.errorsTC.title = state.title === "" ? "Please name your idea" : "";
+      state.errorsTC.content =
         state.content === "" ? "Please explain your idea" : "";
     },
   },
@@ -165,9 +203,16 @@ export const {
   setPeriods,
   setVals,
   switchForecastBy,
+  switchFcstShares,
+  switchFcstMulti,
+  switchFcstEbmg,
+  switchFcstDbtEb,
   switchSelectedIdea,
   switchChart,
   switchView,
+  switchSensDisplay,
+  switchValuation,
+  switchValMultiple,
   setScenarioArray,
   typeCAGR,
   switchSteps,
@@ -175,11 +220,19 @@ export const {
   typeTG,
   typeTitle,
   typeContent,
+  typeCOE,
   setbackSteps,
   switchIvpsDisplay,
   switchLcDisplay,
   setIsSubmitting,
   unsetIsSubmitting,
-  setErrors,
+  setErrorsInput,
+  setErrorsDCF,
+  setErrorShares,
+  setErrorMulti,
+  setErrorCOE,
+  setErrorEbmg,
+  setErrorDbtEb,
+  setErrorsTC,
 } = newIdeaSlice.actions;
 export default newIdeaSlice.reducer;

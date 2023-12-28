@@ -1,12 +1,11 @@
 /* eslint-disable react/prop-types */
-import ReusableSVG from "../../../reusableSVG/ReusableSVG";
+import CircleReused from "../../../../ui/circle/CircleReused";
 
 function ChartReturnData({ data }) {
   const rtrn = data.close / data.open - 1;
   const dateObj = new Date(data.datetime);
   const month = dateObj.toLocaleString("en-US", { month: "long" });
   const year = dateObj.getFullYear();
-  const sdo = (1 - (rtrn < 0 ? Math.abs(rtrn) : rtrn)) * 190;
 
   return (
     <div className=" h-30 w-60 bg-blue-100  rounded-lg shadow-watchList flex flex-col justify-between mt-36 mr-0">
@@ -21,12 +20,7 @@ function ChartReturnData({ data }) {
           <p className="italic font-semibold w-full">Close: {data.close}</p>
         </div>
         <div className="h-full w-1/2">
-          <ReusableSVG
-            percent={rtrn}
-            svgSize={90}
-            strokeWidth={4}
-            strokeDashoffset={sdo}
-          />
+          <CircleReused num={rtrn} svgSize={90} strokeWidth={4} sdo={190} />
         </div>
       </div>
     </div>

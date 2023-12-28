@@ -136,8 +136,9 @@ export const fcst10Y = (latest, growthRates, tg, wacc) => {
   });
 };
 
-export const shortFCST = (latest, growthRates) => {
-  const p1 = latest.value * (1 + growthRates[0]);
+export const shortFCST = (latest, growthRates, isValued = true) => {
+  const ltst = isValued ? latest?.value : latest;
+  const p1 = ltst * (1 + growthRates[0]);
   const p2 = p1 * (1 + growthRates[1]);
   const p3 = p2 * (1 + growthRates[2]);
   const p4 = p3 * (1 + growthRates[3]);

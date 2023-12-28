@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import Box from "../../../../ui/box/Box";
 import ReusableCirc from "../items/ReusableCirc";
 import StatBoxHeader from "./StatBoxHeader";
 import StatBoxMain from "./StatBoxMain";
@@ -12,7 +13,7 @@ function StatBoxShares({ pv }) {
     inputEl === "short_ratio" ? val / 100 : val / pv?.shares_outstanding;
 
   return (
-    <div className="flex flex-col items-center justify-center h-72 w-[95%] mb-2 mt-1 p-2 bg-indigo-200/25 relative shadow-statPrice">
+    <Box type="classic">
       <StatBoxHeader
         onSetInputEl={setInputEl}
         inputEl={inputEl}
@@ -27,7 +28,7 @@ function StatBoxShares({ pv }) {
       <StatBoxMain>
         <ReusableCirc val={val} sdoVal={sdoVal} inputEl={inputEl} />
       </StatBoxMain>
-    </div>
+    </Box>
   );
 }
 

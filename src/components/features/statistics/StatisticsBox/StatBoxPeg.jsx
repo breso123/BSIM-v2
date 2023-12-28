@@ -1,18 +1,16 @@
 /* eslint-disable react/prop-types */
 import { setMultipleRating } from "../../../../helpers/miscFuncs";
+import Box from "../../../../ui/box/Box";
 import BarPEG from "../items/BarPEG";
 
 import StatBoxHeader from "./StatBoxHeader";
 import StatBoxMain from "./StatBoxMain";
 
 function StatBoxPeg({ val, logo }) {
-  //const { valuation: val, logo } = JSON.parse(
-  //  localStorage.getItem("statistics")
-  //);
   const rating = setMultipleRating(val?.peg_ratio, [0, 1, 2, 3, 4, 5]);
 
   return (
-    <div className="flex flex-col items-center justify-start h-56 w-[95%] mb-2 mt-1 p-2 bg-gradient-to-r to-orange-100/25 from-indigo-200/25 relative shadow-statPrice col-span-2">
+    <Box type="peg">
       <StatBoxHeader title="PEG Ratio" />
       <StatBoxMain>
         <BarPEG peg={val?.peg_ratio} src={logo} />
@@ -24,7 +22,7 @@ function StatBoxPeg({ val, logo }) {
           {rating?.val}
         </p>
       </StatBoxMain>
-    </div>
+    </Box>
   );
 }
 

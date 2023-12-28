@@ -1,3 +1,5 @@
+import Button1 from "../ui/buttons/Button1";
+
 /* eslint-disable react/prop-types */
 function UpperHeader() {
   return (
@@ -7,18 +9,8 @@ function UpperHeader() {
         <span className="font-serif tracking-wider font-semibold">USD</span>
       </p>
       <div className="flex items-center justify-center gap-2 text-sm font-semibold">
-        <button
-          style={{ boxShadow: "inset 0 0 5px lightskyblue" }}
-          className="h-10 w-[5rem] bg-blue-900 rounded-full text-sky-200"
-        >
-          Buy
-        </button>
-        <button
-          style={{ boxShadow: "inset 0 0 5px yellow" }}
-          className="h-10 w-[5rem] bg-orange-700 rounded-full text-red-100"
-        >
-          Sell
-        </button>
+        <Button1 type="btnBuy">Buy</Button1>
+        <Button1 type="btnSell">Sell</Button1>
       </div>
     </div>
   );

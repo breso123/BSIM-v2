@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import Box from "../../../../ui/box/Box";
 import BoxCfSHD from "../items/BoxCfSHD";
 import CfSelector from "../items/CfSelector";
 import { switchCfItem } from "../statisticsSlice";
@@ -16,7 +17,7 @@ function StatBoxRatioCf({ title, ratios }) {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center h-86 w-[95%] mb-2 mt-1 p-2 bg-orange-100/25 relative shadow-statPrice col-span-2">
+    <Box type="returns">
       <StatBoxHeader title={title} />
       <StatBoxMain>
         <div className="grid grid-cols-2 items-center mt-8 justify-items-center w-[90%] divide-x divide-blue-950/25">
@@ -25,7 +26,7 @@ function StatBoxRatioCf({ title, ratios }) {
         </div>
         <CfSelector onChange={handleChange} cfItem={cfItem} />
       </StatBoxMain>
-    </div>
+    </Box>
   );
 }
 

@@ -49,8 +49,10 @@ import Technicals from "./components/features/technicals/Technicals";
 import TechnicalsContent from "./components/features/technicals/TechnicalsContent";
 import Ideas from "./components/features/ideas/Ideas";
 import IdeasContent from "./components/features/ideas/IdeasContent";
-import IdeaForm from "./components/features/ideas/items/IdeaForm";
 import IdeaArticle from "./components/features/ideas/items/ideaWindow/IdeaArticle";
+import IdeaForm from "./components/features/ideas/items/ideaBox/IdeaForm";
+import ScoreBI from "./components/features/BI-score/ScoreBI";
+import ScoreContent from "./components/features/BI-score/ScoreContent";
 
 const router = createBrowserRouter([
   { path: "/", element: <Homepage /> },
@@ -65,6 +67,8 @@ const router = createBrowserRouter([
     element: <AppLayout />,
     children: [
       { index: true, element: <Navigate replace to="general" /> },
+      { path: "scoreBI", element: <ScoreBI /> },
+      { path: "scoreBI/:keyBI", element: <ScoreContent /> },
       { path: "financials", element: <Financials /> },
       { path: "financials/:financialsKey", element: <GridderFS /> },
       { path: "options", element: <OptionChain /> },
@@ -77,7 +81,7 @@ const router = createBrowserRouter([
         path: "ideas/:ideasKey",
         element: <IdeasContent />,
         children: [
-          { path: "article", element: <IdeaArticle /> },
+          { path: "article/:id", element: <IdeaArticle /> },
           { path: "newIdea", element: <IdeaForm /> },
         ],
       },

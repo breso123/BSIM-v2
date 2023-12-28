@@ -1,21 +1,29 @@
 /* eslint-disable react/prop-types */
-import ScenarioCard from "../../formItems/ScenarioCard";
-import ScenarioHeader from "../ScenarioHeader";
+import { useSelector } from "react-redux";
+import CardsFV from "./CardsFV";
+import ChartIO from "./ChartIO";
 
-function Step2Display({ idea, isConfirmed }) {
-  return (
-    <div className="w-full flex flex-col gap-6">
-      <ScenarioHeader
-        desc="Intrinsic Values per Share"
+function Step2Display({ idea, isConfirmed, translate }) {
+  const { valuation, historical } = idea;
+  const { selectedIdea } = useSelector((state) => state.newIdea);
+  const tgtIdea = [...historical, ...idea[selectedIdea].values];
+  const cagr = idea[selectedIdea].cagr;
+  const transform = { transform: `translate(${translate},-100%)` };
+
+  if (valuation === "DCF")
+    return (
+      <CardsFV idea={idea} isConfirmed={isConfirmed} transform={transform} />
+    );
+  else
+    return (
+      <ChartIO
+        idea={tgtIdea}
         isConfirmed={isConfirmed}
+        cagr={cagr}
+        valuation={valuation}
+        transform={transform}
       />
-      <div className="w-full flex gap-7 relative">
-        <ScenarioCard idea={idea} scenario="optimistic" />
-        <ScenarioCard idea={idea} scenario="realistic" />
-        <ScenarioCard idea={idea} scenario="pessimistic" />
-      </div>
-    </div>
-  );
+    );
 }
 
 export default Step2Display;

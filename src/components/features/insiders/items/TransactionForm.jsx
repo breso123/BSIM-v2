@@ -8,7 +8,9 @@ import {
   switchFilterShares,
 } from "../insidersSlice";
 import { checkDateInRanges, determineLBG } from "../../../../helpers/miscFuncs";
-import Select from "./ItemsTF/Select";
+import Button1 from "../../../../ui/buttons/Button1";
+import FilterIT from "./ItemsTF/FilterIT";
+import { periodFilter, sharesFilter } from "./ItemsTF/OptionsIT";
 
 function TransactionForm() {
   const { filterPos, filterShares, filterPeriod, transactions } = useSelector(
@@ -23,21 +25,6 @@ function TransactionForm() {
       determineLBG(numShares, tr.shares) &&
       checkDateInRanges(tr.date_reported, filterPeriod)
   );
-
-  function handlePosChange(e) {
-    e.preventDefault();
-    dispatch(switchFilterPos(e.target.value));
-  }
-
-  function handleSharesChange(e) {
-    e.preventDefault();
-    dispatch(switchFilterShares(e.target.value));
-  }
-
-  function handlePeriodChange(e) {
-    e.preventDefault();
-    dispatch(switchFilterPeriod(e.target.value));
-  }
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -54,51 +41,42 @@ function TransactionForm() {
       onSubmit={(e) => handleSubmit(e)}
       className="w-full flex flex-col items-center justify-center gap-2 relative"
     >
-      <Select
-        value={filterPos}
-        title="Position"
-        onChange={(e) => handlePosChange(e)}
-      >
+      <FilterIT item={filterPos} string="Position" handler={switchFilterPos}>
         {positions.map((p, i) => (
           <option key={i} value={p}>
             {p}
           </option>
         ))}
-      </Select>
-
-      <Select
-        value={filterShares}
-        title="Shares"
-        onChange={(e) => handleSharesChange(e)}
+      </FilterIT>
+      <FilterIT
+        item={filterShares}
+        string="Shares"
+        handler={switchFilterShares}
       >
-        <option value="less-than-20000">{"< 20k"}</option>
-        <option value="20000-50000">{"20k - 50k"}</option>
-        <option value="50000-100000">{"50k - 100k"}</option>
-        <option value="100000-200000">{"100k - 200k"}</option>
-        <option value="greater-than-200000">{"> 200k"}</option>
-      </Select>
-
-      <Select
+        {sharesFilter.map((sh, i) => (
+          <option key={i} value={sh[0]}>
+            {sh[1]}
+          </option>
+        ))}
+      </FilterIT>
+      <FilterIT
         value={filterPeriod}
-        title="Datetime"
-        onChange={(e) => handlePeriodChange(e)}
+        string="Datetime"
+        handler={switchFilterPeriod}
       >
-        <option value="last-30-days">Last 30 Days</option>
-        <option value="last-3-months">Last 3 Months</option>
-        <option value="last-6-months">Last 6 Months</option>
-        <option value="last-12-months">Last 12 Months</option>
-        <option value="last-2-years">Last 2 Years</option>
-      </Select>
-
-      <button className="h-8 w-24 shadow-hoverFins text-indigo-900 text-sm rounded-full mt-3 hover:font-semibold hover:bg-sky-500/10">
-        Apply
-      </button>
-      <button
-        onClick={(e) => handleReset(e)}
-        className="absolute top-[-40px] right-0 text-sm text-indigo-700 hover:italic hover:text-blue-950 hover:underline"
-      >
+        {periodFilter.map((per, i) => (
+          <option key={i} value={per}>
+            {per
+              .split("-")
+              .map((p) => p[0].toUpperCase() + p.slice(1))
+              .join(" ")}
+          </option>
+        ))}
+      </FilterIT>
+      <Button1 type="insidersApply">Apply</Button1>
+      <Button1 type="insidersShowAll" onClick={(e) => handleReset(e)}>
         Show All
-      </button>
+      </Button1>
     </Form>
   );
 }

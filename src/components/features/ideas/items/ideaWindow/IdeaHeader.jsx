@@ -3,8 +3,11 @@
 import { useDispatch } from "react-redux";
 import { setClickedIdea, switchScenario } from "../../ideasSlice";
 import { useNavigate } from "react-router-dom";
+import LikeComment from "./ideaPublishedItems/LikeComment";
+import { formatDate } from "../../../../../helpers/formatters";
+import ButtonClose from "../../../../../ui/buttons/ButtonClose";
 
-function IdeaHeader({ user, datetime, valuation }) {
+function IdeaHeader({ user, datetime, valuation, idea, id }) {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
@@ -19,17 +22,13 @@ function IdeaHeader({ user, datetime, valuation }) {
     <div className="w-full h-[10%] mb-8 px-16 flex items-center justify-between bg-indigo-200/50 shadow-hoverFins">
       <div className="flex flex-col items-start justify-center gap-2">
         <p className="text-sm font-semibold text-blue-950">{user}</p>
-        <p className="text-xs italic tracking-wider">{datetime}</p>
+        <p className="text-xs italic tracking-wider">{formatDate(datetime)}</p>
       </div>
+      <LikeComment idea={idea} id={id} />
       <p className="italic text-indigo-800 font-semibold">
         Valuation: {valuation}
       </p>
-      <button
-        onClick={(e) => handleClick(e)}
-        className="h-6 w-6 rounded-full bg-blue-950 text-white text-sm absolute top-2 right-2"
-      >
-        X
-      </button>
+      <ButtonClose onClick={(e) => handleClick(e)} />
     </div>
   );
 }

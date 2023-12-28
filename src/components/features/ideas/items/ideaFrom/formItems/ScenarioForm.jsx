@@ -1,78 +1,40 @@
 /* eslint-disable react/prop-types */
-import { Form } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
-import { useState } from "react";
-import { setScenarioArray } from "../../../newIdeaSlice";
-import InputCustom from "./InputCustom";
-import InputCagr from "./InputCagr";
+import { useSelector } from "react-redux";
+import Info from "./Info";
+import { stylesSF } from "../../../helpers/tableStyles";
+import { getLabelText } from "../../../helpers/stringers";
+import { getFcstBy } from "../../../helpers/newIdeaMisc";
+import InputCustom from "./NewIdeaForm/InputCustom";
+import InputCagr from "./NewIdeaForm/InputCagr";
 
 function ScenarioForm({ type, onClick }) {
-  const [isDone, setIsDone] = useState(false);
   const newIdea = useSelector((state) => state.newIdea);
-  const fcstBy = newIdea.forecastBy;
-  const dispatch = useDispatch();
-  const vals = Object.entries(newIdea)
-    .filter((idea) => idea[0].includes(`${type}_`))
-    .map((idea) => +idea[1] / 100);
-
-  const styles = {
-    optimistic: ["text-blue-800", "text-sky-200"],
-    realistic: ["text-stone-700", "text-white"],
-    pessimistic: ["text-orange-800", "text-orange-200"],
-  };
-  if (!newIdea) return;
-
-  function handleDone(e) {
-    e.preventDefault();
-    setIsDone((isDone) => !isDone);
-    dispatch(setScenarioArray(type));
-  }
-
-  function handleClick(e) {
-    e.preventDefault();
-    onClick();
-  }
+  const label = getLabelText(type, newIdea);
+  const chSC = ["optimistic", "realistic", "pessimistic"].some(
+    (t) => type === t
+  );
+  const fcst = getFcstBy(chSC, type, newIdea);
 
   return (
-    <Form
-      onClick={(e) => handleClick(e)}
-      disabled={newIdea.selectedIdea !== type}
-      name="optimistic"
-      className={`w-full h-8 px-6 grid grid-cols-3 items-center mb-2 ${
-        newIdea.selectedIdea === type ? "bg-blue-800/20" : ""
+    <div
+      onClick={onClick}
+      className={`w-full h-8 px-6 grid grid-cols-2 items-center mb-2 ${
+        stylesSF[type][2] || ""
       }`}
-      style={{ gridTemplateColumns: "1fr 4fr 0.5fr" }}
+      style={{ gridTemplateColumns: "1fr 4fr" }}
     >
-      <label
-        className={`font-semibold italic font-sans text-sm tracking-wide ${styles[type][0]}`}
+      <div
+        className={`font-semibold italic font-sans flex items-center justify-between px-2 gap-3 tracking-wide text-xs ${stylesSF[type][0]}`}
       >
-        {type[0].toUpperCase() + type.slice(1)}
-      </label>
-      {fcstBy === "custom" ? (
-        <InputCustom
-          vals={vals}
-          newIdea={newIdea}
-          type={type}
-          isDone={isDone}
-          selectedIdea={newIdea.selectedIdea}
-          styles={styles}
-        />
+        <span>{label}</span>
+        {!chSC && <Info type={type} val={newIdea.valuation} />}
+      </div>
+      {fcst === "custom" ? (
+        <InputCustom type={type} newIdea={newIdea} />
       ) : (
-        <InputCagr styles={styles} type={type} value={newIdea[`${type}CAGR`]} />
+        <InputCagr type={type} value={newIdea[`${type}CAGR`]} />
       )}
-
-      {fcstBy === "custom" && (
-        <button
-          onClick={(e) => handleDone(e)}
-          disabled={newIdea.selectedIdea !== type}
-          className={`h-6 w-16 font-sans text-sm italic shadow-hoverFins rounded-full ml-6 ${
-            isDone ? "bg-lime-300 text-blue-800" : "text-blue-950"
-          }`}
-        >
-          {isDone ? "Undo" : "Done"}
-        </button>
-      )}
-    </Form>
+    </div>
   );
 }
 

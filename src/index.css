@@ -18,6 +18,20 @@
   .appNav {
     @apply flex items-center text-sm rounded-xl px-2 text-blue-950 h-[80%] text-center font-semibold tracking-wide hover:cursor-pointer hover:text-blue-950 hover:italic hover:drop-shadow-gridderBld focus:drop-shadow-gridderBld focus:italic;
   }
+
+  .lobbyBtn {
+    @apply col-span-1 tracking-wide text-indigo-200 rounded-3xl transition-all ease-out duration-300 shadow-buttons;
+  }
+  .selectY {
+    @apply text-sm text-blue-900 bg-sky-200/10 border-y pl-1 border-solid border-blue-700 rounded-lg font-semibold font-sans italic;
+  }
+
+  .selectX {
+    @apply bg-white/10 border-x text-blue-950 italic border-blue-950 rounded-full;
+  }
+  .centered {
+    @apply absolute top-2/4 left-2/4 translate-y-[-50%] translate-x-[-50%];
+  }
 }
 
 body {
@@ -36,6 +50,11 @@ body {
 ::-webkit-scrollbar {
   display: none;
   color: #6928d930;
+}
+
+textarea::placeholder {
+  color: rgba(25, 25, 112, 0.661);
+  font-weight: bold;
 }
 
 .donut {

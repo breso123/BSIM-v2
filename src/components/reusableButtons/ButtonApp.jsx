@@ -5,6 +5,7 @@ import { itemStringed } from "../../helpers/formatters";
 import { switchContentKey } from "../appSlice";
 import { useNavigate } from "react-router-dom";
 import { leaveChart } from "../features/financials/financialsSlice";
+import { removeClickedScore } from "../features/BI-score/scoreSlice";
 
 function ButtonApp({ src, item, index, activeIndex }) {
   const clickedContent = itemStringed(item);
@@ -16,6 +17,7 @@ function ButtonApp({ src, item, index, activeIndex }) {
     e.preventDefault();
     dispatch(switchContentKey({ index }));
     featureKey === "financials" && dispatch(leaveChart());
+    featureKey === "scorebi" && dispatch(removeClickedScore());
     navigate(`/app/${featureKey}/${clickedContent}`);
   }
   return (

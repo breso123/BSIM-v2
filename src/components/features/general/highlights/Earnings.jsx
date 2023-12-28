@@ -14,7 +14,6 @@ const dataEPS = [
 function Earnings() {
   const earnings = useSelector((state) => state.general.earnings);
   const dispatch = useDispatch();
-  //const earnings = JSON.parse(localStorage.getItem("earnings"));
   const actual = earnings.map((e) => e.eps_actual);
   const estimate = earnings.map((e) => e.eps_estimate);
   const max = Math.max(...actual, ...estimate);

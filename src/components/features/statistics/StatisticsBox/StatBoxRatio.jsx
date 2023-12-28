@@ -1,10 +1,11 @@
+import Box from "../../../../ui/box/Box";
 import StatBoxHeader from "./StatBoxHeader";
 import StatBoxMain from "./StatBoxMain";
 
 /* eslint-disable react/prop-types */
 function StatBoxRatio({ title, ratios }) {
   return (
-    <div className="flex flex-col items-center justify-center h-72 w-[95%] mb-2 mt-1 p-2 bg-orange-100/25 relative shadow-statPrice">
+    <Box type="classic">
       <StatBoxHeader title={title} />
       <StatBoxMain>
         <div className="grid grid-cols-1 items-center self-start mt-8 justify-items-center w-[90%] gap-y-2 ">
@@ -33,7 +34,7 @@ function StatBoxRatio({ title, ratios }) {
           })}
         </div>
       </StatBoxMain>
-    </div>
+    </Box>
   );
 }
 

@@ -1,3 +1,5 @@
+import Button1 from "../../../ui/buttons/Button1";
+import ButtonClose from "../../../ui/buttons/ButtonClose";
 import ReusableImage from "../../reusableImages/ReusableImage";
 
 /* eslint-disable react/prop-types */
@@ -23,13 +25,7 @@ function NewsArticle({ clickedArticle, onSetClickedArticle }) {
               src={clickedArticle?.providerLogo}
               additionalStyles="h-10 overflow-hidden "
             />
-
-            <button
-              onClick={() => onSetClickedArticle(null)}
-              className="absolute top-2 right-2 bg-blue-950 text-white h-6 w-6 rounded-full"
-            >
-              X
-            </button>
+            <ButtonClose onClick={() => onSetClickedArticle(null)} />
           </div>
           <p className="mr-8 text-xs font-serif">
             Symbols:{" "}
@@ -48,9 +44,7 @@ function NewsArticle({ clickedArticle, onSetClickedArticle }) {
           <ReusableImage additionalStyles="h-72" src={clickedArticle?.url} />
           <p className="font-sans text-justify">{clickedArticle?.content}</p>
           {clickedArticle?.needsSubscription && (
-            <button className="w-48 h-7 bg-blue-900 rounded-full mt-2 text-sm font-semibold text-sky-200">
-              Continue Reading
-            </button>
+            <Button1 type="contRead">Continue Reading</Button1>
           )}
         </div>
       </div>

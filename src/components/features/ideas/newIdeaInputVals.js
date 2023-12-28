@@ -1,0 +1,77 @@
+export const customInputs = {
+  optimistic_0: "",
+  optimistic_1: "",
+  optimistic_2: "",
+  optimistic_3: "",
+  optimistic_4: "",
+  optimistic_5: "",
+  optimistic_6: "",
+  optimistic_7: "",
+  optimistic_8: "",
+  realistic_0: "",
+  realistic_1: "",
+  realistic_2: "",
+  realistic_3: "",
+  realistic_4: "",
+  realistic_5: "",
+  realistic_6: "",
+  realistic_7: "",
+  realistic_8: "",
+  pessimistic_0: "",
+  pessimistic_1: "",
+  pessimistic_2: "",
+  pessimistic_3: "",
+  pessimistic_4: "",
+  pessimistic_5: "",
+  pessimistic_6: "",
+  pessimistic_7: "",
+  pessimistic_8: "",
+};
+
+export const shares = {
+  shares_0: "",
+  shares_1: "",
+  shares_2: "",
+  shares_3: "",
+  shares_4: "",
+  shares_5: "",
+  shares_6: "",
+  shares_7: "",
+  shares_8: "",
+};
+
+export const multiples = {
+  multi_0: "",
+  multi_1: "",
+  multi_2: "",
+  multi_3: "",
+  multi_4: "",
+  multi_5: "",
+  multi_6: "",
+  multi_7: "",
+  multi_8: "",
+};
+
+export const ebmg = {
+  ebmg_0: "",
+  ebmg_1: "",
+  ebmg_2: "",
+  ebmg_3: "",
+  ebmg_4: "",
+  ebmg_5: "",
+  ebmg_6: "",
+  ebmg_7: "",
+  ebmg_8: "",
+};
+
+export const dbtEb = {
+  dbtEb_0: "",
+  dbtEb_1: "",
+  dbtEb_2: "",
+  dbtEb_3: "",
+  dbtEb_4: "",
+  dbtEb_5: "",
+  dbtEb_6: "",
+  dbtEb_7: "",
+  dbtEb_8: "",
+};

@@ -4,6 +4,7 @@ import StatBoxMain from "../../statistics/StatisticsBox/StatBoxMain";
 import BarTrend from "../items/BarTrend";
 import Revisions from "../items/Revisions";
 import { itemStringed } from "../../../../helpers/formatters";
+import Box from "../../../../ui/box/Box";
 
 function TrendRevsBox() {
   const [inputEl, setInputEl] = useState("Current Quarter");
@@ -31,7 +32,7 @@ function TrendRevsBox() {
   const max = Math.max(...values);
 
   return (
-    <div className="flex flex-col items-center justify-center h-72 w-[95%] mb-2 mt-1 p-2 relative bg-orange-100/25 shadow-statPrice">
+    <Box type="classic">
       <StatBoxHeader
         title="Eps Trends & Revisions"
         inputEl={inputEl}
@@ -54,7 +55,7 @@ function TrendRevsBox() {
           <Revisions tgtRev={tgtRev} />
         </div>
       </StatBoxMain>
-    </div>
+    </Box>
   );
 }
 

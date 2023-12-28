@@ -5,6 +5,7 @@ import ChartSelect from "./ChartSelect";
 import ChartUpper from "./ChartUpper.jsx";
 import { leaveChart } from "../financialsSlice.js";
 import { useParams } from "react-router-dom";
+import ButtonClose from "../../../../ui/buttons/ButtonClose.jsx";
 
 function ChartFS({ statements, keywords }) {
   const { financialsKey } = useParams();
@@ -41,13 +42,7 @@ function ChartFS({ statements, keywords }) {
             supportItem={supportItem}
             financialsKey={financialsKey}
           />
-
-          <button
-            className="border-2 border-solid border-blue-950 rounded-lg  w-7 flex items-center justify-center"
-            onClick={() => dispatch(leaveChart())}
-          >
-            <p>X</p>
-          </button>
+          <ButtonClose onClick={() => dispatch(leaveChart())} />
         </div>
         <ChartUpper
           statements={statements}

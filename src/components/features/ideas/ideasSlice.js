@@ -1,12 +1,12 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import { loadDefault, loadIdeas } from "../../../pages/services/apiFinancials";
+import { setScenarioObj } from "./helpers/newIdeaMisc";
 
 export const fetchIdeas = createAsyncThunk(
   "ideas/fetchIdeas",
   async function () {
     const logoData = await loadDefault("logo");
     const ideas = await loadIdeas(logoData.meta.symbol);
-
     return ideas;
   }
 );
@@ -20,26 +20,13 @@ const initialState = {
   realistic: [],
   pessimistic: [],
   ideaInProgress: {},
+  itemsDCF: {},
+  itemsMulti: {},
   clickedIdea: null,
   newIdeaFormActive: false,
-};
-
-const dcfSummation = (arr) =>
-  arr.map((el) => el.discounted).reduce((el, arr) => el + arr, 0);
-
-const setScenarioObj = (sc, state, action) => {
-  console.log(state[sc]);
-  return {
-    dcfSum: dcfSummation(state[sc]),
-    cagr:
-      Math.pow(
-        state[sc][state[sc].length - 2].value / action.payload.latest,
-        1 / 9
-      ) - 1,
-    ivps:
-      (dcfSummation(state[sc]) + action.payload.sum) / action.payload.shares,
-    values: state[sc],
-  };
+  showCommentBar: false,
+  comment: "",
+  reply: "",
 };
 
 const ideaSlice = createSlice({
@@ -54,6 +41,15 @@ const ideaSlice = createSlice({
     },
     setClickedIdea(state, action) {
       state.clickedIdea = action.payload;
+    },
+    commentBarDisplay(state) {
+      state.showCommentBar = !state.showCommentBar;
+    },
+    typeComment(state, action) {
+      state.comment = action.payload;
+    },
+    typeReply(state, action) {
+      state.reply = action.payload;
     },
     showNewIdeaForm(state) {
       state.newIdeaFormActive = true;
@@ -70,22 +66,34 @@ const ideaSlice = createSlice({
     setPessimistic(state, action) {
       state.pessimistic = action.payload;
     },
+    setItemsDCF(state, action) {
+      state.itemsDCF = {
+        wacc: action.payload.wacc,
+        tg: action.payload.tg,
+        cash: action.payload.cash,
+        debt: action.payload.debt,
+        fas: action.payload.fas,
+        nci: action.payload.nci,
+      };
+    },
+    setItemsMulti(state, action) {
+      state.itemsMulti = {
+        coe: action.payload.coe,
+      };
+    },
+
     setIdeaObj(state, action) {
       state.ideaInProgress = {
         user: action.payload.user,
         id: action.payload.id,
+        likes: [],
+        comments: [],
         ticker: action.payload.ticker,
         valuation: action.payload.val.toUpperCase(),
         title: action.payload.title,
         content: action.payload.content,
         datetime: action.payload.date,
-        wacc: action.payload.wacc,
-        tg: action.payload.tg,
         historical: action.payload.historical,
-        cash: action.payload.cash,
-        debt: action.payload.debt,
-        fas: action.payload.fas,
-        nci: action.payload.nci,
         shares: action.payload.shares,
         cp: action.payload.cp,
         optimistic: setScenarioObj("optimistic", state, action),
@@ -96,20 +104,10 @@ const ideaSlice = createSlice({
     emptyIdeaObj(state) {
       state.ideaInProgress = {};
       state.newIdeaFormActive = false;
+
       state.optimistic = [];
       state.realistic = [];
       state.pessimistic = [];
-    },
-    step3(state, action) {
-      state.ideaInProgress = { ...state.ideaInProgress, title: action.payload };
-    },
-    finalStep(state, action) {
-      state.ideaInProgress = {
-        ...state.ideaInProgress,
-        content: action.payload.content,
-        datetime: action.payload.date,
-        user: "breso123",
-      };
     },
   },
 
@@ -132,6 +130,9 @@ export const {
   switchScenario,
   setOptFinal,
   setClickedIdea,
+  commentBarDisplay,
+  typeComment,
+  typeReply,
   showNewIdeaForm,
   hideNewIdeaForm,
   setRemodify,
@@ -139,9 +140,9 @@ export const {
   setRealistic,
   setPessimistic,
   setIdeaObj,
+  setItemsDCF,
+  setItemsMulti,
   emptyIdeaObj,
-  step3,
-  finalStep,
 } = ideaSlice.actions;
 
 export default ideaSlice.reducer;

@@ -1,13 +1,11 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
-
-import ReusableSVG from "../../../../reusableSVG/ReusableSVG";
 import CagrHead from "./CagrHead";
+import CircleReused from "../../../../../ui/circle/CircleReused";
 
 function CagrPrice({ priceCagr }) {
   const [cagr, setCagr] = useState(1);
   const cagrPer = priceCagr[`${cagr}Y`];
-  const sdo = (1 - (cagrPer < 0 ? Math.abs(cagrPer) : cagrPer)) * 630;
 
   function handleChange(e) {
     e.preventDefault();
@@ -22,12 +20,7 @@ function CagrPrice({ priceCagr }) {
         cagrRev={priceCagr}
         title="Return per Annum (%)"
       />
-      <ReusableSVG
-        percent={cagrPer}
-        svgSize={300}
-        strokeDashoffset={sdo}
-        strokeWidth={5}
-      />
+      <CircleReused num={cagrPer} svgSize={300} strokeWidth={5} sdo={630} />
     </div>
   );
 }

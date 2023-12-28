@@ -1,22 +1,30 @@
 import { useDispatch, useSelector } from "react-redux";
 import { unsetIsSubmitting } from "../../../../newIdeaSlice";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { emptyIdeaObj, fetchIdeas } from "../../../../ideasSlice";
 import { updateUser } from "../../../../../../../pages/services/apiLobby";
+import Button1 from "../../../../../../../ui/buttons/Button1";
 
 function Confirmation() {
+  const { ideasKey } = useParams();
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const { ideaInProgress } = useSelector((state) => state.ideas);
+  const { ideaInProgress, itemsDCF, itemsMulti } = useSelector(
+    (state) => state.ideas
+  );
   const user = JSON.parse(localStorage.getItem("user"));
   const updatedUser = { ...user, ideas: [...user.ideas, ideaInProgress.id] };
+  const tgtIdea =
+    ideasKey === "discounted_cf"
+      ? { ...ideaInProgress, ...itemsDCF }
+      : { ...ideaInProgress, ...itemsMulti };
 
   const addIdeaToUser = async () => await updateUser(user.id, updatedUser);
   const handlePostRequest = async () => {
     try {
       const res = await fetch("http://localhost:8000/ideas", {
         method: "POST",
-        body: JSON.stringify(ideaInProgress),
+        body: JSON.stringify(tgtIdea),
         headers: { "Content-Type": "application/json" },
       });
 
@@ -42,25 +50,24 @@ function Confirmation() {
     dispatch(fetchIdeas());
   }
 
+  function handleModify(e) {
+    e.preventDefault();
+    dispatch(unsetIsSubmitting());
+  }
+
   return (
-    <div className="w-[50%] flex flex-col items-center shadow-statPrice rounded-lg p-3 bg-indigo-200/50">
+    <div className="w-[50%] mt-10 flex flex-col items-center shadow-statPrice rounded-lg p-3 bg-indigo-200/50">
       <p className="w-full text-center text-md text-indigo-800 font-semibold drop-shadow-gridderInd font-sans mb-8">
         You are about to publish your idea so everyone else can see it. Do you
         want to proceed?
       </p>
       <div className="flex items-center gap-4">
-        <button
-          className="h-8 w-24 font-mono text-blue-950 hover:italic"
-          onClick={() => dispatch(unsetIsSubmitting())}
-        >
+        <Button1 type="modifyIdea" onClick={(e) => handleModify(e)}>
           Modify
-        </button>
-        <button
-          onClick={(e) => handleSubmit(e)}
-          className="h-8 w-24 shadow-hoverFins rounded-full text-blue-950 font-semibold text-sm hover:font-serif bg-lime-300 hover:shadow-watchList"
-        >
+        </Button1>
+        <Button1 type="submitIdea" onClick={(e) => handleSubmit(e)}>
           Submit
-        </button>
+        </Button1>
       </div>
     </div>
   );

@@ -1,8 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useNavigate } from "react-router-dom";
-import ButtonMain from "./reusableButtons/ButtonMain";
-
 import { updateUser } from "../pages/services/apiLobby";
+import Button1 from "../ui/buttons/Button1";
 
 function User({ user }) {
   const navigate = useNavigate();
@@ -18,13 +17,9 @@ function User({ user }) {
       <p className="text-xl font-semibold text-indigo-300">
         Welcome Back, {user.firstname}
       </p>
-      <ButtonMain
-        btType="classic"
-        additionalClass="h-8 w-24 text-sm hover:font-semibold"
-        onClick={(e) => handleClick(e)}
-      >
+      <Button1 onClick={(e) => handleClick(e)} type="logout">
         Log Out
-      </ButtonMain>
+      </Button1>
     </div>
   );
 }

@@ -1,12 +1,14 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
-import PaginationBtn from "./ideaFrom/formItems/PaginationBtn";
-import LineChart from "./ideaFrom/formMain/ideaOverview/LineChart";
-import Step2Display from "./ideaFrom/formMain/ideaOverview/Step2Display";
-import TableDCF from "./ideaFrom/formMain/ideaOverview/TableDCF";
+import PaginationBtn from "./paginationItems/PaginationBtn";
+import PagItems from "./paginationItems/PagItems";
+import PagBottomBtns from "./paginationItems/PagBottomBtns";
 
 function IdeaPagination({ idea, scenario, isConfirmed }) {
   const [step, setStep] = useState(1);
+  const { valuation } = idea;
+  const chv = valuation === "DCF";
+  const numOfSteps = chv ? 4 : 3;
 
   function handleStepPrev(e) {
     e.preventDefault();
@@ -15,34 +17,34 @@ function IdeaPagination({ idea, scenario, isConfirmed }) {
 
   function handleStepNext(e) {
     e.preventDefault();
-    step < 3 && setStep(step + 1);
+    step < numOfSteps + 1 && setStep(step + 1);
   }
+
   return (
-    <div className="w-full flex items-center min-h-[75%]">
-      <PaginationBtn
-        onClick={(e) => handleStepPrev(e)}
-        dir="left"
-        step={step}
-      />
-      <div className="w-[75%] h-full flex items-start justify-center">
-        {step === 1 && (
-          <TableDCF idea={idea} scenario={scenario} isConfirmed={isConfirmed} />
-        )}
-        {step === 2 && <Step2Display idea={idea} isConfirmed={isConfirmed} />}
-        {step === 3 && (
-          <LineChart
-            values={idea.historical}
-            idea={idea}
-            isConfirmed={isConfirmed}
-          />
-        )}
+    <>
+      <div className="w-full flex items-center min-h-[75%]">
+        <PaginationBtn
+          onClick={(e) => handleStepPrev(e)}
+          numOfSteps={numOfSteps}
+          dir="left"
+          step={step}
+        />
+        <PagItems
+          idea={idea}
+          isConfirmed={isConfirmed}
+          step={step}
+          numOfSteps={numOfSteps}
+          scenario={scenario}
+        />
+        <PaginationBtn
+          onClick={(e) => handleStepNext(e)}
+          numOfSteps={numOfSteps}
+          dir="right"
+          step={step}
+        />
       </div>
-      <PaginationBtn
-        onClick={(e) => handleStepNext(e)}
-        dir="right"
-        step={step}
-      />
-    </div>
+      <PagBottomBtns step={step} setStep={setStep} numOfSteps={numOfSteps} />
+    </>
   );
 }
 

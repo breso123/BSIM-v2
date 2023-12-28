@@ -23,6 +23,7 @@ const features = [
   "insiders",
   "options",
   "technicals",
+  "scorebi",
 ];
 
 function AppNav() {
@@ -37,11 +38,13 @@ function AppNav() {
     if (k === "options") return "/calls";
     if (k === "technicals") return "/all";
     if (k === "ideas") return "/discounted_cf";
+    if (k === "scorebi") return "/total";
     else return "";
   }
 
   function handleClick(e, k) {
     e.preventDefault();
+    console.log(itemStringed(k), k);
     dispatch(switchFeatureKey(itemStringed(k)));
     dispatch(switchContentKey({ index: 0 }));
     k === "financials" && dispatch(leaveChart());
@@ -68,6 +71,7 @@ function AppNav() {
             handleClick(e, ft);
             dispatch(switchSelectedFeature(ft));
           }
+
           return (
             <AppNavBtn
               key={i}
@@ -77,8 +81,6 @@ function AppNav() {
             />
           );
         })}
-
-        <p className="appNav line-through text-stone-900">BI Score</p>
       </ul>
       <button
         onClick={() => dispatch(refetchItems())}

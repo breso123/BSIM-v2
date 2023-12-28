@@ -20,11 +20,27 @@ export default {
         watchList: "0 0 10px rgba(25, 25, 112, 0.5)",
         appHeader: "0 5px 5px rgba(25, 25, 112, 0.5)",
         statPrice: "0px 0px 5px rgba(25, 25, 112, 0.5)",
+        statPrice2: "0px 0px 20px rgba(25, 25, 112, 0.5)",
+        infoTable: "0px 0px 5px lightblue",
+        sensitivityX: "0 2px 10px purple",
+        sensitivityY: "2px 0 10px midnightblue",
+        tableHeaderEA: "0 4px 10px skyblue",
+        tableHeaderEA2: "0 2px 5px darkblue",
+        biBarNeg: "inset 0 0 10px #dc2626",
+        biBarPos: "inset 0 0 10px #1e3a8a",
+        biMiddleCirc: "inset 0 0 25px #e5e5e5",
+        detailBoxNeg: "inset 0 0 6px red",
+        detailBoxPos: "inset 0 0 6px blue",
+        buyBtn: "inset 0 0 5px lightskyblue",
+        sellBtn: "inset 0 0 5px yellow",
       },
 
       dropShadow: {
         gridderInd: "2px 2px 5px rgba(25, 25, 112, 0.5)",
         gridderBld: "2px 2px 7px rgba(25, 25, 112, 0.65)",
+        detailBoxHeaderN: "2px 2px 5px red",
+        boxScoreTotalN: "3px 3px 5px red",
+        boxScoreTotalP: "3px 3px 5px blue",
       },
       keyframes: {
         "rotate-slow": {
